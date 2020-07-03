@@ -1,0 +1,12 @@
+{
+    "module": "kramed",
+    "template": "module",
+    "differences": [],
+    "tags": [
+        "call-signature",
+        "type-function",
+        "optional-parameter",
+        "type-array",
+        "type-any"
+    ]
+}

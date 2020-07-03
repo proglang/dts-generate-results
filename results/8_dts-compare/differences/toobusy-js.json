@@ -1,0 +1,15 @@
+{
+    "module": "toobusy-js",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module-function",
+            "templateActual": "module"
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "type-function"
+    ]
+}

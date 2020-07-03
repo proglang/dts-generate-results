@@ -1,0 +1,64 @@
+{
+    "module": "steed",
+    "template": "module",
+    "differences": [
+        {
+            "code": "function-extra",
+            "functionActual": {
+                "name": "queue",
+                "returnType": {
+                    "kind": "primitive_keyword",
+                    "value": "object"
+                },
+                "parameters": [
+                    {
+                        "name": "context",
+                        "type": {
+                            "kind": "type_reference",
+                            "value": "Function",
+                            "text": ""
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    },
+                    {
+                        "name": "worker",
+                        "type": {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    },
+                    {
+                        "name": "concurrency",
+                        "type": {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    }
+                ],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        }
+    ],
+    "tags": [
+        "index-signature",
+        "generics-function",
+        "generics-interface",
+        "type-array",
+        "optional-parameter",
+        "type-function",
+        "alias-type",
+        "type-any"
+    ]
+}

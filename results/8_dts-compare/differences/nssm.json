@@ -1,0 +1,31 @@
+{
+    "module": "nssm",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "nssm",
+            "exportAssignmentActual": "Nssm"
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "nssmExe",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "type-function",
+        "optional-parameter",
+        "generics-function",
+        "alias-type",
+        "generics-interface"
+    ]
+}

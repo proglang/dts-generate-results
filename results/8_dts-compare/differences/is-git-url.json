@@ -1,0 +1,12 @@
+{
+    "module": "is-git-url",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "isGitUrl",
+            "exportAssignmentActual": "IsGitUrl"
+        }
+    ],
+    "tags": []
+}

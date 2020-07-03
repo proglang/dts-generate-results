@@ -1,0 +1,45 @@
+{
+    "module": "format-util",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "format",
+            "exportAssignmentActual": "FormatUtil"
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "message",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "optionalParams",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "any_keyword",
+                        "value": "any"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": true
+            }
+        }
+    ],
+    "tags": [
+        "type-array",
+        "type-any",
+        "dot-dot-dot-token"
+    ]
+}

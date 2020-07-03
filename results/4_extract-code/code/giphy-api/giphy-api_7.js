@@ -1,0 +1,3 @@
+var giphy = require('giphy-api')({
+    ...
+});

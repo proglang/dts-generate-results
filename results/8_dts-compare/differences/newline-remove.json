@@ -1,0 +1,12 @@
+{
+    "module": "newline-remove",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "removeNewlines",
+            "exportAssignmentActual": "NewlineRemove"
+        }
+    ],
+    "tags": []
+}

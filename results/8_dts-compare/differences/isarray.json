@@ -1,0 +1,27 @@
+{
+    "module": "isarray",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "isarray",
+            "exportAssignmentActual": "Isarray"
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "p0",
+                "type": {
+                    "kind": "any_keyword",
+                    "value": "any"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "type-any"
+    ]
+}

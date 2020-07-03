@@ -1,0 +1,17 @@
+{
+    "module": "showdown",
+    "template": "module",
+    "differences": [],
+    "tags": [
+        "call-signature",
+        "optional-parameter",
+        "type-any",
+        "index-signature",
+        "type-function",
+        "type-array",
+        "literals",
+        "alias-type",
+        "dot-dot-dot-token",
+        "undefined"
+    ]
+}

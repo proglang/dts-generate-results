@@ -1,0 +1,16 @@
+{
+    "module": "wellknown",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "generics-function",
+        "generics-interface",
+        "alias-type"
+    ]
+}

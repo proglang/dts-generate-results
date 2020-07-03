@@ -1,0 +1,20 @@
+{
+    "module": "url-parse",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "readonly",
+        "index-signature",
+        "undefined",
+        "literals",
+        "alias-type",
+        "optional-parameter",
+        "type-function"
+    ]
+}

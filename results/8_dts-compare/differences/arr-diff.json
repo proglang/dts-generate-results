@@ -1,0 +1,65 @@
+{
+    "module": "arr-diff",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "arrDiff",
+            "exportAssignmentActual": "ArrDiff"
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "first",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "generic_keyword",
+                        "value": "T"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "arr",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "any_keyword",
+                        "value": "any"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "args",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "array_type",
+                        "value": {
+                            "kind": "any_keyword",
+                            "value": "any"
+                        }
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": true
+            }
+        }
+    ],
+    "tags": [
+        "type-array",
+        "generics-function",
+        "type-any",
+        "dot-dot-dot-token"
+    ]
+}

@@ -1,0 +1,496 @@
+{
+    "module": "reconnect-core",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "reconnect",
+            "exportAssignmentActual": "ReconnectCore"
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "cf",
+                "type": {
+                    "kind": "function_type",
+                    "value": {
+                        "name": "",
+                        "returnType": {
+                            "kind": "generic_keyword",
+                            "value": "ConnectionType"
+                        },
+                        "parameters": [
+                            {
+                                "name": "this",
+                                "type": {
+                                    "kind": "type_interface",
+                                    "value": {
+                                        "name": "Instance",
+                                        "properties": [
+                                            {
+                                                "name": "connected",
+                                                "type": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "boolean"
+                                                },
+                                                "optional": false,
+                                                "modifiers": [
+                                                    "readonly"
+                                                ],
+                                                "dotDotDotToken": false
+                                            },
+                                            {
+                                                "name": "reconnect",
+                                                "type": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "boolean"
+                                                },
+                                                "optional": false,
+                                                "modifiers": [],
+                                                "dotDotDotToken": false
+                                            }
+                                        ],
+                                        "methods": [
+                                            {
+                                                "name": "connect",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "opts",
+                                                        "type": {
+                                                            "kind": "generic_keyword",
+                                                            "value": "ArgType"
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    }
+                                                ],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "listen",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "opts",
+                                                        "type": {
+                                                            "kind": "generic_keyword",
+                                                            "value": "ArgType"
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    }
+                                                ],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "disconnect",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "reset",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "void"
+                                                },
+                                                "parameters": [],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "on",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "event",
+                                                        "type": {
+                                                            "kind": "literal_type",
+                                                            "value": "\"backoff\""
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    },
+                                                    {
+                                                        "name": "cb",
+                                                        "type": {
+                                                            "kind": "function_type",
+                                                            "value": {
+                                                                "name": "",
+                                                                "returnType": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "void"
+                                                                },
+                                                                "parameters": [
+                                                                    {
+                                                                        "name": "n",
+                                                                        "type": {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "number"
+                                                                        },
+                                                                        "optional": false,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    },
+                                                                    {
+                                                                        "name": "delay",
+                                                                        "type": {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "number"
+                                                                        },
+                                                                        "optional": false,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    },
+                                                                    {
+                                                                        "name": "err",
+                                                                        "type": {
+                                                                            "kind": "any_keyword",
+                                                                            "value": "any"
+                                                                        },
+                                                                        "optional": true,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    }
+                                                                ],
+                                                                "modifiers": [],
+                                                                "typeParameters": [],
+                                                                "_isConstructor": false
+                                                            }
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    }
+                                                ],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "on",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "event",
+                                                        "type": {
+                                                            "kind": "union_type",
+                                                            "value": [
+                                                                {
+                                                                    "kind": "literal_type",
+                                                                    "value": "\"connect\""
+                                                                },
+                                                                {
+                                                                    "kind": "literal_type",
+                                                                    "value": "\"connection\""
+                                                                }
+                                                            ]
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    },
+                                                    {
+                                                        "name": "cb",
+                                                        "type": {
+                                                            "kind": "function_type",
+                                                            "value": {
+                                                                "name": "",
+                                                                "returnType": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "void"
+                                                                },
+                                                                "parameters": [
+                                                                    {
+                                                                        "name": "con",
+                                                                        "type": {
+                                                                            "kind": "generic_keyword",
+                                                                            "value": "ConnectionType"
+                                                                        },
+                                                                        "optional": false,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    }
+                                                                ],
+                                                                "modifiers": [],
+                                                                "typeParameters": [],
+                                                                "_isConstructor": false
+                                                            }
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    }
+                                                ],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "on",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "event",
+                                                        "type": {
+                                                            "kind": "literal_type",
+                                                            "value": "\"disconnect\""
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    },
+                                                    {
+                                                        "name": "cb",
+                                                        "type": {
+                                                            "kind": "function_type",
+                                                            "value": {
+                                                                "name": "",
+                                                                "returnType": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "void"
+                                                                },
+                                                                "parameters": [
+                                                                    {
+                                                                        "name": "err",
+                                                                        "type": {
+                                                                            "kind": "any_keyword",
+                                                                            "value": "any"
+                                                                        },
+                                                                        "optional": true,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    }
+                                                                ],
+                                                                "modifiers": [],
+                                                                "typeParameters": [],
+                                                                "_isConstructor": false
+                                                            }
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    }
+                                                ],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "on",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "event",
+                                                        "type": {
+                                                            "kind": "union_type",
+                                                            "value": [
+                                                                {
+                                                                    "kind": "literal_type",
+                                                                    "value": "\"error\""
+                                                                },
+                                                                {
+                                                                    "kind": "literal_type",
+                                                                    "value": "\"fail\""
+                                                                }
+                                                            ]
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    },
+                                                    {
+                                                        "name": "cb",
+                                                        "type": {
+                                                            "kind": "function_type",
+                                                            "value": {
+                                                                "name": "",
+                                                                "returnType": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "void"
+                                                                },
+                                                                "parameters": [
+                                                                    {
+                                                                        "name": "err",
+                                                                        "type": {
+                                                                            "kind": "any_keyword",
+                                                                            "value": "any"
+                                                                        },
+                                                                        "optional": false,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    }
+                                                                ],
+                                                                "modifiers": [],
+                                                                "typeParameters": [],
+                                                                "_isConstructor": false
+                                                            }
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    }
+                                                ],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            },
+                                            {
+                                                "name": "on",
+                                                "returnType": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "this"
+                                                },
+                                                "parameters": [
+                                                    {
+                                                        "name": "event",
+                                                        "type": {
+                                                            "kind": "literal_type",
+                                                            "value": "\"reconnect\""
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    },
+                                                    {
+                                                        "name": "cb",
+                                                        "type": {
+                                                            "kind": "function_type",
+                                                            "value": {
+                                                                "name": "",
+                                                                "returnType": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "void"
+                                                                },
+                                                                "parameters": [
+                                                                    {
+                                                                        "name": "n",
+                                                                        "type": {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "number"
+                                                                        },
+                                                                        "optional": false,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    },
+                                                                    {
+                                                                        "name": "delay",
+                                                                        "type": {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "number"
+                                                                        },
+                                                                        "optional": false,
+                                                                        "modifiers": [],
+                                                                        "dotDotDotToken": false
+                                                                    }
+                                                                ],
+                                                                "modifiers": [],
+                                                                "typeParameters": [],
+                                                                "_isConstructor": false
+                                                            }
+                                                        },
+                                                        "optional": false,
+                                                        "modifiers": [],
+                                                        "dotDotDotToken": false
+                                                    }
+                                                ],
+                                                "modifiers": [],
+                                                "typeParameters": [],
+                                                "_isConstructor": false
+                                            }
+                                        ],
+                                        "classes": [],
+                                        "callSignatures": [],
+                                        "indexSignatures": [],
+                                        "typeParameters": [
+                                            {
+                                                "kind": "generic_keyword",
+                                                "value": "ArgType"
+                                            },
+                                            {
+                                                "kind": "generic_keyword",
+                                                "value": "ConnectionType"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "optional": false,
+                                "modifiers": [],
+                                "dotDotDotToken": false
+                            },
+                            {
+                                "name": "opts",
+                                "type": {
+                                    "kind": "generic_keyword",
+                                    "value": "ArgType"
+                                },
+                                "optional": false,
+                                "modifiers": [],
+                                "dotDotDotToken": false
+                            }
+                        ],
+                        "modifiers": [],
+                        "typeParameters": [],
+                        "_isConstructor": false
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "createConnection",
+                "type": {
+                    "kind": "type_reference",
+                    "value": "Function",
+                    "text": ""
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "type-function",
+        "generics-function",
+        "literals",
+        "generics-interface",
+        "readonly",
+        "type-any",
+        "alias-type"
+    ]
+}

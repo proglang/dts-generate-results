@@ -1,0 +1,43 @@
+{
+    "module": "one-time",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "oneTime",
+            "exportAssignmentActual": "OneTime"
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "fn",
+                "type": {
+                    "kind": "generic_keyword",
+                    "value": "TFn",
+                    "constraint": {
+                        "kind": "type_reference",
+                        "value": "Function",
+                        "text": ""
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "fn",
+                "type": {
+                    "kind": "type_reference",
+                    "value": "Function",
+                    "text": ""
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "generics-function"
+    ]
+}

@@ -1,0 +1,1 @@
+var compression = require('compression')

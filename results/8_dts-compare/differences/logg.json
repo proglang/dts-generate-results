@@ -1,0 +1,40 @@
+{
+    "module": "logg",
+    "template": "module",
+    "differences": [
+        {
+            "code": "function-extra",
+            "functionActual": {
+                "name": "getLogger",
+                "returnType": {
+                    "kind": "type_reference",
+                    "value": "Logger",
+                    "text": ""
+                },
+                "parameters": [
+                    {
+                        "name": "ns",
+                        "type": {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    }
+                ],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        }
+    ],
+    "tags": [
+        "type-function",
+        "type-array",
+        "type-any",
+        "dot-dot-dot-token"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "module": "parse-numeric-range",
+    "template": "module",
+    "differences": [],
+    "tags": [
+        "type-array"
+    ]
+}

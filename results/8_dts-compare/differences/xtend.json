@@ -1,0 +1,19 @@
+{
+    "module": "xtend",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "call-signature",
+        "generics-function",
+        "type-intersection",
+        "type-any",
+        "type-array",
+        "dot-dot-dot-token"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "module": "b_",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "index-signature",
+        "type-any",
+        "call-signature",
+        "type-function",
+        "alias-type"
+    ]
+}

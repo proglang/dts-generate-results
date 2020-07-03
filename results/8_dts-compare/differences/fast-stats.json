@@ -1,0 +1,10 @@
+{
+    "module": "fast-stats",
+    "template": "module",
+    "differences": [],
+    "tags": [
+        "optional-parameter",
+        "type-array",
+        "dot-dot-dot-token"
+    ]
+}

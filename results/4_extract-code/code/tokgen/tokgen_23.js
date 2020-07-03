@@ -1,0 +1,1 @@
+const TokenGenerator = require('tokgen');

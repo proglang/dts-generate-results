@@ -1,0 +1,3 @@
+var SQL = require('sql.js');
+var db = new SQL.Database();
+//...

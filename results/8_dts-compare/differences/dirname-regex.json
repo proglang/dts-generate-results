@@ -1,0 +1,12 @@
+{
+    "module": "dirname-regex",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "dirnameRegex",
+            "exportAssignmentActual": "DirnameRegex"
+        }
+    ],
+    "tags": []
+}

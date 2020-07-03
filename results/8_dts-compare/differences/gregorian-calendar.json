@@ -1,0 +1,15 @@
+{
+    "module": "gregorian-calendar",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-class"
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "public"
+    ]
+}

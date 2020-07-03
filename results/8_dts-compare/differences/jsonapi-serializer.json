@@ -1,0 +1,16 @@
+{
+    "module": "jsonapi-serializer",
+    "template": "module",
+    "differences": [],
+    "tags": [
+        "type-function",
+        "type-any",
+        "alias-type",
+        "optional-parameter",
+        "type-array",
+        "index-signature",
+        "dot-dot-dot-token",
+        "call-signature",
+        "literals"
+    ]
+}

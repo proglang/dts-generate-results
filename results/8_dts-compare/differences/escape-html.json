@@ -1,0 +1,12 @@
+{
+    "module": "escape-html",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "escapeHTML",
+            "exportAssignmentActual": "EscapeHtml"
+        }
+    ],
+    "tags": []
+}

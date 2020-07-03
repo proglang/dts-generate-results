@@ -1,0 +1,12 @@
+{
+    "module": "dotdir-regex",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "dotdirRegex",
+            "exportAssignmentActual": "DotdirRegex"
+        }
+    ],
+    "tags": []
+}

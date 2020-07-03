@@ -1,0 +1,12 @@
+{
+    "module": "parse-github-url",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "gh",
+            "exportAssignmentActual": "ParseGithubUrl"
+        }
+    ],
+    "tags": []
+}

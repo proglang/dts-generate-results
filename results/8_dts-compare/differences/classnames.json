@@ -1,0 +1,12 @@
+{
+    "module": "classnames",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": []
+}

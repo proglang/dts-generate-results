@@ -1,0 +1,22 @@
+{
+    "module": "starwars-names",
+    "template": "module",
+    "differences": [
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "number",
+                "type": {
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "type-array"
+    ]
+}

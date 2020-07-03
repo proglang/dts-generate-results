@@ -1,0 +1,17 @@
+{
+    "module": "string",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "type-array",
+        "dot-dot-dot-token",
+        "type-any"
+    ]
+}

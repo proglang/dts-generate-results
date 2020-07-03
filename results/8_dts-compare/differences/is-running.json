@@ -1,0 +1,12 @@
+{
+    "module": "is-running",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "isRunning",
+            "exportAssignmentActual": "IsRunning"
+        }
+    ],
+    "tags": []
+}

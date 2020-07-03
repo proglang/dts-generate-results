@@ -1,0 +1,19 @@
+{
+    "module": "moment-holiday",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "literals",
+        "index-signature",
+        "optional-parameter",
+        "type-array",
+        "type-any",
+        "type-function"
+    ]
+}

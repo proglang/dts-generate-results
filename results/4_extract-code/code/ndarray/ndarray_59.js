@@ -1,0 +1,1 @@
+var ndarray = require("ndarray")

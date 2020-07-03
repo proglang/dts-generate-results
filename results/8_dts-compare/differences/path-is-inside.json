@@ -1,0 +1,12 @@
+{
+    "module": "path-is-inside",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "pathIsInside",
+            "exportAssignmentActual": "PathIsInside"
+        }
+    ],
+    "tags": []
+}

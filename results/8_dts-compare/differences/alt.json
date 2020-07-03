@@ -1,0 +1,23 @@
+{
+    "module": "alt",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-class"
+        }
+    ],
+    "tags": [
+        "type-any",
+        "call-signature",
+        "generics-function",
+        "generics-interface",
+        "type-function",
+        "type-array",
+        "dot-dot-dot-token",
+        "alias-type",
+        "optional-parameter",
+        "index-signature"
+    ]
+}

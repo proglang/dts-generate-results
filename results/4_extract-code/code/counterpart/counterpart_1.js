@@ -1,0 +1,1 @@
+var translate = require('counterpart');

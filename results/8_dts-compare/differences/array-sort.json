@@ -1,0 +1,181 @@
+{
+    "module": "array-sort",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "arraySort",
+            "exportAssignmentActual": "ArraySort"
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "arr",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "generic_keyword",
+                        "value": "T"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "arr",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "any_keyword",
+                        "value": "any"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "props",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "string"
+                                },
+                                {
+                                    "kind": "function_type",
+                                    "value": {
+                                        "name": "",
+                                        "returnType": {
+                                            "kind": "primitive_keyword",
+                                            "value": "number"
+                                        },
+                                        "parameters": [
+                                            {
+                                                "name": "a",
+                                                "type": {
+                                                    "kind": "generic_keyword",
+                                                    "value": "T"
+                                                },
+                                                "optional": false,
+                                                "modifiers": [],
+                                                "dotDotDotToken": false
+                                            },
+                                            {
+                                                "name": "b",
+                                                "type": {
+                                                    "kind": "generic_keyword",
+                                                    "value": "T"
+                                                },
+                                                "optional": false,
+                                                "modifiers": [],
+                                                "dotDotDotToken": false
+                                            }
+                                        ],
+                                        "modifiers": [],
+                                        "typeParameters": [],
+                                        "_isConstructor": false
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "array_type",
+                            "value": {
+                                "kind": "union_type",
+                                "value": [
+                                    {
+                                        "kind": "primitive_keyword",
+                                        "value": "string"
+                                    },
+                                    {
+                                        "kind": "function_type",
+                                        "value": {
+                                            "name": "",
+                                            "returnType": {
+                                                "kind": "primitive_keyword",
+                                                "value": "number"
+                                            },
+                                            "parameters": [
+                                                {
+                                                    "name": "a",
+                                                    "type": {
+                                                        "kind": "generic_keyword",
+                                                        "value": "T"
+                                                    },
+                                                    "optional": false,
+                                                    "modifiers": [],
+                                                    "dotDotDotToken": false
+                                                },
+                                                {
+                                                    "name": "b",
+                                                    "type": {
+                                                        "kind": "generic_keyword",
+                                                        "value": "T"
+                                                    },
+                                                    "optional": false,
+                                                    "modifiers": [],
+                                                    "dotDotDotToken": false
+                                                }
+                                            ],
+                                            "modifiers": [],
+                                            "typeParameters": [],
+                                            "_isConstructor": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "props",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "any_keyword",
+                        "value": "any"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "reverse",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "boolean"
+                },
+                "optional": false,
+                "modifiers": [
+                    "readonly"
+                ],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "readonly",
+        "type-array",
+        "generics-function",
+        "optional-parameter",
+        "type-function",
+        "alias-type"
+    ]
+}

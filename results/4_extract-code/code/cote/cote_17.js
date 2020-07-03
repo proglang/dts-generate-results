@@ -1,0 +1,1 @@
+const cote = require('cote');

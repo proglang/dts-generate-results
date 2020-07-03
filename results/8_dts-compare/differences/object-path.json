@@ -1,0 +1,23 @@
+{
+    "module": "object-path",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "call-signature",
+        "index-signature",
+        "type-any",
+        "type-array",
+        "alias-type",
+        "generics-function",
+        "undefined",
+        "dot-dot-dot-token",
+        "generics-interface"
+    ]
+}

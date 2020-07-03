@@ -1,0 +1,12 @@
+{
+    "module": "js-string-escape",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "jsStringEscape",
+            "exportAssignmentActual": "JsStringEscape"
+        }
+    ],
+    "tags": []
+}

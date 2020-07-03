@@ -1,0 +1,30 @@
+{
+    "module": "nomnom",
+    "template": "module",
+    "differences": [
+        {
+            "code": "function-extra",
+            "functionActual": {
+                "name": "script",
+                "returnType": {
+                    "kind": "primitive_keyword",
+                    "value": "object"
+                },
+                "parameters": [],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "type-any",
+        "type-function",
+        "type-array",
+        "index-signature",
+        "call-signature"
+    ]
+}

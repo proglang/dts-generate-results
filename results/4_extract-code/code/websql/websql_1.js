@@ -1,0 +1,1 @@
+var openDatabase = require('websql');

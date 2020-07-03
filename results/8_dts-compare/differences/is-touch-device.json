@@ -1,0 +1,12 @@
+{
+    "module": "is-touch-device",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,1 @@
+var destroy = require('destroy')

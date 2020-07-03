@@ -1,0 +1,1 @@
+var getSlug = require('speakingurl');

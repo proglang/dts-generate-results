@@ -1,0 +1,15 @@
+{
+    "module": "argparse",
+    "template": "module",
+    "differences": [],
+    "tags": [
+        "optional-parameter",
+        "type-any",
+        "type-array",
+        "generics-function",
+        "type-intersection",
+        "protected",
+        "literals",
+        "alias-type"
+    ]
+}

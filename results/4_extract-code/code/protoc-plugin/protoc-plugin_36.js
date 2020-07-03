@@ -1,0 +1,1 @@
+require('./NAMESPACE_pb')

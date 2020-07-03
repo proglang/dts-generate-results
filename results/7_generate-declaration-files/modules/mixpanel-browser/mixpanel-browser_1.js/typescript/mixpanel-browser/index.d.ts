@@ -1,0 +1,18 @@
+export function _init(token: string, config: undefined, name: string): void;
+export function set_config(config: object): void;
+export function get_config(prop_name: string): string|boolean|null|number|Function|void|Array<any>;
+export function _gdpr_init(): void;
+export function has_opted_out_tracking(options: undefined): boolean;
+export function _gdpr_call_func(func: Function, options: undefined): boolean;
+export function has_opted_in_tracking(options: undefined): boolean;
+export function get_distinct_id(): void;
+export function get_property(property_name: string): void;
+export function register_once(props: object, default_value: string, days: undefined): void;
+export function hasOwnProperty(): boolean;
+export function _loaded(): void;
+export function track_pageview(page: undefined): void;
+export function track(): object;
+export function _event_is_disabled(event_name: string): boolean;
+export function _prepare_callback(callback: Function, data: object): string;
+export function _send_request(url: string, data: object, callback: string): void;
+export function _check_and_handle_triggered_notifications(): void;

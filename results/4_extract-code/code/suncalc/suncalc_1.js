@@ -1,0 +1,1 @@
+var SunCalc = require('suncalc');

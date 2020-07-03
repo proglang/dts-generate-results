@@ -1,0 +1,16 @@
+{
+    "module": "uri-templates",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "utpl",
+            "exportAssignmentActual": "UriTemplates"
+        }
+    ],
+    "tags": [
+        "index-signature",
+        "type-function",
+        "type-array"
+    ]
+}

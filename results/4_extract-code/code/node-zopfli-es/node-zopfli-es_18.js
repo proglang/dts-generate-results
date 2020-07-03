@@ -1,0 +1,5 @@
+const zopfli = require('node-zopfli-es')
+const input = new Buffer('I want to be compressed')
+const deflated = zopfli.deflateSync(input, options)
+const zlibed = zopfli.zlibSync(input, options)
+const gziped = zopfli.gzipSync(input, options)

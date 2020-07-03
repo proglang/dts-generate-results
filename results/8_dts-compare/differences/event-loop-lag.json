@@ -1,0 +1,14 @@
+{
+    "module": "event-loop-lag",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "lag",
+            "exportAssignmentActual": "EventLoopLag"
+        }
+    ],
+    "tags": [
+        "type-function"
+    ]
+}

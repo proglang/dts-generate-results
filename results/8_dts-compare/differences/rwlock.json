@@ -1,0 +1,11 @@
+{
+    "module": "rwlock",
+    "template": "module-class",
+    "differences": [],
+    "tags": [
+        "generics-function",
+        "optional-parameter",
+        "type-any",
+        "generics-class"
+    ]
+}

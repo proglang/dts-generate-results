@@ -1,0 +1,12 @@
+{
+    "module": "unc-path-regex",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "uncPathRegex",
+            "exportAssignmentActual": "UncPathRegex"
+        }
+    ],
+    "tags": []
+}

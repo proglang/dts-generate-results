@@ -1,0 +1,12 @@
+{
+    "module": "dotfile-regex",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "dotfileRegex",
+            "exportAssignmentActual": "DotfileRegex"
+        }
+    ],
+    "tags": []
+}

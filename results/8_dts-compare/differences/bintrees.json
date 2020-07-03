@@ -1,0 +1,11 @@
+{
+    "module": "bintrees",
+    "template": "module",
+    "differences": [],
+    "tags": [
+        "generics-function",
+        "generics-class",
+        "type-function",
+        "alias-type"
+    ]
+}

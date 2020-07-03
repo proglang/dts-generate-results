@@ -1,0 +1,14 @@
+{
+    "module": "object-keys",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "objectKeys",
+            "exportAssignmentActual": "ObjectKeys"
+        }
+    ],
+    "tags": [
+        "type-array"
+    ]
+}

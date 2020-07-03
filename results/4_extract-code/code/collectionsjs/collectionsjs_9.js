@@ -1,0 +1,1 @@
+var Collection = require('collectionsjs');

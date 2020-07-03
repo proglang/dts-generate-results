@@ -1,0 +1,19 @@
+{
+    "module": "double-ended-queue",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-class"
+        }
+    ],
+    "tags": [
+        "readonly",
+        "type-array",
+        "generics-function",
+        "dot-dot-dot-token",
+        "undefined",
+        "generics-interface"
+    ]
+}

@@ -1,0 +1,6 @@
+...
+var cookieParser = require("cookie-parser");
+...
+io.use(sharedsession(session, cookieParser({
+    /* your params to cookie-parser* /
+}));

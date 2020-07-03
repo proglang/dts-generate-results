@@ -1,0 +1,3 @@
+var mock = require('mock-require');
+mock('../some/other/dependency', './spy');
+...

@@ -1,0 +1,1 @@
+var amplify = require("amplify");

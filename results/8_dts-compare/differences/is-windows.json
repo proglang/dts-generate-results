@@ -1,0 +1,12 @@
+{
+    "module": "is-windows",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "isWindows",
+            "exportAssignmentActual": "IsWindows"
+        }
+    ],
+    "tags": []
+}

@@ -1,0 +1,27 @@
+{
+    "module": "is-integer",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "isInteger",
+            "exportAssignmentActual": "IsInteger"
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "val",
+                "type": {
+                    "kind": "any_keyword",
+                    "value": "any"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "type-any"
+    ]
+}

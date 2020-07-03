@@ -1,0 +1,1 @@
+require(['platform'], function(platform) {/*…*/});

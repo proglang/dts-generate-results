@@ -1,0 +1,168 @@
+{
+    "module": "randomcolor",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "randomColor",
+            "exportAssignmentActual": "Randomcolor"
+        },
+        {
+            "code": "function-overloading-difference",
+            "functionIdentifier": "randomColor",
+            "expectedNumberOfOverloadings": 2,
+            "actualNumberOfOverloadings": 1
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "hue",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        }
+                    ]
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "luminosity",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "literal_type",
+                            "value": "\"bright\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"light\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"dark\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"random\""
+                        }
+                    ]
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "seed",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        }
+                    ]
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "format",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "literal_type",
+                            "value": "\"hsvArray\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"hslArray\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"hsl\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"hsla\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"rgbArray\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"rgb\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"rgba\""
+                        },
+                        {
+                            "kind": "literal_type",
+                            "value": "\"hex\""
+                        }
+                    ]
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "alpha",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "number"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "count",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "number"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "literals",
+        "type-array"
+    ]
+}

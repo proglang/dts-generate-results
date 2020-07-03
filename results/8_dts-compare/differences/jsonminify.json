@@ -1,0 +1,12 @@
+{
+    "module": "jsonminify",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "minify",
+            "exportAssignmentActual": "Jsonminify"
+        }
+    ],
+    "tags": []
+}

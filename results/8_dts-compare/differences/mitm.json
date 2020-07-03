@@ -1,0 +1,17 @@
+{
+    "module": "mitm",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "literals",
+        "alias-type",
+        "type-function"
+    ]
+}

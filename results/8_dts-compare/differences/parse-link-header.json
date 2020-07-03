@@ -1,0 +1,14 @@
+{
+    "module": "parse-link-header",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "parseLinkHeader",
+            "exportAssignmentActual": "ParseLinkHeader"
+        }
+    ],
+    "tags": [
+        "index-signature"
+    ]
+}

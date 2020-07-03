@@ -1,0 +1,12 @@
+{
+    "module": "is-relative",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "isRelative",
+            "exportAssignmentActual": "IsRelative"
+        }
+    ],
+    "tags": []
+}

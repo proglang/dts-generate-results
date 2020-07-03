@@ -1,0 +1,18 @@
+{
+    "module": "random-seed",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-class"
+        }
+    ],
+    "tags": [
+        "call-signature",
+        "type-array",
+        "type-any",
+        "dot-dot-dot-token",
+        "optional-parameter"
+    ]
+}

@@ -1,0 +1,1 @@
+const XRegExp = require('xregexp');

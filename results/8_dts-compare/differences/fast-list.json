@@ -1,0 +1,21 @@
+{
+    "module": "fast-list",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-class"
+        }
+    ],
+    "tags": [
+        "call-signature",
+        "readonly",
+        "generics-function",
+        "undefined",
+        "type-function",
+        "optional-parameter",
+        "type-array",
+        "generics-interface"
+    ]
+}

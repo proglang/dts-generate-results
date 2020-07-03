@@ -1,0 +1,46 @@
+{
+    "module": "arr-union",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "union",
+            "exportAssignmentActual": "ArrUnion"
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "arrays",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "type_reference",
+                        "value": "ArrayLike<T>",
+                        "text": ""
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": true
+            },
+            "parameterActual": {
+                "name": "init",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "any_keyword",
+                        "value": "any"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "type-array",
+        "generics-function",
+        "dot-dot-dot-token"
+    ]
+}

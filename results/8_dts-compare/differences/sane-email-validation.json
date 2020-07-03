@@ -1,0 +1,12 @@
+{
+    "module": "sane-email-validation",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "isEmail",
+            "exportAssignmentActual": "SaneEmailValidation"
+        }
+    ],
+    "tags": []
+}

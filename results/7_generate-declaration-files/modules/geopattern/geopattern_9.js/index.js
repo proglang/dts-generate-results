@@ -1,0 +1,3 @@
+var GeoPattern = require('geopattern');
+var pattern = GeoPattern.generate('GitHub');
+pattern.toDataUrl(); // url("data:image/svg+xml;...

@@ -1,0 +1,23 @@
+{
+    "module": "strange",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-class"
+        }
+    ],
+    "tags": [
+        "call-signature",
+        "optional-parameter",
+        "generics-function",
+        "alias-type",
+        "literals",
+        "undefined",
+        "type-tuple",
+        "generics-interface",
+        "type-function",
+        "readonly"
+    ]
+}

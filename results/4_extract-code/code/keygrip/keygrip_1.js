@@ -1,0 +1,6 @@
+keys = new Keygrip(["SEKRIT2", "SEKRIT1"])
+keys = Keygrip(["SEKRIT2", "SEKRIT1"])
+keys = require("keygrip")()
+keys = Keygrip(["SEKRIT2", "SEKRIT1"], 'sha256', 'hex')
+keys = Keygrip(["SEKRIT2", "SEKRIT1"], 'sha256')
+keys = Keygrip(["SEKRIT2", "SEKRIT1"], undefined, 'hex')

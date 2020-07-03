@@ -1,0 +1,1 @@
+var accepts = require('accepts')

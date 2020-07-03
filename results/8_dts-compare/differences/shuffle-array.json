@@ -1,0 +1,18 @@
+{
+    "module": "shuffle-array",
+    "template": "module",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module",
+            "templateActual": "module-function"
+        }
+    ],
+    "tags": [
+        "optional-parameter",
+        "type-function",
+        "call-signature",
+        "type-array",
+        "generics-function"
+    ]
+}

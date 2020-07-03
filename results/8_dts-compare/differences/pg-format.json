@@ -1,0 +1,34 @@
+{
+    "module": "pg-format",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "format",
+            "exportAssignmentActual": "PgFormat"
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "args",
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "any_keyword",
+                        "value": "any"
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": true
+            }
+        }
+    ],
+    "tags": [
+        "type-array",
+        "type-any",
+        "dot-dot-dot-token",
+        "optional-parameter",
+        "undefined"
+    ]
+}
