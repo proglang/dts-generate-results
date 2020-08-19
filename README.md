@@ -1,3 +1,3 @@
 Results for versions:
-* `dts-generate`: v1.0
-* `dts-compare`: v1.0
+* `dts-generate`: v1.1
+* `dts-compare`: v1.1
