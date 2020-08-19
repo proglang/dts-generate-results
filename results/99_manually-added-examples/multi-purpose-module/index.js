@@ -4,7 +4,6 @@ var multiPurposeModule = require('./multi-purpose-module');
 console.log(multiPurposeModule("John", "Doe"));
 // John Doe
 
-
 // // module-class
 var m = new multiPurposeModule("Jane", "Doe");
 console.log(m.firstName + " - " + m.lastName);
