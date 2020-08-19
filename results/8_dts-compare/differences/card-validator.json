@@ -280,33 +280,7 @@
                     "kind": "type_interface",
                     "value": {
                         "name": "valid",
-                        "properties": [
-                            {
-                                "name": "isPotentiallyValid",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "boolean"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "isValid",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "boolean"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
+                        "circular": true
                     }
                 },
                 "parameters": [
@@ -358,36 +332,6 @@
             }
         },
         {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "creditCardType",
-                "returnType": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "parameters": [
-                    {
-                        "name": "cardNumber",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
             "code": "extra-parameter",
             "parameterExtra": {
                 "name": "options",
@@ -395,14 +339,18 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "string",
+        "boolean",
         "type-array",
+        "number",
+        "type-union",
         "optional-parameter"
     ]
 }

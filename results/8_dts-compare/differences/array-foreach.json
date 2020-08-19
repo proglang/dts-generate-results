@@ -80,15 +80,14 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
                             {
                                 "name": "value",
                                 "type": {
-                                    "kind": "generic_keyword",
-                                    "value": "T"
+                                    "circular": true
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -145,7 +144,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -167,45 +166,7 @@
             },
             "parameterActual": {
                 "name": "ary",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__ary",
-                                "properties": [
-                                    {
-                                        "name": "forEach",
-                                        "type": {
-                                            "kind": "type_reference",
-                                            "value": "Function",
-                                            "text": ""
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -217,7 +178,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -234,8 +195,7 @@
                             {
                                 "name": "value",
                                 "type": {
-                                    "kind": "generic_keyword",
-                                    "value": "T"
+                                    "circular": true
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -274,14 +234,7 @@
             },
             "parameterActual": {
                 "name": "callback",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -289,8 +242,7 @@
             "parameterExpected": {
                 "name": "thisArg",
                 "type": {
-                    "kind": "generic_keyword",
-                    "value": "U"
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -298,13 +250,7 @@
             },
             "parameterActual": {
                 "name": "thisArg",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -322,45 +268,7 @@
             },
             "parameterActual": {
                 "name": "ary",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__ary",
-                                "properties": [
-                                    {
-                                        "name": "forEach",
-                                        "type": {
-                                            "kind": "type_reference",
-                                            "value": "Function",
-                                            "text": ""
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -372,7 +280,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -424,27 +332,14 @@
             },
             "parameterActual": {
                 "name": "callback",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "extra-parameter",
             "parameterExtra": {
                 "name": "thisArg",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -462,45 +357,7 @@
             },
             "parameterActual": {
                 "name": "ary",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__ary",
-                                "properties": [
-                                    {
-                                        "name": "forEach",
-                                        "type": {
-                                            "kind": "type_reference",
-                                            "value": "Function",
-                                            "text": ""
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -512,7 +369,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -574,14 +431,7 @@
             },
             "parameterActual": {
                 "name": "callback",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -589,8 +439,7 @@
             "parameterExpected": {
                 "name": "thisArg",
                 "type": {
-                    "kind": "generic_keyword",
-                    "value": "U"
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -598,19 +447,15 @@
             },
             "parameterActual": {
                 "name": "thisArg",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
+        "void",
         "type-array",
         "generics-function",
-        "type-function"
+        "type-function",
+        "number"
     ]
 }

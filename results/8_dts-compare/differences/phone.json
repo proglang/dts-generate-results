@@ -8,77 +8,22 @@
             "exportAssignmentActual": "Phone"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "phone",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 2
-        },
-        {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
-                "name": "countryCode",
+                "name": "allowLandLine",
                 "type": {
                     "kind": "primitive_keyword",
-                    "value": "string"
+                    "value": "boolean"
                 },
                 "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             },
             "parameterActual": {
-                "name": "n",
+                "name": "a",
                 "type": {
                     "kind": "undefined_keyword",
                     "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "missing-parameter",
-            "parameterMissing": {
-                "name": "allowLandLine",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "countryCode",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "n",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "missing-parameter",
-            "parameterMissing": {
-                "name": "allowLandLine",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
                 },
                 "optional": true,
                 "modifiers": [],
@@ -88,6 +33,8 @@
     ],
     "tags": [
         "type-array",
-        "optional-parameter"
+        "string",
+        "optional-parameter",
+        "boolean"
     ]
 }

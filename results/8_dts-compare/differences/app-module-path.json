@@ -7,7 +7,7 @@
             "functionExpected": {
                 "name": "removePath",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -47,13 +47,15 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "void",
+        "string",
         "optional-parameter",
         "type-any"
     ]

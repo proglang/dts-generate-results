@@ -62,9 +62,13 @@
     ],
     "tags": [
         "index-signature",
+        "string",
         "type-function",
+        "boolean",
         "optional-parameter",
         "type-array",
-        "type-any"
+        "type-union",
+        "type-any",
+        "number"
     ]
 }

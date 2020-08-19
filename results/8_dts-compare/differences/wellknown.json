@@ -11,6 +11,8 @@
     "tags": [
         "generics-function",
         "generics-interface",
-        "alias-type"
+        "alias-type",
+        "type-union",
+        "string"
     ]
 }

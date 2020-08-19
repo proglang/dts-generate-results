@@ -5,7 +5,10 @@
     "tags": [
         "generics-function",
         "generics-class",
+        "number",
+        "void",
         "type-function",
-        "alias-type"
+        "alias-type",
+        "boolean"
     ]
 }

@@ -148,105 +148,7 @@
                                     "kind": "type_interface",
                                     "value": {
                                         "name": "UriObject",
-                                        "properties": [
-                                            {
-                                                "name": "scheme",
-                                                "type": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                "optional": false,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            },
-                                            {
-                                                "name": "hosts",
-                                                "type": {
-                                                    "kind": "array_type",
-                                                    "value": {
-                                                        "kind": "type_interface",
-                                                        "value": {
-                                                            "name": "Host",
-                                                            "properties": [
-                                                                {
-                                                                    "name": "host",
-                                                                    "type": {
-                                                                        "kind": "primitive_keyword",
-                                                                        "value": "string"
-                                                                    },
-                                                                    "optional": false,
-                                                                    "modifiers": [],
-                                                                    "dotDotDotToken": false
-                                                                },
-                                                                {
-                                                                    "name": "port",
-                                                                    "type": {
-                                                                        "kind": "primitive_keyword",
-                                                                        "value": "number"
-                                                                    },
-                                                                    "optional": true,
-                                                                    "modifiers": [],
-                                                                    "dotDotDotToken": false
-                                                                }
-                                                            ],
-                                                            "methods": [],
-                                                            "classes": [],
-                                                            "callSignatures": [],
-                                                            "indexSignatures": [],
-                                                            "typeParameters": []
-                                                        }
-                                                    }
-                                                },
-                                                "optional": false,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            },
-                                            {
-                                                "name": "username",
-                                                "type": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                "optional": true,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            },
-                                            {
-                                                "name": "password",
-                                                "type": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                "optional": true,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            },
-                                            {
-                                                "name": "database",
-                                                "type": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                "optional": true,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            },
-                                            {
-                                                "name": "options",
-                                                "type": {
-                                                    "kind": "any_keyword",
-                                                    "value": "any"
-                                                },
-                                                "optional": true,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            }
-                                        ],
-                                        "methods": [],
-                                        "classes": [],
-                                        "callSignatures": [],
-                                        "indexSignatures": [],
-                                        "typeParameters": []
+                                        "circular": true
                                     }
                                 },
                                 {
@@ -275,105 +177,7 @@
                     "kind": "type_interface",
                     "value": {
                         "name": "UriObject",
-                        "properties": [
-                            {
-                                "name": "scheme",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "hosts",
-                                "type": {
-                                    "kind": "array_type",
-                                    "value": {
-                                        "kind": "type_interface",
-                                        "value": {
-                                            "name": "Host",
-                                            "properties": [
-                                                {
-                                                    "name": "host",
-                                                    "type": {
-                                                        "kind": "primitive_keyword",
-                                                        "value": "string"
-                                                    },
-                                                    "optional": false,
-                                                    "modifiers": [],
-                                                    "dotDotDotToken": false
-                                                },
-                                                {
-                                                    "name": "port",
-                                                    "type": {
-                                                        "kind": "primitive_keyword",
-                                                        "value": "number"
-                                                    },
-                                                    "optional": true,
-                                                    "modifiers": [],
-                                                    "dotDotDotToken": false
-                                                }
-                                            ],
-                                            "methods": [],
-                                            "classes": [],
-                                            "callSignatures": [],
-                                            "indexSignatures": [],
-                                            "typeParameters": []
-                                        }
-                                    }
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "username",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": true,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "password",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": true,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "database",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": true,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "options",
-                                "type": {
-                                    "kind": "any_keyword",
-                                    "value": "any"
-                                },
-                                "optional": true,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
+                        "circular": true
                     }
                 },
                 "optional": true,
@@ -383,8 +187,11 @@
         }
     ],
     "tags": [
+        "string",
         "optional-parameter",
+        "number",
         "type-array",
-        "type-any"
+        "type-any",
+        "type-union"
     ]
 }

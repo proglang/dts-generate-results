@@ -85,7 +85,7 @@
             "parameterActual": {
                 "name": "value",
                 "type": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "optional": false,
@@ -167,7 +167,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -190,7 +190,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -213,7 +213,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -221,8 +221,12 @@
     ],
     "tags": [
         "type-any",
+        "string",
         "optional-parameter",
         "type-function",
-        "type-array"
+        "type-array",
+        "number",
+        "type-union",
+        "boolean"
     ]
 }

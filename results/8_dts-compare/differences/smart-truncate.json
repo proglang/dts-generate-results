@@ -9,6 +9,8 @@
         }
     ],
     "tags": [
+        "string",
+        "number",
         "optional-parameter"
     ]
 }

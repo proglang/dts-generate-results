@@ -1,0 +1,38 @@
+{
+    "module": "procfs-stats",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "export-assignment-is-different",
+            "exportAssignmentExpected": "procfs",
+            "exportAssignmentActual": "ProcfsStats"
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "cb",
+                "type": {
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        }
+    ],
+    "tags": [
+        "number",
+        "string",
+        "optional-parameter",
+        "boolean",
+        "type-union",
+        "literals",
+        "index-signature",
+        "type-function",
+        "void",
+        "type-any",
+        "generics-function",
+        "alias-type"
+    ]
+}

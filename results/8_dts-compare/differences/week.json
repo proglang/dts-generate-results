@@ -26,13 +26,14 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "string",
         "optional-parameter"
     ]
 }

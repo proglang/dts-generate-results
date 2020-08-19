@@ -25,13 +25,15 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
-        "optional-parameter"
+        "string",
+        "optional-parameter",
+        "number"
     ]
 }

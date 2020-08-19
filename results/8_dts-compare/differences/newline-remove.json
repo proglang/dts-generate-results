@@ -8,5 +8,7 @@
             "exportAssignmentActual": "NewlineRemove"
         }
     ],
-    "tags": []
+    "tags": [
+        "string"
+    ]
 }

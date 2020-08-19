@@ -76,7 +76,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -118,7 +118,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -126,6 +126,8 @@
     ],
     "tags": [
         "optional-parameter",
-        "type-function"
+        "number",
+        "type-function",
+        "void"
     ]
 }

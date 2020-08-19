@@ -8,12 +8,6 @@
             "exportAssignmentActual": "Json2md"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "json2md",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 6
-        },
-        {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "data",
@@ -27,652 +21,7 @@
                         {
                             "kind": "array_type",
                             "value": {
-                                "kind": "primitive_keyword",
-                                "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                            }
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "string"
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "data",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "prefix",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "_type",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "0",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "object"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "h1",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "blockquote",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "img",
-                "type": {
-                    "kind": "type_interface",
-                    "value": {
-                        "name": "I__img",
-                        "properties": [
-                            {
-                                "name": "0",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "object"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "1",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "object"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "2",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "object"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "length",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "h2",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "ul",
-                "type": {
-                    "kind": "type_interface",
-                    "value": {
-                        "name": "I__ul",
-                        "properties": [
-                            {
-                                "name": "0",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "1",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "2",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "length",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "ol",
-                "type": {
-                    "kind": "type_interface",
-                    "value": {
-                        "name": "I__ol",
-                        "properties": [
-                            {
-                                "name": "0",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "1",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "2",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "length",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "p",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "code",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "object"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "length",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "_type",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "data",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                            }
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "string"
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "data",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "_type",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "data",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                            }
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "string"
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "data",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "object"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "_type",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "data",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                            }
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "string"
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "data",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "_type",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "data",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "primitive_keyword",
-                                "value": "{\n        [TConverter in keyof DefaultConverters.Converters]?: DefaultConverters.Converters[TConverter]\n    }"
+                                "circular": true
                             }
                         },
                         {
@@ -698,11 +47,8 @@
                     "kind": "union_type",
                     "value": [
                         {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
+                            "kind": "primitive_keyword",
+                            "value": "string"
                         },
                         {
                             "kind": "type_interface",
@@ -712,7 +58,7 @@
                                     {
                                         "name": "0",
                                         "type": {
-                                            "kind": "primitive_keyword",
+                                            "kind": "object_keyword",
                                             "value": "object"
                                         },
                                         "optional": false,
@@ -749,7 +95,7 @@
                                                     {
                                                         "name": "0",
                                                         "type": {
-                                                            "kind": "primitive_keyword",
+                                                            "kind": "object_keyword",
                                                             "value": "object"
                                                         },
                                                         "optional": false,
@@ -759,7 +105,7 @@
                                                     {
                                                         "name": "1",
                                                         "type": {
-                                                            "kind": "primitive_keyword",
+                                                            "kind": "object_keyword",
                                                             "value": "object"
                                                         },
                                                         "optional": false,
@@ -769,7 +115,7 @@
                                                     {
                                                         "name": "2",
                                                         "type": {
-                                                            "kind": "primitive_keyword",
+                                                            "kind": "object_keyword",
                                                             "value": "object"
                                                         },
                                                         "optional": false,
@@ -939,7 +285,7 @@
                                     {
                                         "name": "code",
                                         "type": {
-                                            "kind": "primitive_keyword",
+                                            "kind": "object_keyword",
                                             "value": "object"
                                         },
                                         "optional": false,
@@ -963,31 +309,19 @@
                                 "indexSignatures": [],
                                 "typeParameters": []
                             }
+                        },
+                        {
+                            "kind": "object_keyword",
+                            "value": "object"
+                        },
+                        {
+                            "kind": "array_type",
+                            "value": {
+                                "kind": "any_keyword",
+                                "value": "any"
+                            }
                         }
                     ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "prefix",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "prefix",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -999,18 +333,20 @@
             "parameterExtra": {
                 "name": "_type",
                 "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "string",
         "alias-type",
         "type-array",
+        "type-union",
         "optional-parameter",
         "index-signature",
         "type-any"

@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "async",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -29,45 +29,7 @@
                             "value": "Promise",
                             "text": ""
                         },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "async",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "void"
-                },
-                "parameters": [
-                    {
-                        "name": "callback",
-                        "type": {
-                            "kind": "type_reference",
-                            "value": "Function",
-                            "text": ""
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "arg",
-                        "type": {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -81,10 +43,15 @@
         }
     ],
     "tags": [
+        "string",
         "type-any",
+        "number",
+        "void",
         "literals",
+        "type-union",
         "type-function",
         "optional-parameter",
+        "object",
         "generics-function",
         "alias-type",
         "undefined",
@@ -93,6 +60,7 @@
         "type-array",
         "static",
         "generics-class",
+        "boolean",
         "generics-interface"
     ]
 }

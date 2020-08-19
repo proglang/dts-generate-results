@@ -73,6 +73,7 @@
         }
     ],
     "tags": [
-        "optional-parameter"
+        "optional-parameter",
+        "boolean"
     ]
 }

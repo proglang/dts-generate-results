@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "run",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -21,86 +21,50 @@
                                     {
                                         "name": "domains",
                                         "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "undefined_keyword",
-                                                    "value": "undefined"
-                                                },
-                                                {
-                                                    "kind": "array_type",
-                                                    "value": {
-                                                        "kind": "any_keyword",
-                                                        "value": "any"
-                                                    }
-                                                }
-                                            ]
+                                            "kind": "array_type",
+                                            "value": {
+                                                "kind": "any_keyword",
+                                                "value": "any"
+                                            }
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
                                     {
                                         "name": "secondLevelDomains",
                                         "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "undefined_keyword",
-                                                    "value": "undefined"
-                                                },
-                                                {
-                                                    "kind": "array_type",
-                                                    "value": {
-                                                        "kind": "any_keyword",
-                                                        "value": "any"
-                                                    }
-                                                }
-                                            ]
+                                            "kind": "array_type",
+                                            "value": {
+                                                "kind": "any_keyword",
+                                                "value": "any"
+                                            }
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
                                     {
                                         "name": "topLevelDomains",
                                         "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "undefined_keyword",
-                                                    "value": "undefined"
-                                                },
-                                                {
-                                                    "kind": "array_type",
-                                                    "value": {
-                                                        "kind": "any_keyword",
-                                                        "value": "any"
-                                                    }
-                                                }
-                                            ]
+                                            "kind": "array_type",
+                                            "value": {
+                                                "kind": "any_keyword",
+                                                "value": "any"
+                                            }
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
                                     {
                                         "name": "distanceFunction",
                                         "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "undefined_keyword",
-                                                    "value": "undefined"
-                                                },
-                                                {
-                                                    "kind": "type_reference",
-                                                    "value": "Function",
-                                                    "text": ""
-                                                }
-                                            ]
+                                            "kind": "type_reference",
+                                            "value": "Function",
+                                            "text": ""
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
@@ -110,7 +74,7 @@
                                             "kind": "undefined_keyword",
                                             "value": "undefined"
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
@@ -120,7 +84,7 @@
                                             "kind": "undefined_keyword",
                                             "value": "undefined"
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
@@ -130,7 +94,7 @@
                                             "kind": "undefined_keyword",
                                             "value": "undefined"
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     }
@@ -169,7 +133,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -300,7 +264,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     },
@@ -349,8 +313,13 @@
     ],
     "tags": [
         "call-signature",
+        "number",
+        "string",
+        "void",
         "optional-parameter",
         "type-array",
-        "undefined"
+        "type-union",
+        "undefined",
+        "boolean"
     ]
 }

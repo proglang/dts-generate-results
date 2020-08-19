@@ -38,6 +38,7 @@
         }
     ],
     "tags": [
+        "string",
         "type-array",
         "type-any",
         "dot-dot-dot-token"

@@ -30,13 +30,7 @@
             "code": "missing-parameter",
             "parameterMissing": {
                 "name": "length",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -97,8 +91,7 @@
             "parameterExpected": {
                 "name": "to",
                 "type": {
-                    "kind": "generic_keyword",
-                    "value": "T"
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -130,43 +123,7 @@
             },
             "parameterActual": {
                 "name": "a",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "type_reference",
-                            "value": "Buffer",
-                            "text": ""
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__a",
-                                "properties": [
-                                    {
-                                        "name": "compare",
-                                        "type": {
-                                            "kind": "type_reference",
-                                            "value": "Function",
-                                            "text": ""
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -183,19 +140,13 @@
             },
             "parameterActual": {
                 "name": "b",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Buffer",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
         "index-signature",
+        "number",
         "type-any",
         "generics-function"
     ]

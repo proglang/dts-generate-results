@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "dot",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [],
@@ -22,7 +22,12 @@
     "tags": [
         "call-signature",
         "type-any",
+        "void",
+        "string",
         "optional-parameter",
-        "type-array"
+        "type-array",
+        "type-union",
+        "boolean",
+        "object"
     ]
 }

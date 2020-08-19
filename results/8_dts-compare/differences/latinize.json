@@ -10,6 +10,7 @@
     ],
     "tags": [
         "call-signature",
+        "string",
         "index-signature"
     ]
 }

@@ -1,12 +1,12 @@
 {
-    "module": "kramed",
+    "module": "htmlparser2",
     "template": "module",
     "differences": [],
     "tags": [
-        "call-signature",
-        "type-function",
         "optional-parameter",
-        "type-array",
+        "boolean",
+        "void",
+        "string",
         "type-any"
     ]
 }

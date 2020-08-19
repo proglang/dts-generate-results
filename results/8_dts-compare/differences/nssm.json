@@ -25,6 +25,8 @@
         "type-function",
         "optional-parameter",
         "generics-function",
+        "type-union",
+        "string",
         "alias-type",
         "generics-interface"
     ]

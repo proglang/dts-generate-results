@@ -47,13 +47,16 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
-        "type-tuple"
+        "number",
+        "string",
+        "type-tuple",
+        "type-union"
     ]
 }

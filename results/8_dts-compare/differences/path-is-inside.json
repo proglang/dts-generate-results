@@ -8,5 +8,8 @@
             "exportAssignmentActual": "PathIsInside"
         }
     ],
-    "tags": []
+    "tags": [
+        "boolean",
+        "string"
+    ]
 }

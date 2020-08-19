@@ -10,14 +10,20 @@
     ],
     "tags": [
         "optional-parameter",
+        "boolean",
         "call-signature",
         "index-signature",
+        "string",
         "type-any",
         "type-array",
+        "number",
+        "type-union",
         "alias-type",
         "generics-function",
         "undefined",
+        "void",
         "dot-dot-dot-token",
-        "generics-interface"
+        "generics-interface",
+        "object"
     ]
 }

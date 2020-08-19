@@ -8,25 +8,6 @@
             "exportAssignmentActual": "FormatDuration"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "formatDuration",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 2
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
             "code": "extra-parameter",
             "parameterExtra": {
                 "name": "options",
@@ -53,11 +34,14 @@
                         "typeParameters": []
                     }
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
-    "tags": []
+    "tags": [
+        "string",
+        "number"
+    ]
 }

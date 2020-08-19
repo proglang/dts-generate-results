@@ -24,7 +24,7 @@
             "functionExpected": {
                 "name": "paste",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -35,7 +35,7 @@
                             "value": {
                                 "name": "",
                                 "returnType": {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 },
                                 "parameters": [
@@ -117,7 +117,7 @@
                                             "kind": "undefined_keyword",
                                             "value": "undefined"
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     }
@@ -164,41 +164,7 @@
             },
             "parameterActual": {
                 "name": "text",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__text",
-                                "properties": [
-                                    {
-                                        "name": "pipe",
-                                        "type": {
-                                            "kind": "undefined_keyword",
-                                            "value": "undefined"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -210,7 +176,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -237,20 +203,15 @@
             },
             "parameterActual": {
                 "name": "callback",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
         "generics-function",
         "type-function",
-        "alias-type"
+        "void",
+        "alias-type",
+        "string"
     ]
 }

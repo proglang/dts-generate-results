@@ -20,7 +20,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -114,7 +114,7 @@
             "functionExpected": {
                 "name": "start",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -142,7 +142,7 @@
             "functionExpected": {
                 "name": "stop",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -170,7 +170,7 @@
             "functionExpected": {
                 "name": "toggle",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -184,7 +184,7 @@
             "functionExpected": {
                 "name": "emitTime",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -212,7 +212,7 @@
             "functionExpected": {
                 "name": "on",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -246,7 +246,7 @@
                             "value": {
                                 "name": "",
                                 "returnType": {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 },
                                 "parameters": [],
@@ -267,8 +267,13 @@
         }
     ],
     "tags": [
+        "string",
         "optional-parameter",
+        "boolean",
+        "void",
+        "number",
         "literals",
+        "type-union",
         "alias-type",
         "type-function"
     ]

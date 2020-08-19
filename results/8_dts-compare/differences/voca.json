@@ -27,7 +27,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -51,35 +51,17 @@
                     {
                         "name": "subject",
                         "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "isString",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "parameters": [
-                    {
-                        "name": "subject",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "string"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "number"
+                                }
+                            ]
                         },
                         "optional": false,
                         "modifiers": [],
@@ -123,12 +105,16 @@
     ],
     "tags": [
         "optional-parameter",
+        "number",
+        "string",
+        "boolean",
         "type-array",
         "call-signature",
         "generics-function",
         "type-function",
         "alias-type",
         "type-any",
+        "type-union",
         "dot-dot-dot-token",
         "index-signature",
         "generics-interface"

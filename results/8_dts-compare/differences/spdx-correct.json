@@ -21,7 +21,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -53,11 +53,14 @@
                         "typeParameters": []
                     }
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
-    "tags": []
+    "tags": [
+        "string",
+        "type-union"
+    ]
 }

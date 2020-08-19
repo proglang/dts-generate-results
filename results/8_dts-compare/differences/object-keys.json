@@ -9,6 +9,8 @@
         }
     ],
     "tags": [
-        "type-array"
+        "type-array",
+        "string",
+        "object"
     ]
 }

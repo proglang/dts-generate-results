@@ -51,8 +51,13 @@
     ],
     "tags": [
         "call-signature",
+        "void",
+        "string",
+        "type-union",
         "optional-parameter",
+        "number",
         "type-any",
+        "boolean",
         "type-function"
     ]
 }

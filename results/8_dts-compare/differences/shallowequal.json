@@ -49,7 +49,7 @@
                                     "value": "boolean"
                                 },
                                 {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 }
                             ]
@@ -124,7 +124,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -151,17 +151,22 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "boolean",
         "type-any",
         "optional-parameter",
         "type-function",
+        "void",
+        "type-union",
         "generics-function",
+        "number",
+        "string",
         "alias-type"
     ]
 }

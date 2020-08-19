@@ -80,7 +80,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -90,8 +90,7 @@
             "parameterExpected": {
                 "name": "groups",
                 "type": {
-                    "kind": "any_keyword",
-                    "value": "any"
+                    "circular": true
                 },
                 "optional": true,
                 "modifiers": [],
@@ -103,16 +102,19 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "string",
         "readonly",
         "type-any",
         "alias-type",
-        "optional-parameter"
+        "optional-parameter",
+        "boolean",
+        "type-union"
     ]
 }

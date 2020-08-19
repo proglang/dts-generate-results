@@ -8,6 +8,57 @@
             "exportAssignmentActual": "JsToJava"
         },
         {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "className",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "className",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        {
+                            "kind": "type_interface",
+                            "value": {
+                                "name": "I__type",
+                                "properties": [
+                                    {
+                                        "name": "name",
+                                        "type": {
+                                            "kind": "primitive_keyword",
+                                            "value": "string"
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    }
+                                ],
+                                "methods": [],
+                                "classes": [],
+                                "callSignatures": [],
+                                "indexSignatures": [],
+                                "typeParameters": []
+                            }
+                        }
+                    ]
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "value",
@@ -22,8 +73,21 @@
             "parameterActual": {
                 "name": "value",
                 "type": {
-                    "kind": "primitive_keyword",
-                    "value": "object"
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "object_keyword",
+                            "value": "object"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "boolean"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        }
+                    ]
                 },
                 "optional": false,
                 "modifiers": [],
@@ -32,9 +96,14 @@
         }
     ],
     "tags": [
+        "string",
         "index-signature",
         "type-any",
+        "object",
         "type-array",
-        "generics-function"
+        "boolean",
+        "number",
+        "generics-function",
+        "type-union"
     ]
 }

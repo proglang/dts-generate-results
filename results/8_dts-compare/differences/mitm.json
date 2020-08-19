@@ -9,8 +9,13 @@
         }
     ],
     "tags": [
+        "number",
         "optional-parameter",
+        "string",
+        "boolean",
+        "void",
         "literals",
+        "type-union",
         "alias-type",
         "type-function"
     ]

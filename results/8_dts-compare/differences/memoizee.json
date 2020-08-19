@@ -200,7 +200,7 @@
                             {
                                 "name": "dispose",
                                 "returnType": {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 },
                                 "parameters": [
@@ -259,8 +259,13 @@
     ],
     "tags": [
         "optional-parameter",
+        "number",
         "literals",
+        "type-union",
+        "boolean",
+        "void",
         "type-any",
+        "string",
         "type-array",
         "type-function",
         "generics-function",

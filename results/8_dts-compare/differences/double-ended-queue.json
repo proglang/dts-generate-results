@@ -9,11 +9,15 @@
         }
     ],
     "tags": [
+        "number",
         "readonly",
         "type-array",
         "generics-function",
         "dot-dot-dot-token",
         "undefined",
+        "type-union",
+        "boolean",
+        "void",
         "generics-interface"
     ]
 }

@@ -19,7 +19,7 @@
                         "value": {
                             "name": "",
                             "returnType": {
-                                "kind": "primitive_keyword",
+                                "kind": "void_keyword",
                                 "value": "void"
                             },
                             "parameters": [
@@ -30,7 +30,7 @@
                                         "value": {
                                             "name": "",
                                             "returnType": {
-                                                "kind": "primitive_keyword",
+                                                "kind": "void_keyword",
                                                 "value": "void"
                                             },
                                             "parameters": [
@@ -148,70 +148,7 @@
                 "type": {
                     "kind": "array_type",
                     "value": {
-                        "kind": "function_type",
-                        "value": {
-                            "name": "",
-                            "returnType": {
-                                "kind": "primitive_keyword",
-                                "value": "void"
-                            },
-                            "parameters": [
-                                {
-                                    "name": "callback",
-                                    "type": {
-                                        "kind": "function_type",
-                                        "value": {
-                                            "name": "",
-                                            "returnType": {
-                                                "kind": "primitive_keyword",
-                                                "value": "void"
-                                            },
-                                            "parameters": [
-                                                {
-                                                    "name": "err",
-                                                    "type": {
-                                                        "kind": "union_type",
-                                                        "value": [
-                                                            {
-                                                                "kind": "type_reference",
-                                                                "value": "Error",
-                                                                "text": ""
-                                                            },
-                                                            {
-                                                                "kind": "primitive_keyword",
-                                                                "value": "null"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "optional": false,
-                                                    "modifiers": [],
-                                                    "dotDotDotToken": false
-                                                },
-                                                {
-                                                    "name": "results",
-                                                    "type": {
-                                                        "kind": "generic_keyword",
-                                                        "value": "T"
-                                                    },
-                                                    "optional": true,
-                                                    "modifiers": [],
-                                                    "dotDotDotToken": false
-                                                }
-                                            ],
-                                            "modifiers": [],
-                                            "typeParameters": [],
-                                            "_isConstructor": false
-                                        }
-                                    },
-                                    "optional": false,
-                                    "modifiers": [],
-                                    "dotDotDotToken": false
-                                }
-                            ],
-                            "modifiers": [],
-                            "typeParameters": [],
-                            "_isConstructor": false
-                        }
+                        "circular": true
                     }
                 },
                 "optional": false,
@@ -220,44 +157,7 @@
             },
             "parameterActual": {
                 "name": "tasks",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__tasks",
-                                "properties": [
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -269,7 +169,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -306,14 +206,7 @@
             },
             "parameterActual": {
                 "name": "cb",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -331,58 +224,14 @@
             },
             "parameterActual": {
                 "name": "tasks",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__tasks",
-                                "properties": [
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "extra-parameter",
             "parameterExtra": {
                 "name": "cb",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -390,9 +239,7 @@
             "parameterExpected": {
                 "name": "tasks",
                 "type": {
-                    "kind": "type_reference",
-                    "value": "Record<string, Task<T>>",
-                    "text": ""
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -400,44 +247,7 @@
             },
             "parameterActual": {
                 "name": "tasks",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__tasks",
-                                "properties": [
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -445,40 +255,7 @@
             "parameterExpected": {
                 "name": "callback",
                 "type": {
-                    "kind": "function_type",
-                    "value": {
-                        "name": "",
-                        "returnType": {
-                            "kind": "primitive_keyword",
-                            "value": "void"
-                        },
-                        "parameters": [
-                            {
-                                "name": "err",
-                                "type": {
-                                    "kind": "type_reference",
-                                    "value": "Error",
-                                    "text": ""
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "results",
-                                "type": {
-                                    "kind": "generic_keyword",
-                                    "value": "T"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "modifiers": [],
-                        "typeParameters": [],
-                        "_isConstructor": false
-                    }
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -486,14 +263,7 @@
             },
             "parameterActual": {
                 "name": "cb",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
@@ -501,6 +271,8 @@
         "type-array",
         "generics-function",
         "type-function",
+        "void",
+        "type-union",
         "optional-parameter",
         "alias-type"
     ]

@@ -3,13 +3,18 @@
     "template": "module",
     "differences": [],
     "tags": [
+        "string",
         "type-function",
         "type-any",
         "alias-type",
+        "type-union",
         "optional-parameter",
         "type-array",
+        "boolean",
+        "void",
         "index-signature",
         "dot-dot-dot-token",
+        "object",
         "call-signature",
         "literals"
     ]

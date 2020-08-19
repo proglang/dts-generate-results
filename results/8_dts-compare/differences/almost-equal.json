@@ -55,6 +55,8 @@
         }
     ],
     "tags": [
+        "boolean",
+        "number",
         "optional-parameter"
     ]
 }

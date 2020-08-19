@@ -14,147 +14,37 @@
                     {
                         "name": "obj",
                         "type": {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "getType",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "parameters": [
-                    {
-                        "name": "obj",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "getType",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "parameters": [
-                    {
-                        "name": "obj",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "getType",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "parameters": [
-                    {
-                        "name": "obj",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "boolean"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "getType",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "parameters": [
-                    {
-                        "name": "obj",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "null"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "getType",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "parameters": [
-                    {
-                        "name": "obj",
-                        "type": {
-                            "kind": "type_reference",
-                            "value": "Function",
-                            "text": ""
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "array_type",
+                                    "value": {
+                                        "kind": "any_keyword",
+                                        "value": "any"
+                                    }
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "string"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "number"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "boolean"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "null"
+                                },
+                                {
+                                    "kind": "type_reference",
+                                    "value": "Function",
+                                    "text": ""
+                                }
+                            ]
                         },
                         "optional": false,
                         "modifiers": [],
@@ -180,62 +70,17 @@
                     {
                         "name": "seed",
                         "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "setSeed",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "parameters": [
-                    {
-                        "name": "seed",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "setSeed",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "parameters": [
-                    {
-                        "name": "seed",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "boolean"
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "string"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "number"
+                                }
+                            ]
                         },
                         "optional": false,
                         "modifiers": [],
@@ -261,9 +106,18 @@
                     {
                         "name": "seed",
                         "type": {
-                            "kind": "type_reference",
-                            "value": "Function",
-                            "text": ""
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "boolean"
+                                },
+                                {
+                                    "kind": "type_reference",
+                                    "value": "Function",
+                                    "text": ""
+                                }
+                            ]
                         },
                         "optional": false,
                         "modifiers": [],
@@ -308,18 +162,6 @@
             }
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "shuffle",
-            "expectedNumberOfOverloadings": 2,
-            "actualNumberOfOverloadings": 4
-        },
-        {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "unshuffle",
-            "expectedNumberOfOverloadings": 2,
-            "actualNumberOfOverloadings": 4
-        },
-        {
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
@@ -342,38 +184,6 @@
                         "kind": "any_keyword",
                         "value": "any"
                     }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -397,90 +207,7 @@
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             },
             "parameterActual": {
                 "name": "arr",
@@ -520,83 +247,18 @@
             "parameterActual": {
                 "name": "seed",
                 "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
                     "kind": "union_type",
                     "value": [
                         {
                             "kind": "primitive_keyword",
-                            "value": "string"
+                            "value": "boolean"
                         },
                         {
-                            "kind": "primitive_keyword",
-                            "value": "number"
+                            "kind": "type_reference",
+                            "value": "Function",
+                            "text": ""
                         }
                     ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
                 },
                 "optional": false,
                 "modifiers": [],
@@ -631,48 +293,7 @@
             },
             "parameterActual": {
                 "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -689,122 +310,18 @@
             },
             "parameterActual": {
                 "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             },
             "parameterActual": {
                 "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "copy",
-                "type": {
-                    "kind": "literal_type",
-                    "value": "true"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -830,119 +347,18 @@
             },
             "parameterActual": {
                 "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "copy",
-                "type": {
-                    "kind": "literal_type",
-                    "value": "true"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             },
             "parameterActual": {
                 "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "copy",
-                "type": {
-                    "kind": "literal_type",
-                    "value": "true"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -968,38 +384,6 @@
                         "kind": "any_keyword",
                         "value": "any"
                     }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -1023,90 +407,7 @@
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             },
             "parameterActual": {
                 "name": "arr",
@@ -1143,80 +444,18 @@
             "parameterActual": {
                 "name": "seed",
                 "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "null"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
                     "kind": "union_type",
                     "value": [
                         {
                             "kind": "primitive_keyword",
-                            "value": "string"
+                            "value": "boolean"
                         },
                         {
-                            "kind": "primitive_keyword",
-                            "value": "number"
+                            "kind": "type_reference",
+                            "value": "Function",
+                            "text": ""
                         }
                     ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
                 },
                 "optional": false,
                 "modifiers": [],
@@ -1251,48 +490,7 @@
             },
             "parameterActual": {
                 "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -1309,119 +507,18 @@
             },
             "parameterActual": {
                 "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             },
             "parameterActual": {
                 "name": "arr",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "copy",
-                "type": {
-                    "kind": "literal_type",
-                    "value": "true"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "null"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -1447,122 +544,27 @@
             },
             "parameterActual": {
                 "name": "seed",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "copy",
-                "type": {
-                    "kind": "literal_type",
-                    "value": "true"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             },
             "parameterActual": {
                 "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "arr",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "arr",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "null"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "seed",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "seed",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "copy",
-                "type": {
-                    "kind": "literal_type",
-                    "value": "true"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "copy",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
         "type-array",
         "generics-function",
+        "string",
+        "number",
+        "type-union",
         "literals"
     ]
 }

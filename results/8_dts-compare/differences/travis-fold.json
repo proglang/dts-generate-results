@@ -153,6 +153,9 @@
         }
     ],
     "tags": [
-        "type-array"
+        "string",
+        "void",
+        "type-array",
+        "boolean"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "module": "chai-datetime",
+    "module": "recursive-readdir",
     "template": "module",
     "differences": [
         {
@@ -9,6 +9,12 @@
         }
     ],
     "tags": [
-        "optional-parameter"
+        "call-signature",
+        "string",
+        "optional-parameter",
+        "alias-type",
+        "void",
+        "type-function",
+        "type-array"
     ]
 }

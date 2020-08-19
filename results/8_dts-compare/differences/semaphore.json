@@ -32,6 +32,9 @@
         }
     ],
     "tags": [
+        "number",
+        "boolean",
+        "void",
         "call-signature",
         "optional-parameter"
     ]

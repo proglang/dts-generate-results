@@ -9,6 +9,8 @@
         }
     ],
     "tags": [
-        "call-signature"
+        "call-signature",
+        "boolean",
+        "string"
     ]
 }

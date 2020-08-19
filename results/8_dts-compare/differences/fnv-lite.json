@@ -65,18 +65,7 @@
                     {
                         "name": "input",
                         "type": {
-                            "kind": "union_type",
-                            "value": [
-                                {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                {
-                                    "kind": "type_reference",
-                                    "value": "ArrayLike<number>",
-                                    "text": ""
-                                }
-                            ]
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -102,18 +91,7 @@
                     {
                         "name": "input",
                         "type": {
-                            "kind": "union_type",
-                            "value": [
-                                {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                {
-                                    "kind": "type_reference",
-                                    "value": "ArrayLike<number>",
-                                    "text": ""
-                                }
-                            ]
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -139,18 +117,7 @@
                     {
                         "name": "input",
                         "type": {
-                            "kind": "union_type",
-                            "value": [
-                                {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                {
-                                    "kind": "type_reference",
-                                    "value": "ArrayLike<number>",
-                                    "text": ""
-                                }
-                            ]
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -176,35 +143,10 @@
                     {
                         "name": "safe",
                         "type": {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "_b64",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "parameters": [
-                    {
-                        "name": "safe",
-                        "type": {
                             "kind": "primitive_keyword",
                             "value": "boolean"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -239,18 +181,7 @@
             "parameterExpected": {
                 "name": "input",
                 "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "type_reference",
-                            "value": "ArrayLike<number>",
-                            "text": ""
-                        }
-                    ]
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -311,19 +242,16 @@
             },
             "parameterActual": {
                 "name": "encoding",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
+        "string",
+        "type-union",
         "alias-type",
         "type-array",
+        "number",
         "literals"
     ]
 }

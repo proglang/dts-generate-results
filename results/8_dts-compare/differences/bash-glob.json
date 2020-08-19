@@ -1,0 +1,22 @@
+{
+    "module": "bash-glob",
+    "template": "module-function",
+    "differences": [
+        {
+            "code": "template-is-different",
+            "templateExpected": "module-function",
+            "templateActual": "module"
+        }
+    ],
+    "tags": [
+        "void",
+        "string",
+        "type-array",
+        "type-union",
+        "alias-type",
+        "type-function",
+        "optional-parameter",
+        "boolean",
+        "literals"
+    ]
+}

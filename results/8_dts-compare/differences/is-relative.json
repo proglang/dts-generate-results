@@ -8,5 +8,8 @@
             "exportAssignmentActual": "IsRelative"
         }
     ],
-    "tags": []
+    "tags": [
+        "boolean",
+        "string"
+    ]
 }

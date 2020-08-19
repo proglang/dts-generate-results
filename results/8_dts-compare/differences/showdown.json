@@ -4,8 +4,13 @@
     "differences": [],
     "tags": [
         "call-signature",
+        "void",
+        "string",
+        "type-union",
         "optional-parameter",
         "type-any",
+        "boolean",
+        "number",
         "index-signature",
         "type-function",
         "type-array",

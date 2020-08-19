@@ -18,7 +18,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     },
@@ -28,7 +28,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     },
@@ -38,7 +38,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }

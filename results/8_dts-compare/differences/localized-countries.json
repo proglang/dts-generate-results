@@ -19,7 +19,7 @@
                             "value": "string"
                         },
                         {
-                            "kind": "primitive_keyword",
+                            "kind": "object_keyword",
                             "value": "object"
                         }
                     ]
@@ -41,7 +41,10 @@
         }
     ],
     "tags": [
+        "string",
         "type-array",
-        "index-signature"
+        "index-signature",
+        "object",
+        "type-union"
     ]
 }

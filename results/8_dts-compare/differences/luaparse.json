@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "end",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [
@@ -17,7 +17,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -34,7 +34,7 @@
             "functionActual": {
                 "name": "lex",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [],
@@ -149,7 +149,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -168,41 +168,7 @@
             },
             "parameterActual": {
                 "name": "_input",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I___input",
-                                "properties": [
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -220,13 +186,7 @@
             },
             "parameterActual": {
                 "name": "_options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -244,60 +204,25 @@
             },
             "parameterActual": {
                 "name": "_input",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I___input",
-                                "properties": [
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "extra-parameter",
             "parameterExtra": {
                 "name": "_options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
+        "boolean",
         "type-function",
+        "void",
         "literals",
+        "type-union",
+        "number",
+        "string",
         "type-tuple",
         "type-intersection",
         "optional-parameter"

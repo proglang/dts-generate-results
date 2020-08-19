@@ -70,36 +70,7 @@
                     "kind": "type_interface",
                     "value": {
                         "name": "BitArrayJSON",
-                        "properties": [
-                            {
-                                "name": "bits",
-                                "type": {
-                                    "kind": "array_type",
-                                    "value": {
-                                        "kind": "primitive_keyword",
-                                        "value": "number"
-                                    }
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "length",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
+                        "circular": true
                     }
                 },
                 "parameters": [],
@@ -134,6 +105,8 @@
     ],
     "tags": [
         "type-array",
+        "number",
+        "boolean",
         "type-any"
     ]
 }

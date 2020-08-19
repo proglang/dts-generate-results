@@ -17,7 +17,7 @@
                     {
                         "name": "obj",
                         "type": {
-                            "kind": "primitive_keyword",
+                            "kind": "object_keyword",
                             "value": "object"
                         },
                         "optional": false,
@@ -55,11 +55,15 @@
         }
     ],
     "tags": [
+        "void",
         "type-any",
+        "string",
         "type-array",
+        "type-union",
         "optional-parameter",
         "type-function",
         "dot-dot-dot-token",
-        "alias-type"
+        "alias-type",
+        "boolean"
     ]
 }

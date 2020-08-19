@@ -1,0 +1,1774 @@
+{
+    "module": "shelljs",
+    "template": "module",
+    "differences": [
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "cd",
+                "returnType": {
+                    "kind": "intersection_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        {
+                            "kind": "type_interface",
+                            "value": {
+                                "name": "ShellReturnValue",
+                                "properties": [
+                                    {
+                                        "name": "cat",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "CatFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "exec",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "ExecFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "command",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "command",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "intersection_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "type_interface",
+                                                                            "value": {
+                                                                                "name": "ExecOptions",
+                                                                                "properties": [
+                                                                                    {
+                                                                                        "name": "silent",
+                                                                                        "type": {
+                                                                                            "kind": "primitive_keyword",
+                                                                                            "value": "boolean"
+                                                                                        },
+                                                                                        "optional": true,
+                                                                                        "modifiers": [],
+                                                                                        "dotDotDotToken": false
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "fatal",
+                                                                                        "type": {
+                                                                                            "kind": "primitive_keyword",
+                                                                                            "value": "boolean"
+                                                                                        },
+                                                                                        "optional": true,
+                                                                                        "modifiers": [],
+                                                                                        "dotDotDotToken": false
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "async",
+                                                                                        "type": {
+                                                                                            "kind": "primitive_keyword",
+                                                                                            "value": "boolean"
+                                                                                        },
+                                                                                        "optional": true,
+                                                                                        "modifiers": [],
+                                                                                        "dotDotDotToken": false
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "encoding",
+                                                                                        "type": {
+                                                                                            "kind": "primitive_keyword",
+                                                                                            "value": "string"
+                                                                                        },
+                                                                                        "optional": true,
+                                                                                        "modifiers": [],
+                                                                                        "dotDotDotToken": false
+                                                                                    }
+                                                                                ],
+                                                                                "methods": [],
+                                                                                "classes": [],
+                                                                                "callSignatures": [],
+                                                                                "indexSignatures": [],
+                                                                                "typeParameters": []
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_interface",
+                                                                            "value": {
+                                                                                "name": "",
+                                                                                "properties": [
+                                                                                    {
+                                                                                        "name": "async",
+                                                                                        "type": {
+                                                                                            "kind": "literal_type",
+                                                                                            "value": "false"
+                                                                                        },
+                                                                                        "optional": true,
+                                                                                        "modifiers": [],
+                                                                                        "dotDotDotToken": false
+                                                                                    }
+                                                                                ],
+                                                                                "methods": [],
+                                                                                "classes": [],
+                                                                                "callSignatures": [],
+                                                                                "indexSignatures": [],
+                                                                                "typeParameters": []
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "kind": "type_reference",
+                                                            "value": "child.ChildProcess",
+                                                            "text": ""
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "command",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "intersection_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "type_interface",
+                                                                            "value": {
+                                                                                "name": "ExecOptions",
+                                                                                "circular": true
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_interface",
+                                                                            "value": {
+                                                                                "name": "",
+                                                                                "properties": [
+                                                                                    {
+                                                                                        "name": "async",
+                                                                                        "type": {
+                                                                                            "kind": "literal_type",
+                                                                                            "value": "true"
+                                                                                        },
+                                                                                        "optional": false,
+                                                                                        "modifiers": [],
+                                                                                        "dotDotDotToken": false
+                                                                                    }
+                                                                                ],
+                                                                                "methods": [],
+                                                                                "classes": [],
+                                                                                "callSignatures": [],
+                                                                                "indexSignatures": [],
+                                                                                "typeParameters": []
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "kind": "union_type",
+                                                            "value": [
+                                                                {},
+                                                                {
+                                                                    "kind": "type_reference",
+                                                                    "value": "child.ChildProcess",
+                                                                    "text": ""
+                                                                }
+                                                            ]
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "command",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "type_interface",
+                                                                    "value": {
+                                                                        "name": "ExecOptions",
+                                                                        "circular": true
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "kind": "type_reference",
+                                                            "value": "child.ChildProcess",
+                                                            "text": ""
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "command",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "type_interface",
+                                                                    "value": {
+                                                                        "name": "ExecOptions",
+                                                                        "circular": true
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "callback",
+                                                                "type": {
+                                                                    "kind": "function_type",
+                                                                    "value": {
+                                                                        "name": "",
+                                                                        "returnType": {
+                                                                            "kind": "any_keyword",
+                                                                            "value": "any"
+                                                                        },
+                                                                        "parameters": [
+                                                                            {
+                                                                                "name": "code",
+                                                                                "type": {
+                                                                                    "kind": "primitive_keyword",
+                                                                                    "value": "number"
+                                                                                },
+                                                                                "optional": false,
+                                                                                "modifiers": [],
+                                                                                "dotDotDotToken": false
+                                                                            },
+                                                                            {
+                                                                                "name": "stdout",
+                                                                                "type": {
+                                                                                    "kind": "primitive_keyword",
+                                                                                    "value": "string"
+                                                                                },
+                                                                                "optional": false,
+                                                                                "modifiers": [],
+                                                                                "dotDotDotToken": false
+                                                                            },
+                                                                            {
+                                                                                "name": "stderr",
+                                                                                "type": {
+                                                                                    "kind": "primitive_keyword",
+                                                                                    "value": "string"
+                                                                                },
+                                                                                "optional": false,
+                                                                                "modifiers": [],
+                                                                                "dotDotDotToken": false
+                                                                            }
+                                                                        ],
+                                                                        "modifiers": [],
+                                                                        "typeParameters": [],
+                                                                        "_isConstructor": false
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "kind": "type_reference",
+                                                            "value": "child.ChildProcess",
+                                                            "text": ""
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "command",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "callback",
+                                                                "type": {
+                                                                    "circular": true
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "head",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "HeadFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "type_interface",
+                                                                    "value": {
+                                                                        "name": "HeadOptions",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "-n",
+                                                                                "type": {
+                                                                                    "kind": "primitive_keyword",
+                                                                                    "value": "number"
+                                                                                },
+                                                                                "optional": false,
+                                                                                "modifiers": [],
+                                                                                "dotDotDotToken": false
+                                                                            }
+                                                                        ],
+                                                                        "methods": [],
+                                                                        "classes": [],
+                                                                        "callSignatures": [],
+                                                                        "indexSignatures": [],
+                                                                        "typeParameters": []
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "type_interface",
+                                                                    "value": {
+                                                                        "name": "HeadOptions",
+                                                                        "circular": true
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "grep",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "GrepFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "regex_filter",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "regex_filter",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "regex_filter",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "regex_filter",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "sed",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "SedFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "searchRegex",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "replacement",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "searchRegex",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "replacement",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "searchRegex",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "replacement",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "searchRegex",
+                                                                "type": {
+                                                                    "kind": "union_type",
+                                                                    "value": [
+                                                                        {
+                                                                            "kind": "primitive_keyword",
+                                                                            "value": "string"
+                                                                        },
+                                                                        {
+                                                                            "kind": "type_reference",
+                                                                            "value": "RegExp",
+                                                                            "text": ""
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "replacement",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "sort",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "SortFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "tail",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "TailFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "type_interface",
+                                                                    "value": {
+                                                                        "name": "TailOptions",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "-n",
+                                                                                "type": {
+                                                                                    "kind": "primitive_keyword",
+                                                                                    "value": "number"
+                                                                                },
+                                                                                "optional": false,
+                                                                                "modifiers": [],
+                                                                                "dotDotDotToken": false
+                                                                            }
+                                                                        ],
+                                                                        "methods": [],
+                                                                        "classes": [],
+                                                                        "callSignatures": [],
+                                                                        "indexSignatures": [],
+                                                                        "typeParameters": []
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "type_interface",
+                                                                    "value": {
+                                                                        "name": "TailOptions",
+                                                                        "circular": true
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "files",
+                                                                "type": {
+                                                                    "kind": "array_type",
+                                                                    "value": {
+                                                                        "kind": "primitive_keyword",
+                                                                        "value": "string"
+                                                                    }
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": true
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "uniq",
+                                        "type": {
+                                            "kind": "type_interface",
+                                            "value": {
+                                                "name": "UniqFunction",
+                                                "properties": [],
+                                                "methods": [],
+                                                "classes": [],
+                                                "callSignatures": [
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "options",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "input",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "output",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": true,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    },
+                                                    {
+                                                        "name": "",
+                                                        "returnType": {
+                                                            "circular": true
+                                                        },
+                                                        "parameters": [
+                                                            {
+                                                                "name": "input",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "output",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "string"
+                                                                },
+                                                                "optional": true,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "modifiers": [],
+                                                        "typeParameters": [],
+                                                        "_isConstructor": false
+                                                    }
+                                                ],
+                                                "indexSignatures": [],
+                                                "typeParameters": []
+                                            }
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    }
+                                ],
+                                "methods": [
+                                    {
+                                        "name": "to",
+                                        "returnType": {
+                                            "kind": "void_keyword",
+                                            "value": "void"
+                                        },
+                                        "parameters": [
+                                            {
+                                                "name": "file",
+                                                "type": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "string"
+                                                },
+                                                "optional": false,
+                                                "modifiers": [],
+                                                "dotDotDotToken": false
+                                            }
+                                        ],
+                                        "modifiers": [],
+                                        "typeParameters": [],
+                                        "_isConstructor": false
+                                    },
+                                    {
+                                        "name": "toEnd",
+                                        "returnType": {
+                                            "kind": "void_keyword",
+                                            "value": "void"
+                                        },
+                                        "parameters": [
+                                            {
+                                                "name": "file",
+                                                "type": {
+                                                    "kind": "primitive_keyword",
+                                                    "value": "string"
+                                                },
+                                                "optional": false,
+                                                "modifiers": [],
+                                                "dotDotDotToken": false
+                                            }
+                                        ],
+                                        "modifiers": [],
+                                        "typeParameters": [],
+                                        "_isConstructor": false
+                                    }
+                                ],
+                                "classes": [],
+                                "callSignatures": [],
+                                "indexSignatures": [],
+                                "typeParameters": []
+                            }
+                        }
+                    ]
+                },
+                "parameters": [
+                    {
+                        "name": "dir",
+                        "type": {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        "optional": true,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    }
+                ],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "pwd",
+                "returnType": {
+                    "circular": true
+                },
+                "parameters": [],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "test",
+                "returnType": {
+                    "kind": "primitive_keyword",
+                    "value": "boolean"
+                },
+                "parameters": [
+                    {
+                        "name": "option",
+                        "type": {
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-b\""
+                                },
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-c\""
+                                },
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-d\""
+                                },
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-e\""
+                                },
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-f\""
+                                },
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-L\""
+                                },
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-p\""
+                                },
+                                {
+                                    "kind": "literal_type",
+                                    "value": "\"-S\""
+                                }
+                            ]
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    },
+                    {
+                        "name": "path",
+                        "type": {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    }
+                ],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "which",
+                "returnType": {
+                    "circular": true
+                },
+                "parameters": [
+                    {
+                        "name": "command",
+                        "type": {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    }
+                ],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "exit",
+                "returnType": {
+                    "kind": "primitive_keyword",
+                    "value": "never"
+                },
+                "parameters": [
+                    {
+                        "name": "code",
+                        "type": {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        },
+                        "optional": true,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    }
+                ],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "tempdir",
+                "returnType": {
+                    "circular": true
+                },
+                "parameters": [],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "error",
+                "returnType": {
+                    "circular": true
+                },
+                "parameters": [],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-missing",
+            "functionExpected": {
+                "name": "set",
+                "returnType": {
+                    "kind": "void_keyword",
+                    "value": "void"
+                },
+                "parameters": [
+                    {
+                        "name": "options",
+                        "type": {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        "optional": false,
+                        "modifiers": [],
+                        "dotDotDotToken": false
+                    }
+                ],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        },
+        {
+            "code": "function-extra",
+            "functionActual": {
+                "name": "echo",
+                "returnType": {
+                    "kind": "type_reference",
+                    "value": "String",
+                    "text": ""
+                },
+                "parameters": [],
+                "modifiers": [
+                    "export"
+                ],
+                "typeParameters": [],
+                "_isConstructor": false
+            }
+        }
+    ],
+    "tags": [
+        "string",
+        "void",
+        "call-signature",
+        "alias-type",
+        "type-array",
+        "dot-dot-dot-token",
+        "optional-parameter",
+        "boolean",
+        "literals",
+        "type-intersection",
+        "type-union",
+        "type-function",
+        "type-any",
+        "number"
+    ]
+}

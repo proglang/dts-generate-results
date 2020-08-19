@@ -9,7 +9,10 @@
         }
     ],
     "tags": [
+        "boolean",
+        "number",
         "optional-parameter",
+        "void",
         "type-function"
     ]
 }

@@ -14,35 +14,17 @@
                     {
                         "name": "v",
                         "type": {
-                            "kind": "primitive_keyword",
-                            "value": "object"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "encode",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "parameters": [
-                    {
-                        "name": "v",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "object_keyword",
+                                    "value": "object"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "string"
+                                }
+                            ]
                         },
                         "optional": false,
                         "modifiers": [],
@@ -98,7 +80,7 @@
                     {
                         "name": "v",
                         "type": {
-                            "kind": "primitive_keyword",
+                            "kind": "object_keyword",
                             "value": "object"
                         },
                         "optional": false,
@@ -115,6 +97,7 @@
         }
     ],
     "tags": [
+        "string",
         "type-any",
         "generics-function",
         "type-array"

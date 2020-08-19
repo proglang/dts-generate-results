@@ -17,7 +17,7 @@
             "parameterActual": {
                 "name": "topObj",
                 "type": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "optional": false,
@@ -40,7 +40,7 @@
             "parameterActual": {
                 "name": "topObj",
                 "type": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "optional": false,
@@ -73,6 +73,7 @@
         }
     ],
     "tags": [
-        "type-any"
+        "type-any",
+        "string"
     ]
 }

@@ -8,5 +8,8 @@
             "exportAssignmentActual": "IsNegatedGlob"
         }
     ],
-    "tags": []
+    "tags": [
+        "boolean",
+        "string"
+    ]
 }

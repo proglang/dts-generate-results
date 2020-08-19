@@ -2,5 +2,7 @@
     "module": "rfc2047",
     "template": "module",
     "differences": [],
-    "tags": []
+    "tags": [
+        "string"
+    ]
 }

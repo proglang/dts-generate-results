@@ -31,6 +31,8 @@
         }
     ],
     "tags": [
+        "boolean",
+        "string",
         "optional-parameter"
     ]
 }

@@ -99,8 +99,7 @@
                                                     "dotDotDotToken": false
                                                 },
                                                 "type": {
-                                                    "kind": "generic_keyword",
-                                                    "value": "TInput"
+                                                    "circular": true
                                                 }
                                             }
                                         ],
@@ -138,8 +137,7 @@
             "parameterExpected": {
                 "name": "thisArg",
                 "type": {
-                    "kind": "generic_keyword",
-                    "value": "TThis"
+                    "circular": true
                 },
                 "optional": true,
                 "modifiers": [],
@@ -151,7 +149,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -159,6 +157,7 @@
     ],
     "tags": [
         "index-signature",
+        "string",
         "generics-function",
         "type-function",
         "optional-parameter"

@@ -8,5 +8,7 @@
             "exportAssignmentActual": "JsStringEscape"
         }
     ],
-    "tags": []
+    "tags": [
+        "string"
+    ]
 }

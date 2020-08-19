@@ -57,7 +57,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -78,7 +78,7 @@
                                     "value": {
                                         "name": "",
                                         "returnType": {
-                                            "kind": "primitive_keyword",
+                                            "kind": "void_keyword",
                                             "value": "void"
                                         },
                                         "parameters": [
@@ -229,7 +229,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -242,7 +242,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -255,7 +255,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -268,7 +268,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -310,8 +310,7 @@
                     {
                         "name": "key",
                         "type": {
-                            "kind": "generic_keyword",
-                            "value": "K"
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -335,8 +334,7 @@
                     {
                         "name": "key",
                         "type": {
-                            "kind": "generic_keyword",
-                            "value": "K"
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -355,8 +353,7 @@
                 "returnType": {
                     "kind": "array_type",
                     "value": {
-                        "kind": "generic_keyword",
-                        "value": "K"
+                        "circular": true
                     }
                 },
                 "parameters": [],
@@ -370,7 +367,7 @@
             "functionExpected": {
                 "name": "reset",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -415,15 +412,14 @@
             "functionExpected": {
                 "name": "wrap",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
                     {
                         "name": "key",
                         "type": {
-                            "kind": "generic_keyword",
-                            "value": "K"
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -432,134 +428,7 @@
                     {
                         "name": "revalidate",
                         "type": {
-                            "kind": "function_type",
-                            "value": {
-                                "name": "",
-                                "returnType": {
-                                    "kind": "primitive_keyword",
-                                    "value": "void"
-                                },
-                                "parameters": [
-                                    {
-                                        "name": "key",
-                                        "type": {
-                                            "kind": "generic_keyword",
-                                            "value": "K"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "callback",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "void"
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "error",
-                                                        "type": {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        },
-                                                        "optional": false,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    },
-                                                    {
-                                                        "name": "value",
-                                                        "type": {
-                                                            "kind": "generic_keyword",
-                                                            "value": "V"
-                                                        },
-                                                        "optional": true,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    },
-                                                    {
-                                                        "name": "options",
-                                                        "type": {
-                                                            "kind": "union_type",
-                                                            "value": [
-                                                                {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "string"
-                                                                },
-                                                                {
-                                                                    "kind": "type_interface",
-                                                                    "value": {
-                                                                        "name": "SetOptions",
-                                                                        "properties": [
-                                                                            {
-                                                                                "name": "maxAge",
-                                                                                "type": {
-                                                                                    "kind": "primitive_keyword",
-                                                                                    "value": "number"
-                                                                                },
-                                                                                "optional": true,
-                                                                                "modifiers": [],
-                                                                                "dotDotDotToken": false
-                                                                            },
-                                                                            {
-                                                                                "name": "staleWhileRevalidate",
-                                                                                "type": {
-                                                                                    "kind": "primitive_keyword",
-                                                                                    "value": "number"
-                                                                                },
-                                                                                "optional": true,
-                                                                                "modifiers": [],
-                                                                                "dotDotDotToken": false
-                                                                            },
-                                                                            {
-                                                                                "name": "revalidate",
-                                                                                "type": {},
-                                                                                "optional": true,
-                                                                                "modifiers": [],
-                                                                                "dotDotDotToken": false
-                                                                            }
-                                                                        ],
-                                                                        "methods": [],
-                                                                        "classes": [],
-                                                                        "callSignatures": [],
-                                                                        "indexSignatures": [],
-                                                                        "typeParameters": [
-                                                                            {
-                                                                                "kind": "generic_keyword",
-                                                                                "value": "K"
-                                                                            },
-                                                                            {
-                                                                                "kind": "generic_keyword",
-                                                                                "value": "V"
-                                                                            }
-                                                                        ]
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        "optional": true,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "modifiers": [],
-                                "typeParameters": [],
-                                "_isConstructor": false
-                            }
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -568,103 +437,7 @@
                     {
                         "name": "callback",
                         "type": {
-                            "kind": "function_type",
-                            "value": {
-                                "name": "",
-                                "returnType": {
-                                    "kind": "primitive_keyword",
-                                    "value": "void"
-                                },
-                                "parameters": [
-                                    {
-                                        "name": "error",
-                                        "type": {
-                                            "kind": "any_keyword",
-                                            "value": "any"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "value",
-                                        "type": {
-                                            "kind": "generic_keyword",
-                                            "value": "V"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "options",
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "type_interface",
-                                                    "value": {
-                                                        "name": "SetOptions",
-                                                        "properties": [
-                                                            {
-                                                                "name": "maxAge",
-                                                                "type": {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "number"
-                                                                },
-                                                                "optional": true,
-                                                                "modifiers": [],
-                                                                "dotDotDotToken": false
-                                                            },
-                                                            {
-                                                                "name": "staleWhileRevalidate",
-                                                                "type": {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "number"
-                                                                },
-                                                                "optional": true,
-                                                                "modifiers": [],
-                                                                "dotDotDotToken": false
-                                                            },
-                                                            {
-                                                                "name": "revalidate",
-                                                                "type": {},
-                                                                "optional": true,
-                                                                "modifiers": [],
-                                                                "dotDotDotToken": false
-                                                            }
-                                                        ],
-                                                        "methods": [],
-                                                        "classes": [],
-                                                        "callSignatures": [],
-                                                        "indexSignatures": [],
-                                                        "typeParameters": [
-                                                            {
-                                                                "kind": "generic_keyword",
-                                                                "value": "K"
-                                                            },
-                                                            {
-                                                                "kind": "generic_keyword",
-                                                                "value": "V"
-                                                            }
-                                                        ]
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "modifiers": [],
-                                "typeParameters": [],
-                                "_isConstructor": false
-                            }
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -695,8 +468,7 @@
             "parameterExpected": {
                 "name": "key",
                 "type": {
-                    "kind": "generic_keyword",
-                    "value": "K"
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -718,8 +490,7 @@
             "parameterExpected": {
                 "name": "key",
                 "type": {
-                    "kind": "generic_keyword",
-                    "value": "K"
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -741,8 +512,7 @@
             "parameterExpected": {
                 "name": "value",
                 "type": {
-                    "kind": "generic_keyword",
-                    "value": "V"
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -774,49 +544,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "SetOptions",
-                                "properties": [
-                                    {
-                                        "name": "maxAge",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "staleWhileRevalidate",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "revalidate",
-                                        "type": {},
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": [
-                                    {
-                                        "kind": "generic_keyword",
-                                        "value": "K"
-                                    },
-                                    {
-                                        "kind": "generic_keyword",
-                                        "value": "V"
-                                    }
-                                ]
+                                "circular": true
                             }
                         }
                     ]
@@ -831,7 +559,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -839,11 +567,16 @@
     ],
     "tags": [
         "optional-parameter",
+        "number",
         "type-function",
+        "void",
         "generics-function",
         "type-any",
+        "string",
         "alias-type",
         "generics-interface",
+        "type-union",
+        "boolean",
         "undefined",
         "type-array",
         "generics-class"

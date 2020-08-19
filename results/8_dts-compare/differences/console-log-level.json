@@ -115,7 +115,10 @@
     "tags": [
         "optional-parameter",
         "literals",
+        "type-union",
         "alias-type",
-        "type-function"
+        "string",
+        "type-function",
+        "boolean"
     ]
 }

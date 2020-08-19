@@ -32,7 +32,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -42,7 +42,7 @@
             "functionExpected": {
                 "name": "init_seed",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -65,6 +65,9 @@
     ],
     "tags": [
         "optional-parameter",
-        "type-array"
+        "number",
+        "type-array",
+        "type-union",
+        "void"
     ]
 }

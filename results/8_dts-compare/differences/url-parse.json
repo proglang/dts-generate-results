@@ -9,11 +9,16 @@
         }
     ],
     "tags": [
+        "string",
         "readonly",
         "index-signature",
         "undefined",
+        "type-union",
+        "boolean",
         "literals",
         "alias-type",
+        "object",
+        "number",
         "optional-parameter",
         "type-function"
     ]

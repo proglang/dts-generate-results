@@ -119,6 +119,7 @@
     ],
     "tags": [
         "type-array",
+        "number",
         "alias-type"
     ]
 }

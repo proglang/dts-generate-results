@@ -56,7 +56,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -109,14 +109,7 @@
             },
             "parameterActual": {
                 "name": "dscr",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -133,13 +126,7 @@
             },
             "parameterActual": {
                 "name": "value",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -161,6 +148,7 @@
         "type-any",
         "optional-parameter",
         "literals",
+        "type-union",
         "alias-type",
         "type-function",
         "type-array",

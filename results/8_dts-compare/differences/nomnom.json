@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "script",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [],
@@ -21,10 +21,14 @@
     ],
     "tags": [
         "optional-parameter",
+        "string",
+        "boolean",
         "type-any",
         "type-function",
+        "number",
         "type-array",
         "index-signature",
+        "void",
         "call-signature"
     ]
 }

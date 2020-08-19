@@ -7,7 +7,7 @@
             "functionExpected": {
                 "name": "init",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -106,7 +106,7 @@
             "functionExpected": {
                 "name": "gauge",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -166,7 +166,7 @@
             "functionExpected": {
                 "name": "increment",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -226,7 +226,7 @@
             "functionExpected": {
                 "name": "histogram",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -286,7 +286,7 @@
             "functionExpected": {
                 "name": "flush",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -297,7 +297,7 @@
                             "value": {
                                 "name": "",
                                 "returnType": {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 },
                                 "parameters": [],
@@ -317,7 +317,7 @@
                             "value": {
                                 "name": "",
                                 "returnType": {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 },
                                 "parameters": [
@@ -369,7 +369,10 @@
     ],
     "tags": [
         "optional-parameter",
+        "string",
         "type-array",
+        "number",
+        "void",
         "type-function"
     ]
 }

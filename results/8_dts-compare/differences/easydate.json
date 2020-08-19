@@ -8,92 +8,6 @@
             "exportAssignmentActual": "Easydate"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "easydate",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 3
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "config",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "DateConfig",
-                                "properties": [
-                                    {
-                                        "name": "setDate",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "timeZone",
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "literal_type",
-                                                    "value": "'utc'"
-                                                },
-                                                {
-                                                    "kind": "literal_type",
-                                                    "value": "'local'"
-                                                }
-                                            ]
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "adjust",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        }
-                    ]
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "config",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "config",
@@ -179,57 +93,30 @@
                                     {
                                         "name": "setDate",
                                         "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "undefined_keyword",
-                                                    "value": "undefined"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                }
-                                            ]
+                                            "kind": "primitive_keyword",
+                                            "value": "string"
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
                                     {
                                         "name": "timeZone",
                                         "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "undefined_keyword",
-                                                    "value": "undefined"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                }
-                                            ]
+                                            "kind": "primitive_keyword",
+                                            "value": "string"
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     },
                                     {
                                         "name": "adjust",
                                         "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "undefined_keyword",
-                                                    "value": "undefined"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "boolean"
-                                                }
-                                            ]
+                                            "kind": "primitive_keyword",
+                                            "value": "boolean"
                                         },
-                                        "optional": false,
+                                        "optional": true,
                                         "modifiers": [],
                                         "dotDotDotToken": false
                                     }
@@ -243,73 +130,7 @@
                         }
                     ]
                 },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "setDate",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "timeZone",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "adjust",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "boolean"
-                        }
-                    ]
-                },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -317,6 +138,9 @@
     ],
     "tags": [
         "optional-parameter",
-        "literals"
+        "string",
+        "literals",
+        "type-union",
+        "boolean"
     ]
 }

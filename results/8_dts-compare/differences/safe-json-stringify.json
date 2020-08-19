@@ -72,7 +72,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -104,17 +104,21 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "object",
         "type-any",
+        "string",
         "optional-parameter",
         "type-function",
         "alias-type",
-        "type-array"
+        "type-array",
+        "type-union",
+        "number"
     ]
 }

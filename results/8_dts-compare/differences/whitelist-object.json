@@ -60,7 +60,9 @@
     ],
     "tags": [
         "index-signature",
+        "string",
         "type-any",
-        "optional-parameter"
+        "optional-parameter",
+        "boolean"
     ]
 }

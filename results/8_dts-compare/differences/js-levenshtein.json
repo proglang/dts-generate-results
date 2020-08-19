@@ -110,5 +110,8 @@
             }
         }
     ],
-    "tags": []
+    "tags": [
+        "number",
+        "string"
+    ]
 }

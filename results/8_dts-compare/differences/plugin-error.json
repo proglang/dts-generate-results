@@ -96,7 +96,7 @@
             "parameterExtra": {
                 "name": "options",
                 "type": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "optional": false,
@@ -121,31 +121,21 @@
             "code": "extra-parameter",
             "parameterExtra": {
                 "name": "message",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Error",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "extra-parameter",
             "parameterExtra": {
                 "name": "options",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "object"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
-        "optional-parameter"
+        "optional-parameter",
+        "boolean",
+        "string",
+        "type-union"
     ]
 }

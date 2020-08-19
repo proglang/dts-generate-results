@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "parse",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [
@@ -143,7 +143,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -167,35 +167,17 @@
                     {
                         "name": "value",
                         "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [
-                    "export"
-                ],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-extra",
-            "functionActual": {
-                "name": "isDefined",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "parameters": [
-                    {
-                        "name": "value",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
+                            "kind": "union_type",
+                            "value": [
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "string"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "number"
+                                }
+                            ]
                         },
                         "optional": false,
                         "modifiers": [],
@@ -312,6 +294,7 @@
         }
     ],
     "tags": [
+        "string",
         "type-any"
     ]
 }

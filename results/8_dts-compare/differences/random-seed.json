@@ -10,6 +10,9 @@
     ],
     "tags": [
         "call-signature",
+        "number",
+        "string",
+        "void",
         "type-array",
         "type-any",
         "dot-dot-dot-token",

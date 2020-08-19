@@ -22,7 +22,7 @@
             "parameterActual": {
                 "name": "sourcemap",
                 "type": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "optional": false,
@@ -33,6 +33,8 @@
     ],
     "tags": [
         "type-array",
+        "string",
+        "number",
         "type-any"
     ]
 }

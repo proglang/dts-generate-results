@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "queue",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [
@@ -38,7 +38,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -53,12 +53,17 @@
     ],
     "tags": [
         "index-signature",
+        "string",
         "generics-function",
         "generics-interface",
+        "void",
         "type-array",
+        "type-union",
         "optional-parameter",
         "type-function",
         "alias-type",
+        "boolean",
+        "number",
         "type-any"
     ]
 }

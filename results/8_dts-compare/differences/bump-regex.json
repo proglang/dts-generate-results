@@ -163,7 +163,7 @@
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
+                            "kind": "void_keyword",
                             "value": "void"
                         },
                         "parameters": [
@@ -255,10 +255,14 @@
     ],
     "tags": [
         "type-any",
+        "string",
         "optional-parameter",
         "literals",
+        "type-union",
+        "boolean",
         "type-array",
         "type-function",
+        "void",
         "alias-type"
     ]
 }

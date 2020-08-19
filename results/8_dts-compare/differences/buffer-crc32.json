@@ -46,6 +46,9 @@
         }
     ],
     "tags": [
-        "optional-parameter"
+        "string",
+        "type-union",
+        "optional-parameter",
+        "number"
     ]
 }

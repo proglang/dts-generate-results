@@ -37,7 +37,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -54,7 +54,7 @@
             "functionActual": {
                 "name": "decode",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [
@@ -108,6 +108,9 @@
         }
     ],
     "tags": [
+        "number",
+        "string",
+        "type-union",
         "optional-parameter",
         "type-tuple",
         "alias-type",

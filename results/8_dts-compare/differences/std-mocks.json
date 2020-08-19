@@ -83,7 +83,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -92,22 +92,74 @@
             "code": "missing-parameter",
             "parameterMissing": {
                 "name": "stdout",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "missing-parameter",
             "parameterMissing": {
                 "name": "stderr",
+                "circular": true
+            }
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "opts",
                 "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
+                    "kind": "intersection_type",
+                    "value": [
+                        {
+                            "kind": "type_interface",
+                            "value": {
+                                "name": "Options",
+                                "circular": true
+                            }
+                        },
+                        {
+                            "kind": "type_interface",
+                            "value": {
+                                "name": "",
+                                "properties": [
+                                    {
+                                        "name": "stdout",
+                                        "type": {
+                                            "kind": "literal_type",
+                                            "value": "false"
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
+                                    {
+                                        "name": "stderr",
+                                        "type": {
+                                            "kind": "literal_type",
+                                            "value": "false"
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    }
+                                ],
+                                "methods": [],
+                                "classes": [],
+                                "callSignatures": [],
+                                "indexSignatures": [],
+                                "typeParameters": []
+                            }
+                        }
+                    ]
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "options",
+                "type": {
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
                 },
                 "optional": true,
                 "modifiers": [],
@@ -125,33 +177,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Options",
-                                "properties": [
-                                    {
-                                        "name": "stdout",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "stderr",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         {
@@ -159,16 +185,6 @@
                             "value": {
                                 "name": "",
                                 "properties": [
-                                    {
-                                        "name": "stdout",
-                                        "type": {
-                                            "kind": "literal_type",
-                                            "value": "false"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
                                     {
                                         "name": "stderr",
                                         "type": {
@@ -195,13 +211,7 @@
             },
             "parameterActual": {
                 "name": "options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -215,113 +225,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Options",
-                                "properties": [
-                                    {
-                                        "name": "stdout",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "stderr",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "",
-                                "properties": [
-                                    {
-                                        "name": "stderr",
-                                        "type": {
-                                            "kind": "literal_type",
-                                            "value": "false"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "opts",
-                "type": {
-                    "kind": "intersection_type",
-                    "value": [
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "Options",
-                                "properties": [
-                                    {
-                                        "name": "stdout",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "stderr",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         {
@@ -355,46 +259,31 @@
             },
             "parameterActual": {
                 "name": "options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "missing-parameter",
             "parameterMissing": {
                 "name": "stdout",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
             "code": "missing-parameter",
             "parameterMissing": {
                 "name": "stderr",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
         "optional-parameter",
+        "boolean",
+        "void",
         "type-intersection",
         "literals",
-        "type-array"
+        "type-array",
+        "string"
     ]
 }

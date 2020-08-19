@@ -155,7 +155,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -217,6 +217,9 @@
         }
     ],
     "tags": [
-        "optional-parameter"
+        "optional-parameter",
+        "number",
+        "type-union",
+        "string"
     ]
 }

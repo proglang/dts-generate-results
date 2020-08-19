@@ -4,7 +4,10 @@
     "differences": [],
     "tags": [
         "optional-parameter",
+        "number",
         "type-array",
+        "boolean",
+        "void",
         "dot-dot-dot-token"
     ]
 }

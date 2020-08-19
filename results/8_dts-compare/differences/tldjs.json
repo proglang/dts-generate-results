@@ -347,13 +347,16 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
         }
     ],
     "tags": [
+        "boolean",
+        "string",
+        "type-union",
         "optional-parameter",
         "type-any",
         "type-array"

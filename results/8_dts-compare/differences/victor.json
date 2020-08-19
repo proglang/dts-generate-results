@@ -225,33 +225,7 @@
                     "kind": "type_interface",
                     "value": {
                         "name": "VictorCoordinates",
-                        "properties": [
-                            {
-                                "name": "x",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "y",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
+                        "circular": true
                     }
                 },
                 "parameters": [],
@@ -1836,6 +1810,9 @@
         }
     ],
     "tags": [
-        "type-array"
+        "number",
+        "type-array",
+        "string",
+        "boolean"
     ]
 }

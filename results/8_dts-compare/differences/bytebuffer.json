@@ -20,7 +20,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -43,7 +43,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -66,7 +66,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -1531,7 +1531,7 @@
             "functionExpected": {
                 "name": "printDebug",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -1542,7 +1542,7 @@
                             "value": {
                                 "name": "",
                                 "returnType": {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 },
                                 "parameters": [
@@ -3700,7 +3700,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -3708,9 +3708,14 @@
     ],
     "tags": [
         "optional-parameter",
+        "number",
+        "boolean",
         "static",
+        "string",
+        "type-union",
         "type-array",
         "type-any",
+        "void",
         "type-function"
     ]
 }

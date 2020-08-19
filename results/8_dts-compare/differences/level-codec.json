@@ -11,7 +11,10 @@
     "tags": [
         "type-function",
         "type-any",
+        "boolean",
+        "string",
         "optional-parameter",
+        "type-union",
         "call-signature"
     ]
 }

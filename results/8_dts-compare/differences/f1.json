@@ -72,10 +72,13 @@
         }
     ],
     "tags": [
+        "void",
         "type-array",
         "type-any",
         "dot-dot-dot-token",
+        "string",
         "optional-parameter",
-        "type-function"
+        "type-function",
+        "number"
     ]
 }

@@ -10,11 +10,15 @@
     ],
     "tags": [
         "call-signature",
+        "number",
         "readonly",
+        "void",
         "generics-function",
         "undefined",
+        "type-union",
         "type-function",
         "optional-parameter",
+        "boolean",
         "type-array",
         "generics-interface"
     ]

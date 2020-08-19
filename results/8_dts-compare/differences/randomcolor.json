@@ -161,7 +161,10 @@
         }
     ],
     "tags": [
+        "string",
         "optional-parameter",
+        "number",
+        "type-union",
         "literals",
         "type-array"
     ]

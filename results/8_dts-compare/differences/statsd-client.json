@@ -10,7 +10,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -20,19 +20,10 @@
             "parameterExtra": {
                 "name": "prefix",
                 "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        }
-                    ]
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -45,7 +36,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -58,7 +49,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -190,38 +181,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -269,38 +229,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -348,38 +277,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -427,38 +325,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -506,38 +373,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -595,38 +431,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -674,38 +479,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -798,38 +572,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Tags",
-                                "properties": [],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [
-                                    {
-                                        "parameter": {
-                                            "name": "key",
-                                            "type": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            },
-                                            "optional": false,
-                                            "modifiers": [],
-                                            "dotDotDotToken": false
-                                        },
-                                        "type": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": true,
@@ -845,7 +588,12 @@
     ],
     "tags": [
         "index-signature",
+        "string",
+        "number",
+        "type-union",
         "optional-parameter",
-        "type-function"
+        "boolean",
+        "type-function",
+        "void"
     ]
 }

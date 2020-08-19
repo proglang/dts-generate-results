@@ -8,12 +8,6 @@
             "exportAssignmentActual": "RepeatElement"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "repeat",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 4
-        },
-        {
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "element",
@@ -28,77 +22,25 @@
             "parameterActual": {
                 "name": "ele",
                 "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "element",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "unknown"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "ele",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "null"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "element",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "unknown"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "ele",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "object"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "element",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "unknown"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "ele",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "null"
+                        },
+                        {
+                            "kind": "object_keyword",
+                            "value": "object"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        }
+                    ]
                 },
                 "optional": false,
                 "modifiers": [],
@@ -107,6 +49,7 @@
         }
     ],
     "tags": [
-        "type-array"
+        "type-array",
+        "number"
     ]
 }

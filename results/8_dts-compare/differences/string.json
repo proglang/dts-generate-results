@@ -9,8 +9,12 @@
         }
     ],
     "tags": [
+        "number",
+        "string",
         "optional-parameter",
+        "boolean",
         "type-array",
+        "type-union",
         "dot-dot-dot-token",
         "type-any"
     ]

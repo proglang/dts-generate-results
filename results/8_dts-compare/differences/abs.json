@@ -2,5 +2,7 @@
     "module": "abs",
     "template": "module-function",
     "differences": [],
-    "tags": []
+    "tags": [
+        "string"
+    ]
 }

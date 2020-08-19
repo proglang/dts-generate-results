@@ -8,12 +8,6 @@
             "exportAssignmentActual": "IsObject"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "isObject",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 2
-        },
-        {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "a",
@@ -28,31 +22,17 @@
             "parameterActual": {
                 "name": "x",
                 "type": {
-                    "kind": "primitive_keyword",
-                    "value": "null"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "a",
-                "type": {
-                    "kind": "any_keyword",
-                    "value": "any"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "x",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "object"
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "null"
+                        },
+                        {
+                            "kind": "object_keyword",
+                            "value": "object"
+                        }
+                    ]
                 },
                 "optional": false,
                 "modifiers": [],
@@ -61,6 +41,7 @@
         }
     ],
     "tags": [
+        "boolean",
         "type-any"
     ]
 }

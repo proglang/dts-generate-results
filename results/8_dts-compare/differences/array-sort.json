@@ -72,8 +72,7 @@
                                             {
                                                 "name": "b",
                                                 "type": {
-                                                    "kind": "generic_keyword",
-                                                    "value": "T"
+                                                    "circular": true
                                                 },
                                                 "optional": false,
                                                 "modifiers": [],
@@ -90,48 +89,7 @@
                         {
                             "kind": "array_type",
                             "value": {
-                                "kind": "union_type",
-                                "value": [
-                                    {
-                                        "kind": "primitive_keyword",
-                                        "value": "string"
-                                    },
-                                    {
-                                        "kind": "function_type",
-                                        "value": {
-                                            "name": "",
-                                            "returnType": {
-                                                "kind": "primitive_keyword",
-                                                "value": "number"
-                                            },
-                                            "parameters": [
-                                                {
-                                                    "name": "a",
-                                                    "type": {
-                                                        "kind": "generic_keyword",
-                                                        "value": "T"
-                                                    },
-                                                    "optional": false,
-                                                    "modifiers": [],
-                                                    "dotDotDotToken": false
-                                                },
-                                                {
-                                                    "name": "b",
-                                                    "type": {
-                                                        "kind": "generic_keyword",
-                                                        "value": "T"
-                                                    },
-                                                    "optional": false,
-                                                    "modifiers": [],
-                                                    "dotDotDotToken": false
-                                                }
-                                            ],
-                                            "modifiers": [],
-                                            "typeParameters": [],
-                                            "_isConstructor": false
-                                        }
-                                    }
-                                ]
+                                "circular": true
                             }
                         }
                     ]
@@ -171,11 +129,15 @@
         }
     ],
     "tags": [
+        "boolean",
         "readonly",
         "type-array",
         "generics-function",
         "optional-parameter",
+        "string",
         "type-function",
-        "alias-type"
+        "number",
+        "alias-type",
+        "type-union"
     ]
 }

@@ -33,73 +33,9 @@
                 "type": {
                     "kind": "array_type",
                     "value": {
-                        "kind": "primitive_keyword",
-                        "value": "number"
+                        "kind": "any_keyword",
+                        "value": "any"
                     }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "verbose",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "verbose",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "boolean"
-                        },
-                        {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "precise",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "boolean"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "precise",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "undefined_keyword",
-                            "value": "undefined"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "boolean"
-                        }
-                    ]
                 },
                 "optional": false,
                 "modifiers": [],
@@ -108,7 +44,10 @@
         }
     ],
     "tags": [
+        "string",
+        "number",
         "type-tuple",
-        "optional-parameter"
+        "optional-parameter",
+        "boolean"
     ]
 }

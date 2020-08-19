@@ -10,9 +10,12 @@
     ],
     "tags": [
         "optional-parameter",
+        "string",
         "literals",
+        "type-union",
         "alias-type",
         "type-array",
+        "number",
         "call-signature",
         "index-signature"
     ]

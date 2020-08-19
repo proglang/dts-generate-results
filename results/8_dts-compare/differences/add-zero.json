@@ -8,12 +8,6 @@
             "exportAssignmentActual": "AddZero"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "addZero",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 2
-        },
-        {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "value",
@@ -36,84 +30,6 @@
             },
             "parameterActual": {
                 "name": "value",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "digits",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "digits",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "value",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        }
-                    ]
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "value",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "digits",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "number"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "digits",
                 "type": {
                     "kind": "primitive_keyword",
                     "value": "number"
@@ -125,6 +41,9 @@
         }
     ],
     "tags": [
+        "string",
+        "number",
+        "type-union",
         "optional-parameter"
     ]
 }

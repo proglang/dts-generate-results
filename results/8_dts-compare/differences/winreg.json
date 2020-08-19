@@ -9,8 +9,11 @@
         }
     ],
     "tags": [
+        "string",
         "type-array",
         "optional-parameter",
-        "type-function"
+        "type-function",
+        "void",
+        "boolean"
     ]
 }

@@ -43,7 +43,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -188,43 +188,7 @@
                                                             "kind": "type_interface",
                                                             "value": {
                                                                 "name": "Vertex",
-                                                                "properties": [
-                                                                    {
-                                                                        "name": "x",
-                                                                        "type": {
-                                                                            "kind": "primitive_keyword",
-                                                                            "value": "number"
-                                                                        },
-                                                                        "optional": false,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    },
-                                                                    {
-                                                                        "name": "y",
-                                                                        "type": {
-                                                                            "kind": "primitive_keyword",
-                                                                            "value": "number"
-                                                                        },
-                                                                        "optional": false,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    },
-                                                                    {
-                                                                        "name": "z",
-                                                                        "type": {
-                                                                            "kind": "primitive_keyword",
-                                                                            "value": "number"
-                                                                        },
-                                                                        "optional": false,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    }
-                                                                ],
-                                                                "methods": [],
-                                                                "classes": [],
-                                                                "callSignatures": [],
-                                                                "indexSignatures": [],
-                                                                "typeParameters": []
+                                                                "circular": true
                                                             }
                                                         }
                                                     },
@@ -380,6 +344,8 @@
     "tags": [
         "type-any",
         "optional-parameter",
-        "type-array"
+        "type-array",
+        "string",
+        "number"
     ]
 }

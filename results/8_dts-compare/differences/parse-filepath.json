@@ -8,5 +8,8 @@
             "exportAssignmentActual": "ParseFilepath"
         }
     ],
-    "tags": []
+    "tags": [
+        "string",
+        "boolean"
+    ]
 }

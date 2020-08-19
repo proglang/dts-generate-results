@@ -27,7 +27,7 @@
                                     "value": "undefined"
                                 },
                                 {
-                                    "kind": "primitive_keyword",
+                                    "kind": "void_keyword",
                                     "value": "void"
                                 }
                             ]
@@ -121,8 +121,13 @@
         }
     ],
     "tags": [
+        "void",
         "optional-parameter",
         "type-function",
-        "undefined"
+        "boolean",
+        "undefined",
+        "type-union",
+        "number",
+        "string"
     ]
 }

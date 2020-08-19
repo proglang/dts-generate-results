@@ -8,5 +8,7 @@
             "templateActual": "module-function"
         }
     ],
-    "tags": []
+    "tags": [
+        "boolean"
+    ]
 }

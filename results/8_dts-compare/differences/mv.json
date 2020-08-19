@@ -1,15 +1,20 @@
 {
-    "module": "gregorian-calendar",
+    "module": "mv",
     "template": "module",
     "differences": [
         {
             "code": "template-is-different",
             "templateExpected": "module",
-            "templateActual": "module-class"
+            "templateActual": "module-function"
         }
     ],
     "tags": [
         "optional-parameter",
-        "public"
+        "boolean",
+        "call-signature",
+        "void",
+        "string",
+        "type-function",
+        "type-any"
     ]
 }

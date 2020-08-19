@@ -288,10 +288,14 @@
         }
     ],
     "tags": [
+        "string",
+        "number",
         "optional-parameter",
         "type-array",
         "literals",
+        "type-union",
         "alias-type",
+        "boolean",
         "type-function",
         "index-signature",
         "call-signature"

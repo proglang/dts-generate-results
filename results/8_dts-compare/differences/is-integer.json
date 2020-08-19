@@ -22,6 +22,7 @@
         }
     ],
     "tags": [
+        "boolean",
         "type-any"
     ]
 }

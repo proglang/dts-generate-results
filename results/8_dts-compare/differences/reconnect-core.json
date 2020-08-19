@@ -83,8 +83,7 @@
                                                     {
                                                         "name": "opts",
                                                         "type": {
-                                                            "kind": "generic_keyword",
-                                                            "value": "ArgType"
+                                                            "circular": true
                                                         },
                                                         "optional": false,
                                                         "modifiers": [],
@@ -109,7 +108,7 @@
                                             {
                                                 "name": "reset",
                                                 "returnType": {
-                                                    "kind": "primitive_keyword",
+                                                    "kind": "void_keyword",
                                                     "value": "void"
                                                 },
                                                 "parameters": [],
@@ -141,7 +140,7 @@
                                                             "value": {
                                                                 "name": "",
                                                                 "returnType": {
-                                                                    "kind": "primitive_keyword",
+                                                                    "kind": "void_keyword",
                                                                     "value": "void"
                                                                 },
                                                                 "parameters": [
@@ -223,7 +222,7 @@
                                                             "value": {
                                                                 "name": "",
                                                                 "returnType": {
-                                                                    "kind": "primitive_keyword",
+                                                                    "kind": "void_keyword",
                                                                     "value": "void"
                                                                 },
                                                                 "parameters": [
@@ -276,7 +275,7 @@
                                                             "value": {
                                                                 "name": "",
                                                                 "returnType": {
-                                                                    "kind": "primitive_keyword",
+                                                                    "kind": "void_keyword",
                                                                     "value": "void"
                                                                 },
                                                                 "parameters": [
@@ -338,7 +337,7 @@
                                                             "value": {
                                                                 "name": "",
                                                                 "returnType": {
-                                                                    "kind": "primitive_keyword",
+                                                                    "kind": "void_keyword",
                                                                     "value": "void"
                                                                 },
                                                                 "parameters": [
@@ -391,7 +390,7 @@
                                                             "value": {
                                                                 "name": "",
                                                                 "returnType": {
-                                                                    "kind": "primitive_keyword",
+                                                                    "kind": "void_keyword",
                                                                     "value": "void"
                                                                 },
                                                                 "parameters": [
@@ -436,12 +435,10 @@
                                         "indexSignatures": [],
                                         "typeParameters": [
                                             {
-                                                "kind": "generic_keyword",
-                                                "value": "ArgType"
+                                                "circular": true
                                             },
                                             {
-                                                "kind": "generic_keyword",
-                                                "value": "ConnectionType"
+                                                "circular": true
                                             }
                                         ]
                                     }
@@ -485,9 +482,13 @@
     ],
     "tags": [
         "optional-parameter",
+        "boolean",
+        "number",
         "type-function",
+        "void",
         "generics-function",
         "literals",
+        "type-union",
         "generics-interface",
         "readonly",
         "type-any",

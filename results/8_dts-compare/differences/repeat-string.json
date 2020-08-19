@@ -59,5 +59,8 @@
             }
         }
     ],
-    "tags": []
+    "tags": [
+        "string",
+        "number"
+    ]
 }

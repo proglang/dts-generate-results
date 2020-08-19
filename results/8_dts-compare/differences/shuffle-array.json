@@ -10,7 +10,9 @@
     ],
     "tags": [
         "optional-parameter",
+        "boolean",
         "type-function",
+        "number",
         "call-signature",
         "type-array",
         "generics-function"

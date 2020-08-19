@@ -10,29 +10,10 @@
         {
             "code": "missing-parameter",
             "parameterMissing": {
-                "name": "options",
+                "name": "flipBackslashes",
                 "type": {
-                    "kind": "type_interface",
-                    "value": {
-                        "name": "Options",
-                        "properties": [
-                            {
-                                "name": "flipBackslashes",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "boolean"
-                                },
-                                "optional": true,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "methods": [],
-                        "classes": [],
-                        "callSignatures": [],
-                        "indexSignatures": [],
-                        "typeParameters": []
-                    }
+                    "kind": "primitive_keyword",
+                    "value": "boolean"
                 },
                 "optional": true,
                 "modifiers": [],
@@ -41,6 +22,8 @@
         }
     ],
     "tags": [
-        "optional-parameter"
+        "string",
+        "optional-parameter",
+        "boolean"
     ]
 }

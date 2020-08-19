@@ -22,7 +22,7 @@
             "parameterActual": {
                 "name": "obj",
                 "type": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "optional": false,
@@ -32,6 +32,7 @@
         }
     ],
     "tags": [
+        "string",
         "type-any"
     ]
 }

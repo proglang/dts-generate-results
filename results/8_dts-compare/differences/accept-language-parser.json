@@ -182,7 +182,11 @@
     ],
     "tags": [
         "type-array",
+        "string",
         "optional-parameter",
-        "generics-function"
+        "type-union",
+        "number",
+        "generics-function",
+        "boolean"
     ]
 }

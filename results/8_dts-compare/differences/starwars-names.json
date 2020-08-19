@@ -10,13 +10,56 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "number",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "number"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "number",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "number"
+                },
                 "optional": false,
                 "modifiers": [],
                 "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "number",
+                "circular": true
+            }
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "number",
+                "circular": true
+            },
+            "parameterActual": {
+                "name": "number",
+                "circular": true
             }
         }
     ],
     "tags": [
-        "type-array"
+        "string",
+        "type-array",
+        "number"
     ]
 }

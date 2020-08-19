@@ -8,5 +8,7 @@
             "exportAssignmentActual": "Jsonminify"
         }
     ],
-    "tags": []
+    "tags": [
+        "string"
+    ]
 }

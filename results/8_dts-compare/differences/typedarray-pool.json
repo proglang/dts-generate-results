@@ -286,7 +286,7 @@
             "functionExpected": {
                 "name": "freeUint8",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -314,7 +314,7 @@
             "functionExpected": {
                 "name": "freeUint16",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -342,7 +342,7 @@
             "functionExpected": {
                 "name": "freeUint32",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -370,7 +370,7 @@
             "functionExpected": {
                 "name": "freeUint8Clamped",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -398,7 +398,7 @@
             "functionExpected": {
                 "name": "freeInt8",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -426,7 +426,7 @@
             "functionExpected": {
                 "name": "freeInt16",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -454,7 +454,7 @@
             "functionExpected": {
                 "name": "freeInt32",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -482,7 +482,7 @@
             "functionExpected": {
                 "name": "freeFloat",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -510,7 +510,7 @@
             "functionExpected": {
                 "name": "freeDouble",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -538,7 +538,7 @@
             "functionExpected": {
                 "name": "freeArrayBuffer",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -566,7 +566,7 @@
             "functionExpected": {
                 "name": "freeDataView",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -594,7 +594,7 @@
             "functionExpected": {
                 "name": "freeBuffer",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -621,7 +621,7 @@
             "functionExpected": {
                 "name": "clearCache",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -756,7 +756,7 @@
                                                             "kind": "undefined_keyword",
                                                             "value": "undefined"
                                                         },
-                                                        "optional": false,
+                                                        "optional": true,
                                                         "modifiers": [],
                                                         "dotDotDotToken": false
                                                     },
@@ -800,8 +800,11 @@
     ],
     "tags": [
         "type-any",
+        "number",
         "optional-parameter",
         "literals",
-        "alias-type"
+        "type-union",
+        "alias-type",
+        "void"
     ]
 }

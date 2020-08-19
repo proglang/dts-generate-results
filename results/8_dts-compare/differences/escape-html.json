@@ -8,5 +8,7 @@
             "exportAssignmentActual": "EscapeHtml"
         }
     ],
-    "tags": []
+    "tags": [
+        "string"
+    ]
 }

@@ -8,12 +8,6 @@
             "exportAssignmentActual": "GiphyApi"
         },
         {
-            "code": "function-overloading-difference",
-            "functionIdentifier": "giphyApi",
-            "expectedNumberOfOverloadings": 1,
-            "actualNumberOfOverloadings": 2
-        },
-        {
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "apiKeyOrOptions",
@@ -79,93 +73,9 @@
                     "kind": "primitive_keyword",
                     "value": "string"
                 },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-non-empty-intersection",
-            "parameterExpected": {
-                "name": "apiKeyOrOptions",
-                "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "GiphyOptions",
-                                "properties": [
-                                    {
-                                        "name": "https",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "timeout",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "apiKey",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
-                },
                 "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "apiKey",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
             }
         },
         {
@@ -176,7 +86,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -184,11 +94,16 @@
     ],
     "tags": [
         "literals",
+        "type-union",
         "alias-type",
         "optional-parameter",
+        "string",
+        "number",
+        "void",
         "type-function",
         "generics-function",
         "type-array",
+        "boolean",
         "type-intersection"
     ]
 }

@@ -8,5 +8,8 @@
             "exportAssignmentActual": "ParseGithubUrl"
         }
     ],
-    "tags": []
+    "tags": [
+        "string",
+        "type-union"
+    ]
 }

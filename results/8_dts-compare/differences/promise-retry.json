@@ -109,7 +109,7 @@
                     "kind": "undefined_keyword",
                     "value": "undefined"
                 },
-                "optional": false,
+                "optional": true,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -129,14 +129,7 @@
             },
             "parameterActual": {
                 "name": "fn",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         },
         {
@@ -144,61 +137,7 @@
             "parameterExpected": {
                 "name": "retryableFn",
                 "type": {
-                    "kind": "function_type",
-                    "value": {
-                        "name": "",
-                        "returnType": {
-                            "kind": "type_reference",
-                            "value": "Promise<ResolutionType>",
-                            "text": ""
-                        },
-                        "parameters": [
-                            {
-                                "name": "retry",
-                                "type": {
-                                    "kind": "function_type",
-                                    "value": {
-                                        "name": "",
-                                        "returnType": {
-                                            "kind": "primitive_keyword",
-                                            "value": "never"
-                                        },
-                                        "parameters": [
-                                            {
-                                                "name": "error",
-                                                "type": {
-                                                    "kind": "any_keyword",
-                                                    "value": "any"
-                                                },
-                                                "optional": false,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            }
-                                        ],
-                                        "modifiers": [],
-                                        "typeParameters": [],
-                                        "_isConstructor": false
-                                    }
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "attempt",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "modifiers": [],
-                        "typeParameters": [],
-                        "_isConstructor": false
-                    }
+                    "circular": true
                 },
                 "optional": false,
                 "modifiers": [],
@@ -206,19 +145,14 @@
             },
             "parameterActual": {
                 "name": "options",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
         "type-function",
         "type-any",
+        "number",
         "alias-type",
         "optional-parameter"
     ]

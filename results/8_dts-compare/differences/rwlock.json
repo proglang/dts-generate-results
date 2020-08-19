@@ -3,9 +3,12 @@
     "template": "module-class",
     "differences": [],
     "tags": [
+        "void",
         "generics-function",
         "optional-parameter",
         "type-any",
+        "number",
+        "string",
         "generics-class"
     ]
 }

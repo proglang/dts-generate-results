@@ -355,7 +355,9 @@
     ],
     "tags": [
         "type-array",
+        "number",
         "type-tuple",
-        "alias-type"
+        "alias-type",
+        "string"
     ]
 }

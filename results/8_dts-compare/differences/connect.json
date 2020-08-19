@@ -10,10 +10,14 @@
     ],
     "tags": [
         "call-signature",
+        "void",
         "optional-parameter",
+        "string",
         "type-array",
         "type-function",
         "alias-type",
-        "type-any"
+        "type-any",
+        "type-union",
+        "number"
     ]
 }

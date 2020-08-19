@@ -120,17 +120,15 @@
             },
             "parameterActual": {
                 "name": "port",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "string"
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
+                "circular": true
             }
         }
     ],
     "tags": [
+        "boolean",
+        "string",
+        "number",
+        "type-union",
         "literals",
         "alias-type"
     ]

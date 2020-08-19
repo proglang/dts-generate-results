@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "on",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -17,7 +17,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -34,7 +34,7 @@
             "functionActual": {
                 "name": "off",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -50,7 +50,7 @@
             "functionActual": {
                 "name": "toggle",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -62,5 +62,7 @@
             }
         }
     ],
-    "tags": []
+    "tags": [
+        "void"
+    ]
 }

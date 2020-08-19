@@ -8,5 +8,8 @@
             "exportAssignmentActual": "IsGitUrl"
         }
     ],
-    "tags": []
+    "tags": [
+        "boolean",
+        "string"
+    ]
 }

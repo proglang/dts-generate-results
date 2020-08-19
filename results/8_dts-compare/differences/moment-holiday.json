@@ -11,9 +11,14 @@
     "tags": [
         "literals",
         "index-signature",
+        "string",
+        "type-union",
         "optional-parameter",
         "type-array",
+        "boolean",
+        "number",
         "type-any",
-        "type-function"
+        "type-function",
+        "void"
     ]
 }

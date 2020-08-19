@@ -10,6 +10,7 @@
     ],
     "tags": [
         "type-any",
+        "void",
         "call-signature",
         "generics-function",
         "generics-interface",
@@ -17,7 +18,10 @@
         "type-array",
         "dot-dot-dot-token",
         "alias-type",
+        "string",
         "optional-parameter",
-        "index-signature"
+        "index-signature",
+        "type-union",
+        "boolean"
     ]
 }

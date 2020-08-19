@@ -27,7 +27,7 @@
                             "kind": "undefined_keyword",
                             "value": "undefined"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     }
@@ -42,8 +42,11 @@
     ],
     "tags": [
         "literals",
+        "type-union",
         "alias-type",
         "type-function",
+        "string",
+        "number",
         "optional-parameter"
     ]
 }

@@ -151,10 +151,14 @@
     ],
     "tags": [
         "call-signature",
+        "void",
         "type-function",
         "generics-function",
+        "type-union",
         "type-array",
         "undefined",
+        "boolean",
+        "number",
         "alias-type",
         "optional-parameter",
         "literals"

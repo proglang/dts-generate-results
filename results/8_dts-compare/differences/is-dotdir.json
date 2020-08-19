@@ -8,5 +8,8 @@
             "exportAssignmentActual": "IsDotdir"
         }
     ],
-    "tags": []
+    "tags": [
+        "boolean",
+        "string"
+    ]
 }

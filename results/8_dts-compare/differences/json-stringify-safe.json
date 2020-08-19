@@ -22,7 +22,7 @@
             "parameterActual": {
                 "name": "obj",
                 "type": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "optional": false,
@@ -130,43 +130,11 @@
             }
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "decycler",
                 "type": {
-                    "kind": "function_type",
-                    "value": {
-                        "name": "",
-                        "returnType": {
-                            "kind": "any_keyword",
-                            "value": "any"
-                        },
-                        "parameters": [
-                            {
-                                "name": "key",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "value",
-                                "type": {
-                                    "kind": "any_keyword",
-                                    "value": "any"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "modifiers": [],
-                        "typeParameters": [],
-                        "_isConstructor": false
-                    }
+                    "circular": true
                 },
                 "optional": true,
                 "modifiers": [],
@@ -175,8 +143,8 @@
             "parameterActual": {
                 "name": "cycleReplacer",
                 "type": {
-                    "kind": "any_keyword",
-                    "value": "any"
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
                 },
                 "optional": true,
                 "modifiers": [],
@@ -185,9 +153,12 @@
         }
     ],
     "tags": [
+        "string",
         "type-any",
         "optional-parameter",
         "type-function",
-        "alias-type"
+        "alias-type",
+        "type-union",
+        "number"
     ]
 }

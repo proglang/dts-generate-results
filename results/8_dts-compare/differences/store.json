@@ -7,7 +7,7 @@
             "functionActual": {
                 "name": "set",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [],
@@ -39,7 +39,7 @@
             "functionActual": {
                 "name": "get",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [],
@@ -55,7 +55,7 @@
             "functionActual": {
                 "name": "_deserialize",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "object_keyword",
                     "value": "object"
                 },
                 "parameters": [],
@@ -68,10 +68,14 @@
         }
     ],
     "tags": [
+        "string",
         "readonly",
+        "boolean",
         "type-any",
         "optional-parameter",
+        "void",
         "type-function",
-        "type-array"
+        "type-array",
+        "type-union"
     ]
 }

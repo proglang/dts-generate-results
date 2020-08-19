@@ -8,5 +8,8 @@
             "exportAssignmentActual": "IsRunning"
         }
     ],
-    "tags": []
+    "tags": [
+        "boolean",
+        "number"
+    ]
 }

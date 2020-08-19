@@ -33,8 +33,12 @@
     ],
     "tags": [
         "type-function",
+        "void",
+        "number",
+        "string",
         "type-array",
         "type-any",
-        "dot-dot-dot-token"
+        "dot-dot-dot-token",
+        "boolean"
     ]
 }

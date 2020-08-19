@@ -84,7 +84,7 @@
                                             "value": {
                                                 "name": "",
                                                 "returnType": {
-                                                    "kind": "primitive_keyword",
+                                                    "kind": "void_keyword",
                                                     "value": "void"
                                                 },
                                                 "parameters": [
@@ -160,65 +160,7 @@
                     {
                         "name": "fn",
                         "type": {
-                            "kind": "function_type",
-                            "value": {
-                                "name": "",
-                                "returnType": {
-                                    "kind": "union_type",
-                                    "value": [
-                                        {
-                                            "kind": "type_reference",
-                                            "value": "Q.Promise<any>",
-                                            "text": ""
-                                        },
-                                        {
-                                            "kind": "type_reference",
-                                            "value": "stream.Stream",
-                                            "text": ""
-                                        },
-                                        {
-                                            "kind": "any_keyword",
-                                            "value": "any"
-                                        }
-                                    ]
-                                },
-                                "parameters": [
-                                    {
-                                        "name": "callback",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "void"
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "err",
-                                                        "type": {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        },
-                                                        "optional": true,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "modifiers": [],
-                                "typeParameters": [],
-                                "_isConstructor": false
-                            }
+                            "circular": true
                         },
                         "optional": true,
                         "modifiers": [],
@@ -242,65 +184,7 @@
                             {
                                 "name": "fn",
                                 "type": {
-                                    "kind": "function_type",
-                                    "value": {
-                                        "name": "",
-                                        "returnType": {
-                                            "kind": "union_type",
-                                            "value": [
-                                                {
-                                                    "kind": "type_reference",
-                                                    "value": "Q.Promise<any>",
-                                                    "text": ""
-                                                },
-                                                {
-                                                    "kind": "type_reference",
-                                                    "value": "stream.Stream",
-                                                    "text": ""
-                                                },
-                                                {
-                                                    "kind": "any_keyword",
-                                                    "value": "any"
-                                                }
-                                            ]
-                                        },
-                                        "parameters": [
-                                            {
-                                                "name": "callback",
-                                                "type": {
-                                                    "kind": "function_type",
-                                                    "value": {
-                                                        "name": "",
-                                                        "returnType": {
-                                                            "kind": "primitive_keyword",
-                                                            "value": "void"
-                                                        },
-                                                        "parameters": [
-                                                            {
-                                                                "name": "err",
-                                                                "type": {
-                                                                    "kind": "any_keyword",
-                                                                    "value": "any"
-                                                                },
-                                                                "optional": true,
-                                                                "modifiers": [],
-                                                                "dotDotDotToken": false
-                                                            }
-                                                        ],
-                                                        "modifiers": [],
-                                                        "typeParameters": [],
-                                                        "_isConstructor": false
-                                                    }
-                                                },
-                                                "optional": false,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            }
-                                        ],
-                                        "modifiers": [],
-                                        "typeParameters": [],
-                                        "_isConstructor": false
-                                    }
+                                    "circular": true
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -408,7 +292,7 @@
             "functionExpected": {
                 "name": "task",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -425,65 +309,7 @@
                     {
                         "name": "fn",
                         "type": {
-                            "kind": "function_type",
-                            "value": {
-                                "name": "",
-                                "returnType": {
-                                    "kind": "union_type",
-                                    "value": [
-                                        {
-                                            "kind": "type_reference",
-                                            "value": "Q.Promise<any>",
-                                            "text": ""
-                                        },
-                                        {
-                                            "kind": "type_reference",
-                                            "value": "stream.Stream",
-                                            "text": ""
-                                        },
-                                        {
-                                            "kind": "any_keyword",
-                                            "value": "any"
-                                        }
-                                    ]
-                                },
-                                "parameters": [
-                                    {
-                                        "name": "callback",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "void"
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "err",
-                                                        "type": {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        },
-                                                        "optional": true,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "modifiers": [],
-                                "typeParameters": [],
-                                "_isConstructor": false
-                            }
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -500,7 +326,7 @@
             "functionExpected": {
                 "name": "task",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -530,65 +356,7 @@
                     {
                         "name": "fn",
                         "type": {
-                            "kind": "function_type",
-                            "value": {
-                                "name": "",
-                                "returnType": {
-                                    "kind": "union_type",
-                                    "value": [
-                                        {
-                                            "kind": "type_reference",
-                                            "value": "Q.Promise<any>",
-                                            "text": ""
-                                        },
-                                        {
-                                            "kind": "type_reference",
-                                            "value": "stream.Stream",
-                                            "text": ""
-                                        },
-                                        {
-                                            "kind": "any_keyword",
-                                            "value": "any"
-                                        }
-                                    ]
-                                },
-                                "parameters": [
-                                    {
-                                        "name": "callback",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "void"
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "err",
-                                                        "type": {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        },
-                                                        "optional": true,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "modifiers": [],
-                                "typeParameters": [],
-                                "_isConstructor": false
-                            }
+                            "circular": true
                         },
                         "optional": false,
                         "modifiers": [],
@@ -630,7 +398,7 @@
             "functionExpected": {
                 "name": "stop",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -817,7 +585,7 @@
             "functionExpected": {
                 "name": "onAll",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -882,7 +650,7 @@
             "functionExpected": {
                 "name": "_resetTask",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -892,152 +660,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Task",
-                                "properties": [
-                                    {
-                                        "name": "fn",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "union_type",
-                                                    "value": [
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "Q.Promise<any>",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "stream.Stream",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        }
-                                                    ]
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "callback",
-                                                        "type": {
-                                                            "kind": "function_type",
-                                                            "value": {
-                                                                "name": "",
-                                                                "returnType": {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "void"
-                                                                },
-                                                                "parameters": [
-                                                                    {
-                                                                        "name": "err",
-                                                                        "type": {
-                                                                            "kind": "any_keyword",
-                                                                            "value": "any"
-                                                                        },
-                                                                        "optional": true,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    }
-                                                                ],
-                                                                "modifiers": [],
-                                                                "typeParameters": [],
-                                                                "_isConstructor": false
-                                                            }
-                                                        },
-                                                        "optional": false,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "dep",
-                                        "type": {
-                                            "kind": "array_type",
-                                            "value": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "name",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "done",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "duration",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "hrDuration",
-                                        "type": {
-                                            "kind": "tuple_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "running",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": false,
@@ -1055,7 +678,7 @@
             "functionExpected": {
                 "name": "_resetAllTasks",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -1069,7 +692,7 @@
             "functionExpected": {
                 "name": "_resetSpecificTasks",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -1097,7 +720,7 @@
             "functionExpected": {
                 "name": "_runStep",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [],
@@ -1121,152 +744,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Task",
-                                "properties": [
-                                    {
-                                        "name": "fn",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "union_type",
-                                                    "value": [
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "Q.Promise<any>",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "stream.Stream",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        }
-                                                    ]
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "callback",
-                                                        "type": {
-                                                            "kind": "function_type",
-                                                            "value": {
-                                                                "name": "",
-                                                                "returnType": {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "void"
-                                                                },
-                                                                "parameters": [
-                                                                    {
-                                                                        "name": "err",
-                                                                        "type": {
-                                                                            "kind": "any_keyword",
-                                                                            "value": "any"
-                                                                        },
-                                                                        "optional": true,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    }
-                                                                ],
-                                                                "modifiers": [],
-                                                                "typeParameters": [],
-                                                                "_isConstructor": false
-                                                            }
-                                                        },
-                                                        "optional": false,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "dep",
-                                        "type": {
-                                            "kind": "array_type",
-                                            "value": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "name",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "done",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "duration",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "hrDuration",
-                                        "type": {
-                                            "kind": "tuple_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "running",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": false,
@@ -1284,7 +762,7 @@
             "functionExpected": {
                 "name": "_stopTask",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -1294,152 +772,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Task",
-                                "properties": [
-                                    {
-                                        "name": "fn",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "union_type",
-                                                    "value": [
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "Q.Promise<any>",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "stream.Stream",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        }
-                                                    ]
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "callback",
-                                                        "type": {
-                                                            "kind": "function_type",
-                                                            "value": {
-                                                                "name": "",
-                                                                "returnType": {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "void"
-                                                                },
-                                                                "parameters": [
-                                                                    {
-                                                                        "name": "err",
-                                                                        "type": {
-                                                                            "kind": "any_keyword",
-                                                                            "value": "any"
-                                                                        },
-                                                                        "optional": true,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    }
-                                                                ],
-                                                                "modifiers": [],
-                                                                "typeParameters": [],
-                                                                "_isConstructor": false
-                                                            }
-                                                        },
-                                                        "optional": false,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "dep",
-                                        "type": {
-                                            "kind": "array_type",
-                                            "value": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "name",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "done",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "duration",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "hrDuration",
-                                        "type": {
-                                            "kind": "tuple_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "running",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": false,
@@ -1536,7 +869,7 @@
             "functionExpected": {
                 "name": "_emitTaskDone",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -1546,152 +879,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Task",
-                                "properties": [
-                                    {
-                                        "name": "fn",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "union_type",
-                                                    "value": [
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "Q.Promise<any>",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "stream.Stream",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        }
-                                                    ]
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "callback",
-                                                        "type": {
-                                                            "kind": "function_type",
-                                                            "value": {
-                                                                "name": "",
-                                                                "returnType": {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "void"
-                                                                },
-                                                                "parameters": [
-                                                                    {
-                                                                        "name": "err",
-                                                                        "type": {
-                                                                            "kind": "any_keyword",
-                                                                            "value": "any"
-                                                                        },
-                                                                        "optional": true,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    }
-                                                                ],
-                                                                "modifiers": [],
-                                                                "typeParameters": [],
-                                                                "_isConstructor": false
-                                                            }
-                                                        },
-                                                        "optional": false,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "dep",
-                                        "type": {
-                                            "kind": "array_type",
-                                            "value": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "name",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "done",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "duration",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "hrDuration",
-                                        "type": {
-                                            "kind": "tuple_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "running",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": false,
@@ -1729,7 +917,7 @@
             "functionExpected": {
                 "name": "_runTask",
                 "returnType": {
-                    "kind": "primitive_keyword",
+                    "kind": "void_keyword",
                     "value": "void"
                 },
                 "parameters": [
@@ -1739,152 +927,7 @@
                             "kind": "type_interface",
                             "value": {
                                 "name": "Task",
-                                "properties": [
-                                    {
-                                        "name": "fn",
-                                        "type": {
-                                            "kind": "function_type",
-                                            "value": {
-                                                "name": "",
-                                                "returnType": {
-                                                    "kind": "union_type",
-                                                    "value": [
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "Q.Promise<any>",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "type_reference",
-                                                            "value": "stream.Stream",
-                                                            "text": ""
-                                                        },
-                                                        {
-                                                            "kind": "any_keyword",
-                                                            "value": "any"
-                                                        }
-                                                    ]
-                                                },
-                                                "parameters": [
-                                                    {
-                                                        "name": "callback",
-                                                        "type": {
-                                                            "kind": "function_type",
-                                                            "value": {
-                                                                "name": "",
-                                                                "returnType": {
-                                                                    "kind": "primitive_keyword",
-                                                                    "value": "void"
-                                                                },
-                                                                "parameters": [
-                                                                    {
-                                                                        "name": "err",
-                                                                        "type": {
-                                                                            "kind": "any_keyword",
-                                                                            "value": "any"
-                                                                        },
-                                                                        "optional": true,
-                                                                        "modifiers": [],
-                                                                        "dotDotDotToken": false
-                                                                    }
-                                                                ],
-                                                                "modifiers": [],
-                                                                "typeParameters": [],
-                                                                "_isConstructor": false
-                                                            }
-                                                        },
-                                                        "optional": false,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    }
-                                                ],
-                                                "modifiers": [],
-                                                "typeParameters": [],
-                                                "_isConstructor": false
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "dep",
-                                        "type": {
-                                            "kind": "array_type",
-                                            "value": {
-                                                "kind": "primitive_keyword",
-                                                "value": "string"
-                                            }
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "name",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "done",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "duration",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "hrDuration",
-                                        "type": {
-                                            "kind": "tuple_type",
-                                            "value": [
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                },
-                                                {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "number"
-                                                }
-                                            ]
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "running",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "boolean"
-                                        },
-                                        "optional": true,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
+                                "circular": true
                             }
                         },
                         "optional": false,
@@ -1902,9 +945,14 @@
         "optional-parameter",
         "type-function",
         "type-any",
+        "boolean",
         "type-array",
         "index-signature",
+        "string",
+        "type-union",
+        "void",
         "alias-type",
+        "number",
         "type-tuple",
         "call-signature",
         "dot-dot-dot-token",
