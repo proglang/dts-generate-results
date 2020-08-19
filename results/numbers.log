@@ -16,17 +16,17 @@
 
 6_get-runtime-information
 	Executed on the 946 working js modules.
-	442 modules for which runtime info could be extracted.
+	436 modules for which runtime info could be extracted.
 
 7_generate-declaration-files
-	Executed on 442 modules for which runtime info could be extracted.
-	297 generated declaration files.
+	Executed on 436 modules for which runtime info could be extracted.
+	299 generated declaration files.
 		- More than one code example for one module.
 
 	244 unique modules
 
 8_dts-compare
-	82 modules only with the implemented features
-	72 containing only solvable differences
-	10 containing non-solvable differences
-		8 of them because of the same bug: Methods and properties of JS objects `String` and `Array` were explicitly declared as part of another interface.
+	60 modules only with the implemented features
+	52 containing only solvable differences
+	8 containing non-solvable differences
+		7 of them because of the same bug: Methods and properties of JS objects `String` and `Array` were explicitly declared as part of another interface.
