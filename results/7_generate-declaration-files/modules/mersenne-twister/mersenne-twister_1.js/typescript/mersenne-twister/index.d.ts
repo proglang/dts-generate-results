@@ -1,7 +1,7 @@
 export = MersenneTwister;
 
 declare class MersenneTwister {
-	constructor(seed: undefined);
+	constructor(seed?: undefined);
 	random(): number;
 	random_int(): number;
 	random_incl(): number;

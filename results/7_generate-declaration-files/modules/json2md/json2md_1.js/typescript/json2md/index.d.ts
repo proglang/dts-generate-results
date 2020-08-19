@@ -1,11 +1,6 @@
 export = Json2md;
 
-declare function Json2md(data: string, prefix: undefined, _type: undefined): string;
-declare function Json2md(data: Json2md.I__data, prefix: string, _type: undefined): string;
-declare function Json2md(data: string, prefix: string, _type: undefined): string;
-declare function Json2md(data: object, prefix: string, _type: string): string;
-declare function Json2md(data: Array<any>, prefix: string, _type: string): string;
-declare function Json2md(data: Array<any>|Json2md.I__data, prefix: undefined, _type: undefined): string;
+declare function Json2md(data: string | Json2md.I__data | object | Array<any>, prefix?: string, _type?: string): string;
 declare namespace Json2md {
 	export interface I__data {
 		'0': object;

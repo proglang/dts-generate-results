@@ -1,3 +1,3 @@
 export = PromiseRetry;
 
-declare function PromiseRetry(fn: Function, options: undefined): Promise;
+declare function PromiseRetry(fn: Function, options?: undefined): Promise;

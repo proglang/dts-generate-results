@@ -1,3 +1,3 @@
 export = Fromnow;
 
-declare function Fromnow(date: string, opts: undefined): string;
+declare function Fromnow(date: string, opts?: undefined): string;

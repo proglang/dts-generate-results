@@ -1,1 +1,1 @@
-export function stringify(value: object, replacer: undefined, space: undefined, doNotResolve: undefined): string;
+export function stringify(value: object, replacer?: undefined, space?: undefined, doNotResolve?: undefined): string;

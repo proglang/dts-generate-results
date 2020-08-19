@@ -1,3 +1,3 @@
 export = Jsontoxml;
 
-declare function Jsontoxml(obj: object, options: undefined): string;
+declare function Jsontoxml(obj: object, options?: undefined): string;

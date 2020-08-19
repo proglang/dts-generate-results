@@ -1,3 +1,3 @@
 export = RandomString;
 
-declare function RandomString(opts: undefined): string;
+declare function RandomString(opts?: undefined): string;

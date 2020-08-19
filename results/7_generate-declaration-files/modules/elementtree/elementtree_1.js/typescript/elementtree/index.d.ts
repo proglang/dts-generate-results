@@ -56,8 +56,8 @@ export interface I__parent {
 	'_children': I___children | Array<any>;
 }
 
-export function elementtree(tag: string, attrib: undefined): Element;
-export function SubElement(parent: Element|I__parent, tag: string, attrib: undefined): Element;
+export function elementtree(tag: string, attrib?: undefined): Element;
+export function SubElement(parent: Element | I__parent, tag: string, attrib?: undefined): Element;
 export class ElementTree {
 	constructor(element: Element);
 	write(options: object): string;

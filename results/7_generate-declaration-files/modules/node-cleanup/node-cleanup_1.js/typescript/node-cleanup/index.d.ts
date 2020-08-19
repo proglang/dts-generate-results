@@ -1,3 +1,3 @@
 export = NodeCleanup;
 
-declare function NodeCleanup(cleanupHandler: Function, stderrMessages: undefined): void;
+declare function NodeCleanup(cleanupHandler: Function, stderrMessages?: undefined): void;

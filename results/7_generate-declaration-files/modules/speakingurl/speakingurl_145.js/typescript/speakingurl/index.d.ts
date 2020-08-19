@@ -7,15 +7,15 @@ declare namespace Speakingurl {
 	}
 
 	export interface I__opts {
-		'maintainCase': undefined;
-		'custom': undefined;
-		'truncate': undefined;
-		'uric': undefined;
-		'uricNoSlash': undefined;
-		'mark': undefined;
-		'symbols': undefined;
-		'lang': undefined;
-		'separator': undefined;
+		'maintainCase'?: undefined;
+		'custom'?: undefined;
+		'truncate'?: undefined;
+		'uric'?: undefined;
+		'uricNoSlash'?: undefined;
+		'mark'?: undefined;
+		'symbols'?: undefined;
+		'lang'?: undefined;
+		'separator'?: undefined;
 		'titleCase': I__titleCase | Array<any>;
 	}
 

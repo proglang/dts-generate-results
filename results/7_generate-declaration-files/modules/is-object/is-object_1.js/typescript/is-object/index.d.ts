@@ -1,6 +1,3 @@
 export = IsObject;
 
-declare function IsObject(x: null): boolean;
-declare function IsObject(x: object): boolean;
-declare namespace IsObject {
-}
+declare function IsObject(x: null | object): boolean;

@@ -1,11 +1,11 @@
 export interface I__options {
-	'code': undefined;
+	'code'?: undefined;
 	'locale': string;
-	'symbol': undefined;
-	'decimal': undefined;
-	'thousand': undefined;
-	'precision': undefined;
-	'format': undefined;
+	'symbol'?: undefined;
+	'decimal'?: undefined;
+	'thousand'?: undefined;
+	'precision'?: undefined;
+	'format'?: undefined;
 }
 
 export function format(value: number, options: I__options): string;

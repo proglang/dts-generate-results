@@ -6,10 +6,10 @@ declare class StatsDClient {
 
 declare namespace StatsDClient {
 	export interface I__options {
-		'tags': undefined;
-		'prefix': undefined | string;
-		'_socket': undefined;
-		'tcp': undefined;
+		'tags'?: undefined;
+		'prefix'?: string;
+		'_socket'?: undefined;
+		'tcp'?: undefined;
 		'host': string;
 	}
 

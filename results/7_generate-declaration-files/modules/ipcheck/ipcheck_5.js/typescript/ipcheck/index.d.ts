@@ -2,7 +2,7 @@ export = Ipcheck;
 
 declare class Ipcheck {
 	constructor(input: string);
-	match(cidr: |I__cidr): boolean;
+	match(cidr:  | Ipcheck.I__cidr): boolean;
 }
 
 declare namespace Ipcheck {

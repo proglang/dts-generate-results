@@ -8,5 +8,4 @@ export interface I__cfg {
 	'pattern': object | I__pattern;
 }
 
-export function config(cfg: I__cfg): void;
-export function config(cfg: undefined): void;
+export function config(cfg?: I__cfg): void;

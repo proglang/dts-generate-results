@@ -41,18 +41,16 @@ export interface I__978-1 {
 	'name': string;
 }
 
-export function parse(val: string, groups: undefined): object|null;
-export function asIsbn13(val: string, hyphen: undefined): string;
+export function parse(val: string, groups?: undefined): object | null;
+export function asIsbn13(val: string, hyphen?: undefined): string;
 export function asIsbn10(val: string, hyphen: boolean): string;
 export function hyphenate(val: string): string;
 export class IsbnUtils {
-	constructor(val: string, groups: I__groups);
+	constructor(val: string,groups: I__groups);
 	isValid(): boolean;
 	isIsbn10(): boolean;
 	isIsbn13(): boolean;
-	asIsbn10(hyphen: undefined): string;
-	asIsbn10(hyphen: boolean): string;
-	asIsbn13(hyphen: undefined): string;
-	asIsbn13(hyphen: boolean): string;
+	asIsbn10(hyphen?: boolean): string;
+	asIsbn13(hyphen?: boolean): string;
 }
 

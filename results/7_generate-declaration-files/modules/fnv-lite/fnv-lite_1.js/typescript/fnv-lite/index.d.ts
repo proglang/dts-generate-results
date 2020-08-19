@@ -4,8 +4,7 @@ declare class FNV {
 	constructor();
 	update(item: string): FNV;
 	digest(encoding: string): string;
-	_b64(safe: undefined): string;
-	_b64(safe: boolean): string;
+	_b64(safe?: boolean): string;
 	_b36(): string;
 }
 

@@ -1,1 +1,0 @@
-export function createClock(start: undefined, loopLimit: undefined): object;

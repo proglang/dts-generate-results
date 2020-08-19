@@ -1,7 +1,7 @@
 export = smtpapi;
 
 declare class smtpapi {
-	constructor(header: undefined);
+	constructor(header?: undefined);
 	addTo(to: string): void;
 	setUniqueArgs(val: object): void;
 	jsonString(): string;

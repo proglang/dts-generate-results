@@ -1,8 +1,8 @@
 export = FlakeIdgen;
 
 declare class FlakeIdgen {
-	constructor(options: undefined);
-	next(cb: undefined): Buffer;
+	constructor(options?: undefined);
+	next(cb?: undefined): Buffer;
 }
 
 declare namespace FlakeIdgen {

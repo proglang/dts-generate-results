@@ -1,7 +1,7 @@
 export = Gradient;
 
 declare class Gradient {
-	constructor(colors: Array<any>|Gradient.I__colors);
+	constructor(colors: Array<any> | Gradient.I__colors);
 	calcArray(value: number): Array<any>;
 	calcHex(value: number): string;
 }

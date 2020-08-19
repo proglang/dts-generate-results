@@ -1,3 +1,3 @@
 export = Randomcolor;
 
-declare function Randomcolor(options: undefined): string;
+declare function Randomcolor(options?: undefined): string;

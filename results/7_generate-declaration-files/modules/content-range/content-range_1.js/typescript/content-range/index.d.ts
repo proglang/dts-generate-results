@@ -1,7 +1,7 @@
 export interface I__options {
 	'length': number;
 	'first': number;
-	'last': undefined;
+	'last'?: undefined;
 	'limit': number;
 	'unit': string;
 }

@@ -5,6 +5,5 @@ declare class RandomSeed {
 }
 
 declare namespace RandomSeed {
-export function create(seed: undefined): Function;
-export function create(seed: string): Function;
+export function create(seed?: string): Function;
 }

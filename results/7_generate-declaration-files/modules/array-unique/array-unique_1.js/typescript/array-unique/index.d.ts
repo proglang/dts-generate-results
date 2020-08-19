@@ -1,6 +1,6 @@
 export = ArrayUnique;
 
-declare function ArrayUnique(arr: Array<any>|ArrayUnique.I__arr): Array<any>;
+declare function ArrayUnique(arr: Array<any> | ArrayUnique.I__arr): Array<any>;
 declare namespace ArrayUnique {
 	export interface I__arr {
 		'0': string;
@@ -18,5 +18,5 @@ declare namespace ArrayUnique {
 		'length': number;
 	}
 
-	export function uniqueImmutable(arr: Array<any>|I__arr__1): Array<any>;
+	export function uniqueImmutable(arr: Array<any> | ArrayUnique.I__arr__1): Array<any>;
 }

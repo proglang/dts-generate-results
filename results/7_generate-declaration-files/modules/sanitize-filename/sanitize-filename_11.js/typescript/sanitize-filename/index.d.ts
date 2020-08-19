@@ -1,3 +1,3 @@
 export = SanitizeFilename;
 
-declare function SanitizeFilename(input: string, options: undefined): string;
+declare function SanitizeFilename(input: string, options?: undefined): string;

@@ -1,4 +1,4 @@
-export interface I__byteString {
+export interface I__r {
 	'0': string;
 	'1': string;
 	'2': string;
@@ -7,14 +7,10 @@ export interface I__byteString {
 	'5': string;
 	'6': string;
 	'7': string;
-	'8': string;
-	'9': string;
-	'10': string;
-	'11': string;
 	'length': number;
 }
 
-export function atob(base64: string): string;
-export function btoa(byteString: string|I__byteString): string;
-export function toBase64(string: string): string;
-export function fromBase64(b64: string): string;
+export function atob(r: string): string;
+export function btoa(r: string | I__r): string;
+export function toBase64(r: string): string;
+export function fromBase64(r: string): string;

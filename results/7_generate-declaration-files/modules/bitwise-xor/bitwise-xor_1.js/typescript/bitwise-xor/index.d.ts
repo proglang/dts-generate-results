@@ -1,6 +1,6 @@
 export = BitwiseXor;
 
-declare function BitwiseXor(a: Buffer|BitwiseXor.I__a, b: Buffer|BitwiseXor.I__b): Buffer;
+declare function BitwiseXor(a: Buffer | BitwiseXor.I__a, b: Buffer | BitwiseXor.I__b): Buffer;
 declare namespace BitwiseXor {
 	export interface I__a {
 		'0': number;

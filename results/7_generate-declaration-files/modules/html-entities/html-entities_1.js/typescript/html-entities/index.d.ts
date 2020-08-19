@@ -23,9 +23,9 @@ export interface I__str__3 {
 
 export class XmlEntities {
 	constructor();
-	encode(str: string|I__str): string;
-	encodeNonUTF(str: string|I__str__1): string;
-	encodeNonASCII(str: string|I__str__2): string;
-	decode(str: string|I__str__3): string;
+	encode(str: string | I__str): string;
+	encodeNonUTF(str: string | I__str__1): string;
+	encodeNonASCII(str: string | I__str__2): string;
+	decode(str: string | I__str__3): string;
 }
 

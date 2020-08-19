@@ -1,6 +1,6 @@
 export = Mess;
 
-declare function Mess(array: Array<any>|Mess.I__array): Array<any>;
+declare function Mess(array: Array<any> | Mess.I__array): Array<any>;
 declare namespace Mess {
 	export interface I__array {
 		'0': number;

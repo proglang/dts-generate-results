@@ -1,7 +1,7 @@
 export = Timer;
 
 declare class Timer {
-	constructor(start: undefined);
+	constructor(start?: undefined);
 }
 
 declare namespace Timer {

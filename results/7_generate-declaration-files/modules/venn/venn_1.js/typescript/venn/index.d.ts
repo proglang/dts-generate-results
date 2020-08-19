@@ -1,1 +1,1 @@
-export function create(e: Array<any>, t: undefined): Array<any>;
+export function create(e: Array<any>, t?: undefined): Array<any>;

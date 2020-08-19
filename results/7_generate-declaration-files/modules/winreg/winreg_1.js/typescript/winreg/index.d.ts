@@ -7,10 +7,10 @@ declare class Registry {
 
 declare namespace Registry {
 	export interface I__options {
-		'host': undefined | string;
+		'host'?: string;
 		'hive': string;
 		'key': string;
-		'arch': undefined | null;
+		'arch'?: null;
 	}
 
 }

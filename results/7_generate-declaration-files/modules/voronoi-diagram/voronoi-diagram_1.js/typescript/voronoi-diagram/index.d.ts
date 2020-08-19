@@ -1,6 +1,6 @@
 export = VoronoiDiagram;
 
-declare function VoronoiDiagram(points: Array<any>|VoronoiDiagram.I__points): object;
+declare function VoronoiDiagram(points: Array<any> | VoronoiDiagram.I__points): object;
 declare namespace VoronoiDiagram {
 	export interface I__0 {
 		'0': number;

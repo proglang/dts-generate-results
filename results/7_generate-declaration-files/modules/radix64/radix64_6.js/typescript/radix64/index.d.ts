@@ -1,1 +1,1 @@
-export function radix64(number: number, method: undefined): string;
+export function radix64(number: number, method?: undefined): string;
