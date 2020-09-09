@@ -1,4 +1,4 @@
-b64-lite,module,0,0,1,0,0,0,0,0,0
+b64-lite,module,0,0,0,0,0,0,0,0,0
 fast-stats,module,0,0,0,0,0,0,0,0,0
 fast-stats,module,0,0,0,0,0,0,0,0,0
 js-to-java,module-function,0,1,1,0,0,0,0,0,1
@@ -32,7 +32,7 @@ temp,module,0,0,0,0,0,0,3,0,0
 countries-and-timezones,module,0,0,0,0,0,4,0,0,0
 countries-and-timezones,module,0,0,0,0,0,5,0,0,0
 countries-and-timezones,module,0,0,0,0,0,5,0,0,0
-js-levenshtein,module-function,0,0,2,0,0,0,0,0,1
+js-levenshtein,module-function,0,0,0,0,0,0,0,0,1
 jsonapi-serializer,module,0,0,0,0,0,0,0,0,0
 week,module-function,0,1,0,0,0,0,0,0,1
 seededshuffle,module,0,4,12,4,0,0,4,0,0
@@ -89,7 +89,7 @@ is-relative,module-function,0,0,0,0,0,0,0,0,1
 venn,module,0,0,0,0,0,8,1,0,0
 dirname-regex,module-function,0,0,0,0,0,0,0,0,1
 format-util,module-function,0,0,0,0,2,0,0,0,1
-replace-ext,module-function,0,0,1,0,0,0,0,0,1
+replace-ext,module-function,0,0,0,0,0,0,0,0,1
 dotdir-regex,module-function,0,0,0,0,0,0,0,0,1
 almost-equal,module-function,0,2,0,0,0,0,0,0,1
 then-eos,module-function,0,0,1,0,0,0,0,0,1
@@ -168,7 +168,7 @@ find-parent-dir,module-function,0,0,1,0,0,0,0,0,1
 semaphore,module-function,0,1,0,0,0,0,0,0,1
 semaphore,module-function,0,1,0,0,0,0,0,0,1
 semaphore,module-function,0,1,0,0,0,0,0,0,1
-repeat-string,module-function,0,0,1,0,0,0,0,0,1
+repeat-string,module-function,0,0,0,0,0,0,0,0,1
 abs,module-function,0,0,0,0,0,0,0,0,0
 shallowequal,module-function,0,2,0,2,0,0,0,0,1
 stream-meter,module-function,0,1,0,0,0,0,0,0,1
@@ -273,14 +273,14 @@ random-seed,module,1,0,0,0,0,0,0,0,0
 random-seed,module,1,0,0,0,0,0,0,0,0
 random-seed,module,1,0,0,0,0,0,0,0,0
 random-seed,module,1,0,0,0,0,0,0,0,0
-luaparse,module,0,1,4,1,0,0,2,1,0
+luaparse,module,0,1,2,1,0,0,2,1,0
 no-scroll,module,0,0,0,0,0,0,3,0,0
 type-check,module,0,0,0,0,0,0,2,0,0
 accept-language-parser,module,0,1,1,0,1,0,0,0,0
 orchestrator,module-class,0,0,0,0,0,19,1,0,0
 timer-machine,module-class,0,1,0,0,0,6,1,0,0
 timer-machine,module-class,0,1,0,0,0,12,0,0,0
-normalize-path,module-function,0,1,1,0,0,0,0,0,1
+normalize-path,module-function,0,1,0,0,0,0,0,0,1
 ipcheck,module,1,0,0,0,0,0,0,0,0
 ipcheck,module,1,0,0,0,0,0,0,0,0
 statsd-client,module-class,0,0,0,5,0,12,0,0,0

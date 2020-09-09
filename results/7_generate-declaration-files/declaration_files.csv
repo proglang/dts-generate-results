@@ -13,9 +13,9 @@ array-sort;3
 array-sort;3
 array-sort;3
 array-unique;21
-b64-lite;16
+b64-lite;4
 b_;3
-balanced-match;9
+balanced-match;5
 bash-glob;1
 bind-ponyfill;8
 bintrees;6
@@ -97,8 +97,8 @@ glob-parent;3
 glob-to-regexp;10
 global-paths;3
 hooker;1
-html-entities;31
-html-entities;30
+html-entities;8
+html-entities;8
 htmlescape;3
 htmlparser2;15
 humanize-duration;3
@@ -120,12 +120,12 @@ is-relative;3
 is-running;3
 is-touch-device;3
 is-uuid;5
-is-valid-glob;8
+is-valid-glob;3
 is-valid-path;3
 is-windows;3
 isarray;3
 isbn-utils;56
-js-levenshtein;12
+js-levenshtein;3
 js-string-escape;3
 js-to-java;10
 jsend;5
@@ -145,7 +145,7 @@ localized-countries;3
 localized-countries;3
 localized-countries;3
 logg;1
-luaparse;7
+luaparse;3
 mailcheck;15
 markdown-it;3
 memoizee;8
@@ -170,7 +170,7 @@ node-schedule;10
 nomnom;1
 nomnom;1
 nopt;5
-normalize-path;9
+normalize-path;3
 nssm;3
 nssm;3
 nssm;3
@@ -226,8 +226,8 @@ recursive-readdir;3
 redis-mock;7
 remove-markdown;3
 repeat-element;3
-repeat-string;8
-replace-ext;8
+repeat-string;3
+replace-ext;3
 requires-port;3
 rfc2047;2
 rison;3
