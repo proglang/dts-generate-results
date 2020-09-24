@@ -26,7 +26,6 @@
 	244 unique modules
 
 8_dts-compare
-	60 modules only with the implemented features
-	52 containing only solvable differences
-	8 containing non-solvable differences
-		7 of them because of the same bug: Methods and properties of JS objects `String` and `Array` were explicitly declared as part of another interface.
+	70 modules only with the implemented features
+	70 containing only solvable differences
+	0 containing non-solvable differences
