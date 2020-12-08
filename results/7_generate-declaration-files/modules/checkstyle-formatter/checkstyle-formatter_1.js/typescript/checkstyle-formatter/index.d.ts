@@ -1,3 +1,2 @@
 export = CheckstyleFormatter;
-
-declare function CheckstyleFormatter(results: Array<any>): string;
+declare function CheckstyleFormatter(results: any[]): string;

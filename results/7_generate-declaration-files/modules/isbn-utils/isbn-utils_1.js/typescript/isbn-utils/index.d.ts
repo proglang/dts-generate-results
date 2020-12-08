@@ -1,7 +1,7 @@
 export interface I__0 {
+	'length': number;
 	'0': I__0 | string;
 	'1': string;
-	'length': number;
 }
 
 export interface I__1 {
@@ -20,11 +20,11 @@ export interface I__3 {
 }
 
 export interface I__ranges {
+	'length': number;
 	'0': I__0 | Array<any>;
 	'1': I__1 | Array<any>;
 	'2': I__2 | Array<any>;
 	'3': I__3 | Array<any>;
-	'length': number;
 }
 
 export interface I__978-4 {

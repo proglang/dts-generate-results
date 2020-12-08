@@ -1,3 +1,2 @@
 export = GlobalPaths;
-
-declare function GlobalPaths(cwd?: undefined): Array<any>;
+declare function GlobalPaths(cwd?: undefined): any[];

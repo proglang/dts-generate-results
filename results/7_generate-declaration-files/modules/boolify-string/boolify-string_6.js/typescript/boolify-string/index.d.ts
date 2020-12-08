@@ -1,3 +1,2 @@
 export = BoolifyString;
-
-declare function BoolifyString(obj?: string | boolean | object | number | Array<any> | null | String): boolean;
+declare function BoolifyString(obj?: any[] | String | boolean | null | number | object | string): boolean;

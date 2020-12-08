@@ -1,3 +1,2 @@
 export = ArraySort;
-
-declare function ArraySort(arr: Array<any>, props: Array<any>, opts?: undefined): Array<any>;
+declare function ArraySort(arr: any[], props: any[], opts?: undefined): any[];

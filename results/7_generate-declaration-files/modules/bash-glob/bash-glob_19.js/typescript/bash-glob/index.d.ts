@@ -1,1 +1,1 @@
-export function sync(pattern: string | Array<any>, options: object): Array<any>;
+export function sync(pattern: Array<any> | string, options: object): Array<any>;

@@ -1,3 +1,2 @@
 export = ArrUnion;
-
-declare function ArrUnion(init: Array<any>): Array<any>;
+declare function ArrUnion(init: any[]): any[];

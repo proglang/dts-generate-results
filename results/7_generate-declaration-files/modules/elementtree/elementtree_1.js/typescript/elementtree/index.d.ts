@@ -1,4 +1,5 @@
 export interface I___children {
+	'length': number;
 	'0': I__0;
 	'1': I__1;
 	'2': I__2;
@@ -9,7 +10,6 @@ export interface I___children {
 	'7': I__7;
 	'8': I__8;
 	'9': I__9;
-	'length': number;
 }
 
 export interface I__0 {

@@ -1,3 +1,2 @@
 export = StreamArray;
-
-declare function StreamArray(list: Array<any>): StreamArray;
+declare function StreamArray(list: any[]): StreamArray;

@@ -1,3 +1,2 @@
 export = ParseUnit;
-
-declare function ParseUnit(str: string, out?: undefined): Array<any>;
+declare function ParseUnit(str: string, out?: undefined): any[];

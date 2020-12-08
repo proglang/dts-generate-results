@@ -1,9 +1,7 @@
 export = Uniq;
-
-declare function Uniq(list: Array<any> | Uniq.I__list, compare?: undefined, sorted?: undefined): Array<any>;
+declare function Uniq(list: any[] | Uniq.I__list, compare?: undefined, sorted?: undefined): any[];
 declare namespace Uniq {
-	export interface I__list {
-		'length': number;
-	}
-
+    export interface I__list {
+        length: number;
+    }
 }

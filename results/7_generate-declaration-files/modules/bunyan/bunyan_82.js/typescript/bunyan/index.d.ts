@@ -1,7 +1,7 @@
 export = Logger;
 
 declare class Logger {
-	constructor(options: Logger | Logger.I__options,_childOptions: Logger.I___childOptions,_childSimple?: undefined);
+	constructor(options: Logger.I__options | Logger,_childOptions: Logger.I___childOptions,_childSimple?: undefined);
 	info(): void;
 	_emit(rec: Logger.I__rec, noemit?: undefined): string;
 	child(options: object, simple?: undefined): Logger;

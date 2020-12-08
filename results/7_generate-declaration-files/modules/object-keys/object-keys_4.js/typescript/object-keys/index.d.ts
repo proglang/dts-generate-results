@@ -1,3 +1,2 @@
 export = ObjectKeys;
-
-declare function ObjectKeys(o: object): Array<any>;
+declare function ObjectKeys(o: object): any[];

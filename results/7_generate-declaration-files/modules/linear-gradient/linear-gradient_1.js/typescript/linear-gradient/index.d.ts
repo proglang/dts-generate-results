@@ -8,10 +8,10 @@ declare class Gradient {
 
 declare namespace Gradient {
 	export interface I__0 {
+		'length': number;
 		'0': number;
 		'1': number;
 		'2': number;
-		'length': number;
 	}
 
 	export interface I__1 {
@@ -33,13 +33,13 @@ declare namespace Gradient {
 	}
 
 	export interface I__colors {
+		'length': number;
 		'0': I__0 | Array<any>;
 		'1': I__1 | Array<any>;
 		'2': I__2 | Array<any>;
 		'3': Array<any>;
 		'4': Array<any>;
 		'5': I__5 | Array<any>;
-		'length': number;
 	}
 
 }

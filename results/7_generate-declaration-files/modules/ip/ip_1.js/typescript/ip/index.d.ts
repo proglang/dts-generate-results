@@ -1,4 +1,5 @@
 export interface I__buff {
+	'length': number;
 	'0': number;
 	'1': number;
 	'2': number;
@@ -7,7 +8,6 @@ export interface I__buff {
 	'65': number;
 	'66': number;
 	'67': number;
-	'length': number;
 }
 
 export function address(name?: undefined, family?: undefined): void;

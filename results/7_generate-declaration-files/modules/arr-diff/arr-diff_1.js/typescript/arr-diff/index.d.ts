@@ -1,3 +1,2 @@
 export = ArrDiff;
-
-declare function ArrDiff(arr: Array<any>): Array<any>;
+declare function ArrDiff(arr: any[]): any[];
