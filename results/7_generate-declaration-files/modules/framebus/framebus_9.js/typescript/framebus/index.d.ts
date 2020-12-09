@@ -1,9 +1,5 @@
 export = Framebus;
-
 declare class Framebus {
-	constructor(origin?: undefined);
-	on(event: string, fn: Function): boolean;
-}
-
-declare namespace Framebus {
+    constructor(origin?: undefined);
+    on(event: string, fn: Function): boolean;
 }

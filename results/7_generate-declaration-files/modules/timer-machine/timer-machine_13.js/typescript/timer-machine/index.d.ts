@@ -1,9 +1,7 @@
 export = Timer;
-
 declare class Timer {
-	constructor(start?: undefined);
+    constructor(start?: undefined);
 }
-
 declare namespace Timer {
-export function get(name: string): Timer;
+    export function get(name: string): Timer;
 }

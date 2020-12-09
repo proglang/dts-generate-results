@@ -1,9 +1,7 @@
 export = SteamID;
-
 declare class SteamID {
-	constructor(input?: undefined);
+    constructor(input?: undefined);
 }
-
 declare namespace SteamID {
-export function fromIndividualAccountID(accountid: number): SteamID;
+    export function fromIndividualAccountID(accountid: number): SteamID;
 }
