@@ -1,2 +1,2 @@
-export function query(obj: Array<any>, string: string, count?: undefined): Array<any>;
-export function nodes(obj: Array<any>, string: string, count?: undefined): Array<any>;
+export function query(obj: any[], string: string, count?: undefined): any[];
+export function nodes(obj: any[], string: string, count?: undefined): any[];

@@ -1,1 +1,1 @@
-export function toDataURL(text: Array<any>, opts: Function, cb?: undefined): void;
+export function toDataURL(text: any[], opts: Function, cb?: undefined): void;

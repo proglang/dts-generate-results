@@ -1,18 +1,16 @@
 export interface I__config {
-	'batch_size': number;
+    batch_size: number;
 }
-
 export interface I__options {
-	'truncated_data': object;
-	'endpoint': string;
-	'batcher'?: undefined;
-	'should_send_immediately'?: undefined;
-	'send_request_options': object;
+    truncated_data: object;
+    endpoint: string;
+    batcher?: undefined;
+    should_send_immediately?: undefined;
+    send_request_options: object;
 }
-
 export function _init(token: string, config?: undefined, name: string): void;
 export function set_config(config: I__config): void;
-export function get_config(prop_name: string): string | boolean | null | number | Function | void | Array<any>;
+export function get_config(prop_name: string): string | boolean | null | number | Function | void | any[];
 export function _gdpr_init(): void;
 export function has_opted_out_tracking(options?: undefined): boolean;
 export function _gdpr_call_func(func: Function, options?: undefined): boolean;

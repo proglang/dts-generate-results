@@ -1,4 +1,3 @@
 export class JsonapiSerializer {
-	constructor(opts: object);
+    constructor(opts: object);
 }
-

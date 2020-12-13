@@ -1,15 +1,14 @@
 export interface I__buff {
-	'length': number;
-	'0': number;
-	'1': number;
-	'2': number;
-	'3': number;
-	'64': number;
-	'65': number;
-	'66': number;
-	'67': number;
+    length: number;
+    0: number;
+    1: number;
+    2: number;
+    3: number;
+    64: number;
+    65: number;
+    66: number;
+    67: number;
 }
-
 export function address(name?: undefined, family?: undefined): void;
 export function isLoopback(addr: string): boolean;
 export function isEqual(a: string, b: string): boolean;

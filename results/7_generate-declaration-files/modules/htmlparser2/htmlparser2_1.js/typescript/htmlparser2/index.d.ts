@@ -1,15 +1,12 @@
 export interface I__cbs {
-	'onparserinit'?: undefined;
+    onparserinit?: undefined;
 }
-
 export interface I__options {
-	'xmlMode'?: undefined;
-	'Tokenizer'?: undefined;
+    xmlMode?: undefined;
+    Tokenizer?: undefined;
 }
-
 export class Parser {
-	constructor(cbs: I__cbs,options: I__options);
-	write(): void;
-	end(): void;
+    constructor(cbs: I__cbs, options: I__options);
+    write(): void;
+    end(): void;
 }
-

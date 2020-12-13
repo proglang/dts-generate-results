@@ -1,10 +1,8 @@
 export interface I__spec {
-	'rule'?: undefined;
+    rule?: undefined;
 }
-
 export function scheduleJob(): null;
 export class Job {
-	constructor(name: null,job: Function,callback?: undefined);
-	schedule(spec: Date | I__spec): boolean;
+    constructor(name: null, job: Function, callback?: undefined);
+    schedule(spec: Date | I__spec): boolean;
 }
-
