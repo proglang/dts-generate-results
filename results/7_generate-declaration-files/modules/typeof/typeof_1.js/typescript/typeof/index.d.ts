@@ -1,10 +1,10 @@
 export = Typeof;
-declare function Typeof(object: any[] | Buffer | Typeof.I__object | MyClass | null | string): string;
+declare function Typeof(object: string | null | any[] | Typeof.I__object | MyClass | Buffer): string;
 declare namespace Typeof {
     export interface I__constructor {
         name: string;
     }
     export interface I__object {
-        constructor: Typeof.I__constructor | Function;
+        constructor: Function | Typeof.I__constructor;
     }
 }

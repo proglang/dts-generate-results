@@ -1,5 +1,5 @@
 export = Tableify;
-declare function Tableify(obj: any[] | Tableify.I__obj | number | string, columns?: any[] | boolean, parents?: any[]): string;
+declare function Tableify(obj: string | number | any[] | Tableify.I__obj, columns?: any[] | boolean, parents?: any[]): string;
 declare namespace Tableify {
     export interface I__a {
         constructor: Function | Tableify.I__constructor;
@@ -7,8 +7,8 @@ declare namespace Tableify {
     export interface I__obj {
         a: number | Tableify.I__a;
         key2: number | Tableify.I__key2;
-        key1: Tableify.I__key1 | string;
-        someArrayOfObjects: Tableify.I__someArrayOfObjects | any[];
+        key1: string | Tableify.I__key1;
+        someArrayOfObjects: any[] | Tableify.I__someArrayOfObjects;
     }
     export interface I__key2 {
         constructor: Function;
@@ -26,12 +26,12 @@ declare namespace Tableify {
         constructor: Function;
     }
     export interface I__0 {
-        a: Tableify.I__a;
-        b: Tableify.I__b;
-        c: Tableify.I__c;
+        a: number | Tableify.I__a;
+        b: number | Tableify.I__b;
+        c: number | Tableify.I__c;
     }
     export interface I__someArrayOfObjects {
-        constructor: Tableify.I__constructor | Function;
-        0: object | Tableify.I__0;
+        constructor: Function | Tableify.I__constructor;
+        0: Tableify.I__0;
     }
 }

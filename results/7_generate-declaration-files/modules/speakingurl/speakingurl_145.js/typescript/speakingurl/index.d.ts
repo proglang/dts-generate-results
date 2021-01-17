@@ -1,9 +1,6 @@
 export = Speakingurl;
 declare function Speakingurl(input: string, opts: Speakingurl.I__opts): string;
 declare namespace Speakingurl {
-    export interface I__titleCase {
-        length: number;
-    }
     export interface I__opts {
         maintainCase?: undefined;
         custom?: undefined;
@@ -14,7 +11,7 @@ declare namespace Speakingurl {
         symbols?: undefined;
         lang?: undefined;
         separator?: undefined;
-        titleCase: Speakingurl.I__titleCase | any[];
+        titleCase: any[];
     }
     export function createSlug(opts: object): Function;
 }

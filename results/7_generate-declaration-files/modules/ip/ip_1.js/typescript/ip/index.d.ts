@@ -15,7 +15,7 @@ export function isEqual(a: string, b: string): boolean;
 export function toBuffer(ip: string, buff?: Buffer, offset?: number): Buffer;
 export function isV4Format(ip: string): boolean;
 export function isV6Format(ip: string): boolean;
-export function toString(buff: Buffer | I__buff, offset?: number, length?: number): string;
+export function toString(buff: I__buff | Buffer, offset?: number, length?: number): string;
 export function fromPrefixLen(prefixlen: number, family?: undefined): string;
 export function mask(addr: string, mask: string): string;
 export function cidr(cidrString: string): string;

@@ -1,2 +1,2 @@
 export = HumanizeMs;
-declare function HumanizeMs(t: number | string): number;
+declare function HumanizeMs(t: string | number): number;

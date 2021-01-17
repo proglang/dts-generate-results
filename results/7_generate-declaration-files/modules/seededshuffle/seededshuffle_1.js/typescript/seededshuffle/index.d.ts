@@ -1,8 +1,8 @@
-export function shuffle(arr: any[], seed: number | string, copy: boolean): any[];
-export function shuffle(arr: any[], seed: Function | boolean, copy: boolean): null;
-export function getType(obj: any[] | Function | boolean | null | number | string): string;
-export function setSeed(seed: number | string): number;
-export function setSeed(seed: Function | boolean): boolean;
+export function shuffle(arr: any[], seed: string | number, copy: boolean): any[];
+export function shuffle(arr: any[], seed: boolean | Function, copy: boolean): null;
+export function getType(obj: string | null | number | any[] | boolean | Function): string;
+export function setSeed(seed: string | number): number;
+export function setSeed(seed: boolean | Function): boolean;
 export function genMap(size: number): any[];
-export function unshuffle(arr: any[], seed: number | string, copy: boolean): any[];
-export function unshuffle(arr: null, seed: Function | boolean, copy: boolean): null;
+export function unshuffle(arr: any[], seed: string | number, copy: boolean): any[];
+export function unshuffle(arr: null, seed: boolean | Function, copy: boolean): null;

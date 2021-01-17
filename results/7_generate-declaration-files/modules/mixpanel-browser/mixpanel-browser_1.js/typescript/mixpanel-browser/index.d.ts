@@ -10,7 +10,7 @@ export interface I__options {
 }
 export function _init(token: string, config?: undefined, name: string): void;
 export function set_config(config: I__config): void;
-export function get_config(prop_name: string): string | boolean | null | number | Function | void | any[];
+export function get_config(prop_name: string): string | null | number | void | any[] | boolean | Function;
 export function _gdpr_init(): void;
 export function has_opted_out_tracking(options?: undefined): boolean;
 export function _gdpr_call_func(func: Function, options?: undefined): boolean;

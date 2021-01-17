@@ -4,6 +4,6 @@ export interface I__pattern {
     string: string;
 }
 export interface I__cfg {
-    pattern: object | I__pattern;
+    pattern: I__pattern;
 }
 export function config(cfg?: I__cfg): void;

@@ -1,1 +1,1 @@
-export function sync(pattern: any[] | string, options: object): any[];
+export function sync(pattern: string | any[], options: object): any[];

@@ -8,9 +8,9 @@ declare namespace ExifImage {
         name: string;
     }
     export interface I__image {
-        constructor: ExifImage.I__constructor | Function;
+        constructor: Function | ExifImage.I__constructor;
     }
     export interface I__options {
-        image: ExifImage.I__image;
+        image: string | ExifImage.I__image;
     }
 }

@@ -1,5 +1,5 @@
 export = JsToJava;
-declare function JsToJava(className: JsToJava.I__type | string, value: boolean | number | object): object;
+declare function JsToJava(className: string | JsToJava.I__type, value: number | object | boolean): object;
 declare namespace JsToJava {
     export interface I__type {
         name: string;

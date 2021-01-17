@@ -4,5 +4,5 @@ export interface I__spec {
 export function scheduleJob(): null;
 export class Job {
     constructor(name: null, job: Function, callback?: undefined);
-    schedule(spec: Date | I__spec): boolean;
+    schedule(spec: I__spec | Date): boolean;
 }

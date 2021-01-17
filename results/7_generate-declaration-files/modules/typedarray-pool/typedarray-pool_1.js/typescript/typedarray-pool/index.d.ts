@@ -3,7 +3,7 @@ export interface I__buffer {
     byteLength: number;
 }
 export interface I__array {
-    buffer: I__buffer;
+    buffer: ArrayBuffer | I__buffer;
 }
 export function malloc(n: number, dtype: string): Float32Array;
 export function mallocFloat(n: number): Float32Array;

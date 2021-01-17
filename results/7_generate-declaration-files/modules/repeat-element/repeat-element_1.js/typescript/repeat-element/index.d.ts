@@ -1,2 +1,2 @@
 export = RepeatElement;
-declare function RepeatElement(ele: null | number | object | string, num: number): any[];
+declare function RepeatElement(ele: string | null | number | object, num: number): any[];
