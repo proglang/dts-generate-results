@@ -1,2 +1,2 @@
 export = FsReaddirRecursive;
-declare function FsReaddirRecursive(root: string, filter?: Function, files?: any[], prefix?: string): any[];
+declare function FsReaddirRecursive(root: string, filter?: (((x: string) => boolean)) | Function, files?: any[], prefix?: string): any[];

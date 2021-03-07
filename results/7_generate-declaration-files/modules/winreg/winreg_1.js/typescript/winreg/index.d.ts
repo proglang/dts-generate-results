@@ -1,7 +1,7 @@
 export = Registry;
 declare class Registry {
     constructor(options: Registry.I__options);
-    values(cb: Function): Registry;
+    values(cb: ((err: Error, items?: undefined) => void)): Registry;
 }
 declare namespace Registry {
     export interface I__options {

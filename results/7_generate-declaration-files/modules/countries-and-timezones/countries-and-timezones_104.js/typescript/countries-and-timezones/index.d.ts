@@ -1,2 +1,2 @@
-export function getTimezonesForCountry(countryId: string): any[];
-export function getCountry(id: string): object;
+export function getTimezonesForCountry(a: string): any[];
+export function M(a: string): object;

@@ -1,2 +1,2 @@
 export = BumpRegex;
-declare function BumpRegex(options: string, cb: Function): void;
+declare function BumpRegex(options: string, cb: ((err: string | null, out?: object) => void)): void;

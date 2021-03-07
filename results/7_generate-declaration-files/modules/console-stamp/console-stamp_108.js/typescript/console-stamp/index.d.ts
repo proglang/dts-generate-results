@@ -3,10 +3,11 @@ declare function ConsoleStamp(con: ConsoleStamp.I__con, options: object, prefix_
 declare namespace ConsoleStamp {
     export interface I__con {
         __ts__?: undefined;
-        debug: Function;
+        log: Function;
         info: Function;
         warn: Function;
         error: Function;
-        fatal: Function;
+        dir: Function;
+        assert: Function;
     }
 }

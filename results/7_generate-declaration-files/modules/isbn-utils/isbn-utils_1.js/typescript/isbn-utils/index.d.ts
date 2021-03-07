@@ -8,6 +8,7 @@ export interface I__groups {
 }
 export interface I__978-1 {
     name: string;
+    ranges: string[][];
 }
 export function parse(val: string, groups?: undefined): null | object;
 export function asIsbn13(val: string, hyphen?: undefined): string;
