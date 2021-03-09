@@ -1,5 +1,5 @@
 {
-    "module": "recursive-readdir",
+    "module": "typpy",
     "template": "module",
     "differences": [
         {
@@ -10,14 +10,18 @@
     ],
     "tags": [
         "call-signature",
-        "string",
+        "literals",
         "optional-parameter",
-        "readonly-array",
-        "type-array",
-        "type-function",
+        "undefined",
+        "string",
         "boolean",
-        "alias-type",
+        "type-array",
+        "type-any",
+        "type-reference-function",
+        "type-function",
         "type-union",
+        "number",
+        "object",
         "void"
     ]
 }

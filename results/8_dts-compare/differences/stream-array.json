@@ -6,34 +6,11 @@
             "code": "export-assignment-is-different",
             "exportAssignmentExpected": "streamify",
             "exportAssignmentActual": "StreamArray"
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "array",
-                "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<any>",
-                    "text": ""
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "list",
-                "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
         }
     ],
-    "tags": []
+    "tags": [
+        "readonly-array",
+        "type-array",
+        "type-any"
+    ]
 }

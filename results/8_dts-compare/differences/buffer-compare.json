@@ -51,11 +51,6 @@
                     "kind": "union_type",
                     "value": [
                         {
-                            "kind": "type_reference",
-                            "value": "Buffer",
-                            "text": ""
-                        },
-                        {
                             "kind": "type_interface",
                             "value": {
                                 "name": "I__a",
@@ -78,6 +73,11 @@
                                 "indexSignatures": [],
                                 "typeParameters": []
                             }
+                        },
+                        {
+                            "kind": "type_reference",
+                            "value": "Buffer",
+                            "text": ""
                         }
                     ]
                 },

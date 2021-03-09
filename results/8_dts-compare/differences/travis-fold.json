@@ -98,11 +98,8 @@
             "parameterExpected": {
                 "name": "ret",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "primitive_keyword",
-                        "value": "string"
-                    }
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -111,11 +108,8 @@
             "parameterActual": {
                 "name": "ret",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -127,11 +121,8 @@
             "parameterExpected": {
                 "name": "ret",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "primitive_keyword",
-                        "value": "string"
-                    }
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -140,11 +131,8 @@
             "parameterActual": {
                 "name": "ret",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],

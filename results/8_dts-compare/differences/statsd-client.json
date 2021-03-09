@@ -7,8 +7,8 @@
             "parameterExtra": {
                 "name": "tags",
                 "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
+                    "kind": "object_keyword",
+                    "value": "object"
                 },
                 "optional": true,
                 "modifiers": [],
@@ -70,7 +70,7 @@
         {
             "code": "function-missing",
             "functionExpected": {
-                "name": "counter",
+                "name": "decrement",
                 "returnType": {
                     "kind": "primitive_keyword",
                     "value": "this"
@@ -92,7 +92,7 @@
                             "kind": "primitive_keyword",
                             "value": "number"
                         },
-                        "optional": false,
+                        "optional": true,
                         "modifiers": [],
                         "dotDotDotToken": false
                     },
@@ -134,150 +134,6 @@
                                     }
                                 ],
                                 "typeParameters": []
-                            }
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-missing",
-            "functionExpected": {
-                "name": "increment",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "this"
-                },
-                "parameters": [
-                    {
-                        "name": "metric",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "delta",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "tags",
-                        "type": {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "Tags",
-                                "circular": true
-                            }
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-missing",
-            "functionExpected": {
-                "name": "decrement",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "this"
-                },
-                "parameters": [
-                    {
-                        "name": "metric",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "delta",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "tags",
-                        "type": {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "Tags",
-                                "circular": true
-                            }
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-missing",
-            "functionExpected": {
-                "name": "gauge",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "this"
-                },
-                "parameters": [
-                    {
-                        "name": "name",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "value",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "tags",
-                        "type": {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "Tags",
-                                "circular": true
                             }
                         },
                         "optional": true,
@@ -389,112 +245,6 @@
         {
             "code": "function-missing",
             "functionExpected": {
-                "name": "timing",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "this"
-                },
-                "parameters": [
-                    {
-                        "name": "name",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "startOrDuration",
-                        "type": {
-                            "kind": "union_type",
-                            "value": [
-                                {
-                                    "kind": "type_reference",
-                                    "value": "Date",
-                                    "text": ""
-                                },
-                                {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                }
-                            ]
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "tags",
-                        "type": {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "Tags",
-                                "circular": true
-                            }
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-missing",
-            "functionExpected": {
-                "name": "histogram",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "this"
-                },
-                "parameters": [
-                    {
-                        "name": "name",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "value",
-                        "type": {
-                            "kind": "primitive_keyword",
-                            "value": "number"
-                        },
-                        "optional": false,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    },
-                    {
-                        "name": "tags",
-                        "type": {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "Tags",
-                                "circular": true
-                            }
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
-                "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-missing",
-            "functionExpected": {
                 "name": "raw",
                 "returnType": {
                     "kind": "primitive_keyword",
@@ -512,20 +262,6 @@
                         "dotDotDotToken": false
                     }
                 ],
-                "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
-            }
-        },
-        {
-            "code": "function-missing",
-            "functionExpected": {
-                "name": "close",
-                "returnType": {
-                    "kind": "primitive_keyword",
-                    "value": "this"
-                },
-                "parameters": [],
                 "modifiers": [],
                 "typeParameters": [],
                 "_isConstructor": false
@@ -558,31 +294,140 @@
             }
         },
         {
-            "code": "function-missing",
-            "functionExpected": {
-                "name": "formatTags",
-                "returnType": {
+            "code": "type-non-empty-intersection",
+            "parameterExpected": {
+                "name": "delta",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "number"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "delta",
+                "type": {
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "type-non-empty-intersection",
+            "parameterExpected": {
+                "name": "startOrDuration",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "type_reference",
+                            "value": "Date",
+                            "text": ""
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        }
+                    ]
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "time",
+                "type": {
+                    "kind": "type_reference",
+                    "value": "Date",
+                    "text": ""
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "valueOf",
+                "type": {
+                    "kind": "type_reference",
+                    "value": "Function",
+                    "text": ""
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "toString",
+                "type": {
+                    "kind": "type_reference",
+                    "value": "Function",
+                    "text": ""
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "__ORIGINAL_TYPEOF__",
+                "type": {
                     "kind": "primitive_keyword",
                     "value": "string"
                 },
-                "parameters": [
-                    {
-                        "name": "tags",
-                        "type": {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "Tags",
-                                "circular": true
-                            }
-                        },
-                        "optional": true,
-                        "modifiers": [],
-                        "dotDotDotToken": false
-                    }
-                ],
+                "optional": false,
                 "modifiers": [],
-                "typeParameters": [],
-                "_isConstructor": false
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "TARGET_PROXY",
+                "type": {
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "IS_WRAPPER_OBJECT",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "boolean"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "foo",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         }
     ],

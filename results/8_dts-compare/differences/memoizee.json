@@ -270,6 +270,7 @@
         "type-function",
         "generics-function",
         "type-intersection",
-        "generics-interface"
+        "generics-interface",
+        "type-reference-function"
     ]
 }

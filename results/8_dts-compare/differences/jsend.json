@@ -58,6 +58,7 @@
         "number",
         "type-any",
         "boolean",
-        "type-function"
+        "type-function",
+        "type-reference-function"
     ]
 }

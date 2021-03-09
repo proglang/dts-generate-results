@@ -64,6 +64,7 @@
         "type-function",
         "dot-dot-dot-token",
         "alias-type",
-        "boolean"
+        "boolean",
+        "type-reference-function"
     ]
 }

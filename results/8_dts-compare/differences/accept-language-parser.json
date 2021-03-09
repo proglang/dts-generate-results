@@ -7,14 +7,11 @@
             "parameterExpected": {
                 "name": "supportedLanguages",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T",
-                        "constraint": {
-                            "kind": "primitive_keyword",
-                            "value": "string"
-                        }
+                    "kind": "generic_keyword",
+                    "value": "T",
+                    "constraint": {
+                        "kind": "primitive_keyword",
+                        "value": "string"
                     }
                 },
                 "optional": false,
@@ -24,49 +21,8 @@
             "parameterActual": {
                 "name": "supportedLanguages",
                 "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__supportedLanguages",
-                                "properties": [
-                                    {
-                                        "name": "0",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],

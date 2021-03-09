@@ -37,9 +37,11 @@
                                     {
                                         "name": "timezones",
                                         "type": {
-                                            "kind": "type_reference",
-                                            "value": "ReadonlyArray<string>",
-                                            "text": ""
+                                            "kind": "array_type",
+                                            "value": {
+                                                "kind": "primitive_keyword",
+                                                "value": "string"
+                                            }
                                         },
                                         "optional": false,
                                         "modifiers": [],
@@ -330,9 +332,10 @@
     ],
     "tags": [
         "string",
+        "readonly-array",
+        "type-array",
         "number",
         "type-union",
-        "index-signature",
-        "type-array"
+        "index-signature"
     ]
 }

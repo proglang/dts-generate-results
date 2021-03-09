@@ -16,85 +16,23 @@
         {
             "code": "type-empty-intersection",
             "parameterExpected": {
-                "name": "cb",
-                "type": {
-                    "kind": "function_type",
-                    "value": {
-                        "name": "",
-                        "returnType": {
-                            "kind": "void_keyword",
-                            "value": "void"
-                        },
-                        "parameters": [
-                            {
-                                "name": "err",
-                                "type": {
-                                    "kind": "type_reference",
-                                    "value": "NodeJS.ErrnoException",
-                                    "text": ""
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "isEmpty",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "boolean"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "modifiers": [],
-                        "typeParameters": [],
-                        "_isConstructor": false
-                    }
-                },
-                "optional": false,
-                "modifiers": [],
-                "dotDotDotToken": false
-            },
-            "parameterActual": {
-                "name": "filter",
+                "name": "err",
                 "type": {
                     "kind": "type_reference",
-                    "value": "Function",
+                    "value": "NodeJS.ErrnoException",
                     "text": ""
                 },
-                "optional": true,
+                "optional": false,
                 "modifiers": [],
                 "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "extra-parameter",
-            "parameterExtra": {
-                "name": "cb",
-                "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
-                },
-                "optional": true,
-                "modifiers": [],
-                "dotDotDotToken": false
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "cb",
-                "circular": true
             },
             "parameterActual": {
-                "name": "filter",
+                "name": "err",
                 "type": {
-                    "kind": "undefined_keyword",
-                    "value": "undefined"
+                    "kind": "primitive_keyword",
+                    "value": "null"
                 },
-                "optional": true,
+                "optional": false,
                 "modifiers": [],
                 "dotDotDotToken": false
             }
@@ -115,21 +53,25 @@
         {
             "code": "type-empty-intersection",
             "parameterExpected": {
-                "name": "filter",
+                "name": "cb",
                 "type": {
                     "kind": "function_type",
                     "value": {
                         "name": "",
                         "returnType": {
-                            "kind": "primitive_keyword",
-                            "value": "boolean"
+                            "kind": "void_keyword",
+                            "value": "void"
                         },
                         "parameters": [
                             {
-                                "name": "path",
+                                "name": "err",
+                                "circular": true
+                            },
+                            {
+                                "name": "isEmpty",
                                 "type": {
                                     "kind": "primitive_keyword",
-                                    "value": "string"
+                                    "value": "boolean"
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -147,7 +89,56 @@
             },
             "parameterActual": {
                 "name": "filter",
+                "type": {
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "cb",
+                "type": {
+                    "kind": "undefined_keyword",
+                    "value": "undefined"
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "path",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "err",
                 "circular": true
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "result",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "boolean"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         },
         {
@@ -203,28 +194,6 @@
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "filter",
-                "circular": true
-            },
-            "parameterActual": {
-                "name": "filter",
-                "circular": true
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "cb",
-                "circular": true
-            },
-            "parameterActual": {
-                "name": "cb",
-                "circular": true
-            }
-        },
-        {
-            "code": "type-empty-intersection",
-            "parameterExpected": {
-                "name": "filter",
                 "type": {
                     "kind": "function_type",
                     "value": {
@@ -236,13 +205,7 @@
                         "parameters": [
                             {
                                 "name": "path",
-                                "type": {
-                                    "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
+                                "circular": true
                             }
                         ],
                         "modifiers": [],
@@ -250,12 +213,47 @@
                         "_isConstructor": false
                     }
                 },
-                "optional": true,
+                "optional": false,
                 "modifiers": [],
                 "dotDotDotToken": false
             },
             "parameterActual": {
                 "name": "filter",
+                "circular": true
+            }
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "cb",
+                "circular": true
+            },
+            "parameterActual": {
+                "name": "cb",
+                "circular": true
+            }
+        },
+        {
+            "code": "type-empty-intersection",
+            "parameterExpected": {
+                "name": "path",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "err",
+                "circular": true
+            }
+        },
+        {
+            "code": "extra-parameter",
+            "parameterExtra": {
+                "name": "result",
                 "circular": true
             }
         },
@@ -270,7 +268,28 @@
             "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "filter",
-                "circular": true
+                "type": {
+                    "kind": "function_type",
+                    "value": {
+                        "name": "",
+                        "returnType": {
+                            "kind": "primitive_keyword",
+                            "value": "boolean"
+                        },
+                        "parameters": [
+                            {
+                                "name": "path",
+                                "circular": true
+                            }
+                        ],
+                        "modifiers": [],
+                        "typeParameters": [],
+                        "_isConstructor": false
+                    }
+                },
+                "optional": true,
+                "modifiers": [],
+                "dotDotDotToken": false
             },
             "parameterActual": {
                 "name": "filter",

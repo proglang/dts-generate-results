@@ -129,39 +129,11 @@
             "parameterExtra": {
                 "name": "titleCase",
                 "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__titleCase",
-                                "properties": [
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        },
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        }
-                    ]
+                    "kind": "array_type",
+                    "value": {
+                        "kind": "any_keyword",
+                        "value": "any"
+                    }
                 },
                 "optional": false,
                 "modifiers": [],

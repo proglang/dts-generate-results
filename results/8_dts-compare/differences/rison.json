@@ -17,12 +17,12 @@
                             "kind": "union_type",
                             "value": [
                                 {
-                                    "kind": "object_keyword",
-                                    "value": "object"
-                                },
-                                {
                                     "kind": "primitive_keyword",
                                     "value": "string"
+                                },
+                                {
+                                    "kind": "object_keyword",
+                                    "value": "object"
                                 }
                             ]
                         },

@@ -76,16 +76,16 @@
                     "kind": "union_type",
                     "value": [
                         {
+                            "kind": "primitive_keyword",
+                            "value": "number"
+                        },
+                        {
                             "kind": "object_keyword",
                             "value": "object"
                         },
                         {
                             "kind": "primitive_keyword",
                             "value": "boolean"
-                        },
-                        {
-                            "kind": "primitive_keyword",
-                            "value": "number"
                         }
                     ]
                 },

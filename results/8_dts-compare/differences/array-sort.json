@@ -12,11 +12,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -25,11 +22,8 @@
             "parameterActual": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],

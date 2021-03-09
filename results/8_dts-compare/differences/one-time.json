@@ -38,6 +38,8 @@
         }
     ],
     "tags": [
-        "generics-function"
+        "generics-function",
+        "type-reference-function",
+        "type-function"
     ]
 }

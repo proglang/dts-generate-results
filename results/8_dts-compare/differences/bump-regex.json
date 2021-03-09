@@ -155,97 +155,71 @@
             }
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
-                "name": "cb",
+                "name": "err",
                 "type": {
-                    "kind": "function_type",
-                    "value": {
-                        "name": "",
-                        "returnType": {
-                            "kind": "void_keyword",
-                            "value": "void"
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
                         },
-                        "parameters": [
-                            {
-                                "name": "err",
-                                "type": {
-                                    "kind": "union_type",
-                                    "value": [
-                                        {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        {
-                                            "kind": "type_reference",
-                                            "value": "Error",
-                                            "text": ""
-                                        },
-                                        {
-                                            "kind": "primitive_keyword",
-                                            "value": "null"
-                                        }
-                                    ]
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "opts",
-                                "type": {
-                                    "kind": "type_interface",
-                                    "value": {
-                                        "name": "Result",
-                                        "properties": [
-                                            {
-                                                "name": "prev",
-                                                "type": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                "optional": false,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            },
-                                            {
-                                                "name": "new",
-                                                "type": {
-                                                    "kind": "primitive_keyword",
-                                                    "value": "string"
-                                                },
-                                                "optional": false,
-                                                "modifiers": [],
-                                                "dotDotDotToken": false
-                                            }
-                                        ],
-                                        "methods": [],
-                                        "classes": [],
-                                        "callSignatures": [],
-                                        "indexSignatures": [],
-                                        "typeParameters": []
-                                    }
-                                },
-                                "optional": true,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "modifiers": [],
-                        "typeParameters": [],
-                        "_isConstructor": false
-                    }
+                        {
+                            "kind": "type_reference",
+                            "value": "Error",
+                            "text": ""
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "null"
+                        }
+                    ]
                 },
                 "optional": false,
                 "modifiers": [],
                 "dotDotDotToken": false
             },
             "parameterActual": {
-                "name": "cb",
+                "name": "err",
                 "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "null"
+                        }
+                    ]
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "prev",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "missing-parameter",
+            "parameterMissing": {
+                "name": "new",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],

@@ -1742,9 +1742,8 @@
             "functionActual": {
                 "name": "echo",
                 "returnType": {
-                    "kind": "type_reference",
-                    "value": "String",
-                    "text": ""
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
                 "parameters": [],
                 "modifiers": [

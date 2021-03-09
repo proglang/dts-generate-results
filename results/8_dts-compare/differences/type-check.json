@@ -40,15 +40,19 @@
                             "value": [
                                 {
                                     "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                {
-                                    "kind": "primitive_keyword",
                                     "value": "string"
                                 },
                                 {
+                                    "kind": "primitive_keyword",
+                                    "value": "number"
+                                },
+                                {
+                                    "kind": "object_keyword",
+                                    "value": "object"
+                                },
+                                {
                                     "kind": "type_reference",
-                                    "value": "Error",
+                                    "value": "RegExp",
                                     "text": ""
                                 },
                                 {
@@ -59,12 +63,8 @@
                                     }
                                 },
                                 {
-                                    "kind": "object_keyword",
-                                    "value": "object"
-                                },
-                                {
                                     "kind": "type_reference",
-                                    "value": "RegExp",
+                                    "value": "Error",
                                     "text": ""
                                 }
                             ]

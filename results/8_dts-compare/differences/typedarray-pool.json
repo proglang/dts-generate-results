@@ -746,37 +746,47 @@
                                     {
                                         "name": "buffer",
                                         "type": {
-                                            "kind": "type_interface",
-                                            "value": {
-                                                "name": "I__buffer",
-                                                "properties": [
-                                                    {
-                                                        "name": "length",
-                                                        "type": {
-                                                            "kind": "undefined_keyword",
-                                                            "value": "undefined"
-                                                        },
-                                                        "optional": true,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
-                                                    },
-                                                    {
-                                                        "name": "byteLength",
-                                                        "type": {
-                                                            "kind": "primitive_keyword",
-                                                            "value": "number"
-                                                        },
-                                                        "optional": false,
-                                                        "modifiers": [],
-                                                        "dotDotDotToken": false
+                                            "kind": "union_type",
+                                            "value": [
+                                                {
+                                                    "kind": "type_reference",
+                                                    "value": "ArrayBuffer",
+                                                    "text": ""
+                                                },
+                                                {
+                                                    "kind": "type_interface",
+                                                    "value": {
+                                                        "name": "I__buffer",
+                                                        "properties": [
+                                                            {
+                                                                "name": "length",
+                                                                "type": {
+                                                                    "kind": "undefined_keyword",
+                                                                    "value": "undefined"
+                                                                },
+                                                                "optional": true,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            },
+                                                            {
+                                                                "name": "byteLength",
+                                                                "type": {
+                                                                    "kind": "primitive_keyword",
+                                                                    "value": "number"
+                                                                },
+                                                                "optional": false,
+                                                                "modifiers": [],
+                                                                "dotDotDotToken": false
+                                                            }
+                                                        ],
+                                                        "methods": [],
+                                                        "classes": [],
+                                                        "callSignatures": [],
+                                                        "indexSignatures": [],
+                                                        "typeParameters": []
                                                     }
-                                                ],
-                                                "methods": [],
-                                                "classes": [],
-                                                "callSignatures": [],
-                                                "indexSignatures": [],
-                                                "typeParameters": []
-                                            }
+                                                }
+                                            ]
                                         },
                                         "optional": false,
                                         "modifiers": [],

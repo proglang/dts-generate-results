@@ -17,6 +17,18 @@
                             "kind": "union_type",
                             "value": [
                                 {
+                                    "kind": "primitive_keyword",
+                                    "value": "string"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "null"
+                                },
+                                {
+                                    "kind": "primitive_keyword",
+                                    "value": "number"
+                                },
+                                {
                                     "kind": "array_type",
                                     "value": {
                                         "kind": "any_keyword",
@@ -25,19 +37,7 @@
                                 },
                                 {
                                     "kind": "primitive_keyword",
-                                    "value": "string"
-                                },
-                                {
-                                    "kind": "primitive_keyword",
-                                    "value": "number"
-                                },
-                                {
-                                    "kind": "primitive_keyword",
                                     "value": "boolean"
-                                },
-                                {
-                                    "kind": "primitive_keyword",
-                                    "value": "null"
                                 },
                                 {
                                     "kind": "type_reference",
@@ -166,11 +166,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -179,11 +176,8 @@
             "parameterActual": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -207,16 +201,18 @@
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             },
             "parameterActual": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -283,9 +279,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -293,7 +288,12 @@
             },
             "parameterActual": {
                 "name": "arr",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         },
         {
@@ -317,11 +317,21 @@
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             },
             "parameterActual": {
                 "name": "arr",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         },
         {
@@ -366,11 +376,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -379,11 +386,8 @@
             "parameterActual": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -407,14 +411,16 @@
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             },
             "parameterActual": {
                 "name": "arr",
-                "type": {
-                    "kind": "primitive_keyword",
-                    "value": "null"
-                },
+                "type": "null",
                 "optional": false,
                 "modifiers": [],
                 "dotDotDotToken": false
@@ -480,9 +486,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<T>",
-                    "text": ""
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -490,7 +495,12 @@
             },
             "parameterActual": {
                 "name": "arr",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         },
         {
@@ -514,11 +524,19 @@
             "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             },
             "parameterActual": {
                 "name": "arr",
-                "circular": true
+                "type": "null",
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         },
         {
@@ -565,6 +583,7 @@
         "string",
         "number",
         "type-union",
+        "readonly-array",
         "literals"
     ]
 }

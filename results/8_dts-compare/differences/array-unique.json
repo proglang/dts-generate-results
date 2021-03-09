@@ -12,11 +12,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -25,79 +22,8 @@
             "parameterActual": {
                 "name": "arr",
                 "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__arr",
-                                "properties": [
-                                    {
-                                        "name": "0",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "1",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "2",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "3",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -107,6 +33,7 @@
     ],
     "tags": [
         "type-array",
-        "generics-function"
+        "generics-function",
+        "readonly-array"
     ]
 }

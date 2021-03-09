@@ -43,9 +43,39 @@
             "parameterActual": {
                 "name": "filter",
                 "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "function_type",
+                            "value": {
+                                "name": "",
+                                "returnType": {
+                                    "kind": "primitive_keyword",
+                                    "value": "boolean"
+                                },
+                                "parameters": [
+                                    {
+                                        "name": "x",
+                                        "type": {
+                                            "kind": "primitive_keyword",
+                                            "value": "string"
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    }
+                                ],
+                                "modifiers": [],
+                                "typeParameters": [],
+                                "_isConstructor": false
+                            }
+                        },
+                        {
+                            "kind": "type_reference",
+                            "value": "Function",
+                            "text": ""
+                        }
+                    ]
                 },
                 "optional": true,
                 "modifiers": [],

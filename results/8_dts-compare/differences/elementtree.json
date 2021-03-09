@@ -369,9 +369,14 @@
                                     {
                                         "name": "elements",
                                         "type": {
-                                            "kind": "type_reference",
-                                            "value": "ReadonlyArray<Element>",
-                                            "text": ""
+                                            "kind": "array_type",
+                                            "value": {
+                                                "kind": "type_interface",
+                                                "value": {
+                                                    "name": "Element",
+                                                    "circular": true
+                                                }
+                                            }
                                         },
                                         "optional": false,
                                         "modifiers": [],
@@ -449,9 +454,14 @@
                                     {
                                         "name": "elements",
                                         "type": {
-                                            "kind": "type_reference",
-                                            "value": "ReadonlyArray<Element>",
-                                            "text": ""
+                                            "kind": "array_type",
+                                            "value": {
+                                                "kind": "type_interface",
+                                                "value": {
+                                                    "name": "Element",
+                                                    "circular": true
+                                                }
+                                            }
                                         },
                                         "optional": false,
                                         "modifiers": [],
@@ -1159,6 +1169,7 @@
         "undefined",
         "void",
         "type-array",
+        "readonly-array",
         "type-tuple"
     ]
 }

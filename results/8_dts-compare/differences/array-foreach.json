@@ -18,11 +18,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -31,40 +28,8 @@
             "parameterActual": {
                 "name": "ary",
                 "type": {
-                    "kind": "union_type",
-                    "value": [
-                        {
-                            "kind": "array_type",
-                            "value": {
-                                "kind": "any_keyword",
-                                "value": "any"
-                            }
-                        },
-                        {
-                            "kind": "type_interface",
-                            "value": {
-                                "name": "I__ary",
-                                "properties": [
-                                    {
-                                        "name": "forEach",
-                                        "type": {
-                                            "kind": "type_reference",
-                                            "value": "Function",
-                                            "text": ""
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
-                                    }
-                                ],
-                                "methods": [],
-                                "classes": [],
-                                "callSignatures": [],
-                                "indexSignatures": [],
-                                "typeParameters": []
-                            }
-                        }
-                    ]
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -106,9 +71,10 @@
                             {
                                 "name": "array",
                                 "type": {
-                                    "kind": "type_reference",
-                                    "value": "ReadonlyArray<T>",
-                                    "text": ""
+                                    "kind": "array_type",
+                                    "value": {
+                                        "circular": true
+                                    }
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -154,11 +120,8 @@
             "parameterExpected": {
                 "name": "arr",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "generic_keyword",
-                        "value": "T"
-                    }
+                    "kind": "generic_keyword",
+                    "value": "T"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -166,7 +129,12 @@
             },
             "parameterActual": {
                 "name": "ary",
-                "circular": true
+                "type": {
+                    "circular": true
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         },
         {
@@ -214,9 +182,10 @@
                             {
                                 "name": "array",
                                 "type": {
-                                    "kind": "type_reference",
-                                    "value": "ReadonlyArray<T>",
-                                    "text": ""
+                                    "kind": "array_type",
+                                    "value": {
+                                        "circular": true
+                                    }
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -268,7 +237,15 @@
             },
             "parameterActual": {
                 "name": "ary",
-                "circular": true
+                "type": {
+                    "kind": "array_type",
+                    "value": {
+                        "circular": true
+                    }
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
             }
         },
         {
@@ -312,9 +289,10 @@
                             {
                                 "name": "array",
                                 "type": {
-                                    "kind": "type_reference",
-                                    "value": "ReadonlyArray<T>",
-                                    "text": ""
+                                    "kind": "array_type",
+                                    "value": {
+                                        "circular": true
+                                    }
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -411,9 +389,10 @@
                             {
                                 "name": "array",
                                 "type": {
-                                    "kind": "type_reference",
-                                    "value": "ReadonlyArray<T>",
-                                    "text": ""
+                                    "kind": "array_type",
+                                    "value": {
+                                        "circular": true
+                                    }
                                 },
                                 "optional": false,
                                 "modifiers": [],
@@ -456,6 +435,7 @@
         "type-array",
         "generics-function",
         "type-function",
-        "number"
+        "number",
+        "readonly-array"
     ]
 }

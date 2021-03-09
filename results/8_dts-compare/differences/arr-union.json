@@ -12,25 +12,19 @@
             "parameterExpected": {
                 "name": "arrays",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "type_reference",
-                        "value": "ArrayLike<T>",
-                        "text": ""
-                    }
+                    "kind": "type_reference",
+                    "value": "ArrayLike<T>",
+                    "text": ""
                 },
                 "optional": false,
                 "modifiers": [],
-                "dotDotDotToken": true
+                "dotDotDotToken": false
             },
             "parameterActual": {
                 "name": "init",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],

@@ -35,15 +35,20 @@
                     "kind": "union_type",
                     "value": [
                         {
-                            "kind": "type_reference",
-                            "value": "Buffer",
-                            "text": ""
-                        },
-                        {
                             "kind": "type_interface",
                             "value": {
                                 "name": "I__a",
                                 "properties": [
+                                    {
+                                        "name": "length",
+                                        "type": {
+                                            "kind": "primitive_keyword",
+                                            "value": "number"
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
                                     {
                                         "name": "0",
                                         "type": {
@@ -63,16 +68,6 @@
                                         "optional": false,
                                         "modifiers": [],
                                         "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
                                     }
                                 ],
                                 "methods": [],
@@ -81,6 +76,11 @@
                                 "indexSignatures": [],
                                 "typeParameters": []
                             }
+                        },
+                        {
+                            "kind": "type_reference",
+                            "value": "Buffer",
+                            "text": ""
                         }
                     ]
                 },
@@ -117,15 +117,20 @@
                     "kind": "union_type",
                     "value": [
                         {
-                            "kind": "type_reference",
-                            "value": "Buffer",
-                            "text": ""
-                        },
-                        {
                             "kind": "type_interface",
                             "value": {
                                 "name": "I__b",
                                 "properties": [
+                                    {
+                                        "name": "length",
+                                        "type": {
+                                            "kind": "primitive_keyword",
+                                            "value": "number"
+                                        },
+                                        "optional": false,
+                                        "modifiers": [],
+                                        "dotDotDotToken": false
+                                    },
                                     {
                                         "name": "0",
                                         "type": {
@@ -145,16 +150,6 @@
                                         "optional": false,
                                         "modifiers": [],
                                         "dotDotDotToken": false
-                                    },
-                                    {
-                                        "name": "length",
-                                        "type": {
-                                            "kind": "primitive_keyword",
-                                            "value": "number"
-                                        },
-                                        "optional": false,
-                                        "modifiers": [],
-                                        "dotDotDotToken": false
                                     }
                                 ],
                                 "methods": [],
@@ -163,6 +158,11 @@
                                 "indexSignatures": [],
                                 "typeParameters": []
                             }
+                        },
+                        {
+                            "kind": "type_reference",
+                            "value": "Buffer",
+                            "text": ""
                         }
                     ]
                 },

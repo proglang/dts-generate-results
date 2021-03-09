@@ -30,15 +30,15 @@
                         },
                         {
                             "kind": "primitive_keyword",
-                            "value": "boolean"
-                        },
-                        {
-                            "kind": "object_keyword",
-                            "value": "object"
+                            "value": "null"
                         },
                         {
                             "kind": "primitive_keyword",
                             "value": "number"
+                        },
+                        {
+                            "kind": "object_keyword",
+                            "value": "object"
                         },
                         {
                             "kind": "array_type",
@@ -49,12 +49,7 @@
                         },
                         {
                             "kind": "primitive_keyword",
-                            "value": "null"
-                        },
-                        {
-                            "kind": "type_reference",
-                            "value": "String",
-                            "text": ""
+                            "value": "boolean"
                         }
                     ]
                 },

@@ -12,9 +12,8 @@
             "parameterExpected": {
                 "name": "keys",
                 "type": {
-                    "kind": "type_reference",
-                    "value": "ReadonlyArray<string>",
-                    "text": ""
+                    "kind": "primitive_keyword",
+                    "value": "string"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -23,11 +22,8 @@
             "parameterActual": {
                 "name": "whitelist",
                 "type": {
-                    "kind": "array_type",
-                    "value": {
-                        "kind": "any_keyword",
-                        "value": "any"
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],
@@ -62,6 +58,8 @@
         "index-signature",
         "string",
         "type-any",
+        "readonly-array",
+        "type-array",
         "optional-parameter",
         "boolean"
     ]

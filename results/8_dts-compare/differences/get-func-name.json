@@ -26,11 +26,6 @@
                     "kind": "union_type",
                     "value": [
                         {
-                            "kind": "type_reference",
-                            "value": "Function",
-                            "text": ""
-                        },
-                        {
                             "kind": "type_interface",
                             "value": {
                                 "name": "I__aFunc",
@@ -52,6 +47,11 @@
                                 "indexSignatures": [],
                                 "typeParameters": []
                             }
+                        },
+                        {
+                            "kind": "type_reference",
+                            "value": "Function",
+                            "text": ""
                         }
                     ]
                 },
@@ -62,6 +62,8 @@
         }
     ],
     "tags": [
-        "string"
+        "string",
+        "type-reference-function",
+        "type-function"
     ]
 }

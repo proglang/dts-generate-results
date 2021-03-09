@@ -76,6 +76,7 @@
         "void",
         "type-function",
         "type-array",
+        "type-reference-function",
         "type-union"
     ]
 }

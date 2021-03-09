@@ -8,63 +8,54 @@
             "exportAssignmentActual": "FindParentDir"
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
-                "name": "cb",
+                "name": "err",
                 "type": {
-                    "kind": "function_type",
-                    "value": {
-                        "name": "",
-                        "returnType": {
-                            "kind": "void_keyword",
-                            "value": "void"
-                        },
-                        "parameters": [
-                            {
-                                "name": "err",
-                                "type": {
-                                    "kind": "any_keyword",
-                                    "value": "any"
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            },
-                            {
-                                "name": "dir",
-                                "type": {
-                                    "kind": "union_type",
-                                    "value": [
-                                        {
-                                            "kind": "primitive_keyword",
-                                            "value": "string"
-                                        },
-                                        {
-                                            "kind": "primitive_keyword",
-                                            "value": "null"
-                                        }
-                                    ]
-                                },
-                                "optional": false,
-                                "modifiers": [],
-                                "dotDotDotToken": false
-                            }
-                        ],
-                        "modifiers": [],
-                        "typeParameters": [],
-                        "_isConstructor": false
-                    }
+                    "kind": "any_keyword",
+                    "value": "any"
                 },
                 "optional": false,
                 "modifiers": [],
                 "dotDotDotToken": false
             },
             "parameterActual": {
-                "name": "cb",
+                "name": "err",
                 "type": {
-                    "kind": "type_reference",
-                    "value": "Function",
-                    "text": ""
+                    "kind": "primitive_keyword",
+                    "value": "null"
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            }
+        },
+        {
+            "code": "type-non-empty-intersection",
+            "parameterExpected": {
+                "name": "dir",
+                "type": {
+                    "kind": "union_type",
+                    "value": [
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "string"
+                        },
+                        {
+                            "kind": "primitive_keyword",
+                            "value": "null"
+                        }
+                    ]
+                },
+                "optional": false,
+                "modifiers": [],
+                "dotDotDotToken": false
+            },
+            "parameterActual": {
+                "name": "dir",
+                "type": {
+                    "kind": "primitive_keyword",
+                    "value": "null"
                 },
                 "optional": false,
                 "modifiers": [],

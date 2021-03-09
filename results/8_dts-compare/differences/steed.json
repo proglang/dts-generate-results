@@ -64,6 +64,7 @@
         "alias-type",
         "boolean",
         "number",
-        "type-any"
+        "type-any",
+        "type-reference-function"
     ]
 }
