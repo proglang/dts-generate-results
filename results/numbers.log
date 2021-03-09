@@ -20,12 +20,12 @@
 
 7_generate-declaration-files
 	Executed on 436 modules for which runtime info could be extracted.
-	299 generated declaration files.
+	306 generated declaration files.
 		- More than one code example for one module.
 
-	244 unique modules
+	249 unique modules
 
 8_dts-compare
-	70 modules only with the implemented features
-	70 containing only solvable differences
+	83 modules only with the implemented features
+	83 containing only solvable differences
 	0 containing non-solvable differences
