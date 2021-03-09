@@ -1,4 +1,4 @@
 Results for versions:
 
-- `dts-generate`: v1.4
-- `dts-compare`: v1.1
+- `dts-generate`: v1.5.0
+- `dts-compare`: 1.3.1
