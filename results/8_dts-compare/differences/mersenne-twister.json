@@ -19,6 +19,10 @@
                                 "kind": "primitive_keyword",
                                 "value": "number"
                             }
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

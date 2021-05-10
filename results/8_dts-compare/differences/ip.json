@@ -212,6 +212,10 @@
                         {
                             "kind": "literal_type",
                             "value": "'ipv6'"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },
@@ -248,6 +252,10 @@
                         {
                             "kind": "primitive_keyword",
                             "value": "string"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },
@@ -280,6 +288,10 @@
                         {
                             "kind": "literal_type",
                             "value": "'ipv6'"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

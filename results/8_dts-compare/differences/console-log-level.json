@@ -37,6 +37,10 @@
                         {
                             "kind": "literal_type",
                             "value": "\"fatal\""
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

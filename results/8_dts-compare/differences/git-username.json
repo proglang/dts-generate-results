@@ -82,6 +82,10 @@
                                 "indexSignatures": [],
                                 "typeParameters": []
                             }
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

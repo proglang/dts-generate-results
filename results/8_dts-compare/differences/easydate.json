@@ -8,7 +8,7 @@
             "exportAssignmentActual": "Easydate"
         },
         {
-            "code": "type-non-empty-intersection",
+            "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "config",
                 "type": {
@@ -69,6 +69,10 @@
                         {
                             "kind": "primitive_keyword",
                             "value": "string"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },
@@ -127,6 +131,10 @@
                                 "indexSignatures": [],
                                 "typeParameters": []
                             }
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

@@ -8,7 +8,7 @@
             "exportAssignmentActual": "ArraySort"
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "arr",
                 "type": {
@@ -85,6 +85,10 @@
                             "value": {
                                 "circular": true
                             }
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

@@ -231,7 +231,7 @@
             }
         },
         {
-            "code": "type-non-empty-intersection",
+            "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "columns",
                 "type": {
@@ -247,6 +247,10 @@
                         {
                             "kind": "literal_type",
                             "value": "false"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },
@@ -269,6 +273,10 @@
                         {
                             "kind": "primitive_keyword",
                             "value": "boolean"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

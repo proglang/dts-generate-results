@@ -102,6 +102,10 @@
                             "kind": "type_reference",
                             "value": "Buffer",
                             "text": ""
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

@@ -698,6 +698,10 @@
                         {
                             "kind": "literal_type",
                             "value": "'buffer'"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

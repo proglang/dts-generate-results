@@ -26,6 +26,6 @@
 	249 unique modules
 
 8_dts-compare
-	83 modules only with the implemented features
-	83 containing only solvable differences
+	111 modules only with the implemented features
+	111 containing only solvable differences
 	0 containing non-solvable differences

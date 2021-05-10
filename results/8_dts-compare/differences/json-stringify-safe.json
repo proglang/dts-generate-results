@@ -75,6 +75,10 @@
                         {
                             "kind": "primitive_keyword",
                             "value": "null"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },
@@ -111,6 +115,10 @@
                         {
                             "kind": "primitive_keyword",
                             "value": "null"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

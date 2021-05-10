@@ -94,7 +94,7 @@
             }
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "ret",
                 "type": {
@@ -117,7 +117,7 @@
             }
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "ret",
                 "type": {

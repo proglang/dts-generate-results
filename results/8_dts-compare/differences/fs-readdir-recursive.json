@@ -74,6 +74,10 @@
                             "kind": "type_reference",
                             "value": "Function",
                             "text": ""
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

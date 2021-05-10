@@ -8,7 +8,7 @@
             "exportAssignmentActual": "BitwiseXor"
         },
         {
-            "code": "type-non-empty-intersection",
+            "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "a",
                 "type": {
@@ -90,7 +90,7 @@
             }
         },
         {
-            "code": "type-non-empty-intersection",
+            "code": "type-empty-intersection",
             "parameterExpected": {
                 "name": "b",
                 "type": {

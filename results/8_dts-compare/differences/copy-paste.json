@@ -168,7 +168,7 @@
             }
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "callback",
                 "type": {

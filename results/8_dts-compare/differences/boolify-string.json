@@ -50,6 +50,10 @@
                         {
                             "kind": "primitive_keyword",
                             "value": "boolean"
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },

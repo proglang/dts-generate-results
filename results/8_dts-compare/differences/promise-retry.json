@@ -14,7 +14,7 @@
             "actualNumberOfOverloadings": 1
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "retryableFn",
                 "type": {

@@ -41,6 +41,10 @@
                                 {
                                     "kind": "literal_type",
                                     "value": "'H'"
+                                },
+                                {
+                                    "kind": "undefined_keyword",
+                                    "value": "undefined"
                                 }
                             ]
                         },

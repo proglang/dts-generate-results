@@ -8,7 +8,7 @@
             "exportAssignmentActual": "Nopt"
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "args",
                 "type": {

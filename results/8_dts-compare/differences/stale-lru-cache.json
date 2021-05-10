@@ -49,7 +49,7 @@
             }
         },
         {
-            "code": "type-empty-intersection",
+            "code": "type-non-empty-intersection",
             "parameterExpected": {
                 "name": "revalidate",
                 "type": {
@@ -546,6 +546,10 @@
                                 "name": "SetOptions",
                                 "circular": true
                             }
+                        },
+                        {
+                            "kind": "undefined_keyword",
+                            "value": "undefined"
                         }
                     ]
                 },
